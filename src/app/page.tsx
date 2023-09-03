@@ -1,5 +1,5 @@
 import Image from 'next/image'
-import styles from './page.module.css'
+import styles from './page.module.scss'
 
 export default function Home() {
   return (
@@ -41,13 +41,12 @@ export default function Home() {
 
       <div className={styles.grid}>
         <a
-          href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
+          href="/blog"
           className={styles.card}
-          target="_blank"
           rel="noopener noreferrer"
         >
           <h2>
-            Docs <span>-&gt;</span>
+            Blog <span>-&gt;</span>
           </h2>
           <p>Find in-depth information about Next.js features and API.</p>
         </a>
@@ -59,7 +58,7 @@ export default function Home() {
           rel="noopener noreferrer"
         >
           <h2>
-            Learn <span>-&gt;</span>
+            About Me <span>-&gt;</span>
           </h2>
           <p>Learn about Next.js in an interactive course with&nbsp;quizzes!</p>
         </a>

@@ -1,5 +1,5 @@
 import Image from 'next/image'
-import styles from './home.module.scss'
+import styles from './about.module.scss'
 
 export default function Home() {
   return (
@@ -52,7 +52,7 @@ export default function Home() {
         </a>
 
         <a
-          href="/about"
+          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
           className={styles.card}
           target="_blank"
           rel="noopener noreferrer"

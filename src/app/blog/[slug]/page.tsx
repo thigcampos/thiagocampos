@@ -1,6 +1,8 @@
 import { format, parseISO } from 'date-fns'
 import { allPosts } from 'contentlayer/generated'
 
+export const runtime = 'edge';
+
 export const generateStaticParams = async () => allPosts.map((post) => ({ slug: post._raw.flattenedPath }))
 
 export const generateMetadata = ({ params }: { params: { slug: string } }) => {

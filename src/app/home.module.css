@@ -9,11 +9,7 @@
 
 .headline {
   .title {
-    color: var(--label-primary-primary, #272727);
-    font-size: 40px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
+    font-size: var(--font-size-48);
   }
   .subtitle {
     color: var(--label-primary-disabled, #585656);

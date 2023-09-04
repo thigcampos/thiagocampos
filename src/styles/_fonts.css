@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Roboto+Mono:wght@400;500;600&family=Roboto+Serif:ital,opsz,wght@1,8..144,400;1,8..144,500;1,8..144,600&display=swap');
+
+:root {
+    --font-family-title: 'Inter', sans-serif;
+    --font-family-body: 'Inter', sans-serif;
+    --font-family-accent: 'Roboto Serif', serif;
+    --font-family-code: 'Roboto Mono', monospace;
+    
+    --font-weight-title: 600;
+    --font-weight-body: 400;
+    --font-weight-accent: 500;
+    --font-weight-code: 500;
+    
+    --font-size-64: 4rem;
+    --font-size-48: 3rem;
+    --font-size-40: 2.5rem;
+    --font-size-36: 2.25rem;
+    --font-size-32: 2rem;
+    --font-size-24: 1.5rem;
+    --font-size-20: 1.25rem;
+    --font-size-18: 1.125rem;
+    --font-size-16: 1rem;
+    --font-size-14: 0.875rem;
+    
+    --font-letter-spacing-title: -1.44px;
+    --font-letter-spacing-body: -0.54px;  
+}

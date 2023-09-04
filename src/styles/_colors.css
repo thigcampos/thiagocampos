@@ -1,0 +1,37 @@
+:root {
+    color-scheme: light dark;
+    --fill-primary-default: #F3F3F3;
+    --fill-primary-hover: #EFEFEF;
+    --fill-primary-disabled: #E4E4E4;
+
+    --fill-accent-default: #0066FF;
+    --fill-accent-hover: #0047B3;
+    --fill-accent-disabled: #80B3FF;
+
+    --label-primary-default: #272727;
+    --label-primary-disabled: #585656;
+
+    --label-accent-default: #004BBD;
+
+    --background-primary: #FFFFFF;
+}
+
+@media (prefers-color-scheme: dark) {
+    :root {
+        --fill-primary-default: #F3F3F3;
+        --fill-primary-hover: #EFEFEF;
+        --fill-primary-disabled: #E4E4E4;
+
+        --fill-accent-default: #0066FF;
+        --fill-accent-hover: #0047B3;
+        --fill-accent-disabled: #80B3FF;
+
+        --label-primary-default: #FFFFFF;
+        --label-primary-disabled: #585656;
+
+        --label-accent-default: #0066FF;
+
+        --background-primary: #272727;
+    }
+}
+  

@@ -8,19 +8,14 @@
 }
 
 .headline {
+  gap: 1.5rem;
+  display: flex;
+  flex-direction: column;
+
   .title {
     font-size: var(--font-size-48);
   }
   .subtitle {
-    color: var(--label-primary-disabled, #585656);
-    font-size: 18px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: 150%; /* 27px */
-    letter-spacing: -0.48px;
-  }
-  .accent {
-    font-weight: 700;
-    font-style: italic;
+    font-size: var(--font-size-18);
   }
 }

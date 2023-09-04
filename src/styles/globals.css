@@ -41,7 +41,7 @@ a {
 }
 
 span {
-  color: inherit;
+  color: var(--label-accent-default);
   font-family: var(--font-family-accent);
   font-weight: var(--font-weight-accent);
 }

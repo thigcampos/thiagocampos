@@ -11,8 +11,6 @@ TD;LR: Eusakdi was developed using NextJS, with TypeScript and SCSS support, Con
 
 ### Extras
 
-**kBar**
-
 ## Future Implementations
 Euskadi has been developed at a really fast pace, so some features that I would have liked to have have not been implemented in this 0.1 version, but they will be added in future updates.
 

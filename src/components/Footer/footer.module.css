@@ -9,7 +9,12 @@
     justify-content: center;
 }
 
-.iconsFooter > svg {
-  height: 2rem;
-  width: 2rem;
+
+.iconsFooter > a {
+  color: var(--label-primary-default);
+}
+
+.iconsFooter > * > svg {
+  height: 1.75rem;
+  width: 1.75rem;
 }

@@ -13,13 +13,16 @@
 
   .title {
     font-size: var(--font-size-48);
+    font-weight: var(--font-weight-body);
   }
   .title > span {
-    font-family: var(--font-family-title);
+    font-style: italic;
+    color: var(--label-primary-default);
     font-weight: var(--font-weight-title);
   }
   .subtitle {
-    font-size: var(--font-size-20);
-    font-weight: var(--font-weight-body);
+    font-size: var(--font-size-24);
+    color: var(--label-primary-disabled);
   }
+
 }

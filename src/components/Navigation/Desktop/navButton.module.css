@@ -4,7 +4,9 @@
     width: max-content;
     border-radius: 1rem;
     align-items: center;
+    text-decoration: none;
     padding: var(--container-padding);
+    border: 1.5px solid var(--label-accent-default);
     background-color: var(--fill-primary-default);
 }
 
@@ -14,7 +16,8 @@
 }
 
 .text {
+    font-size: var(--font-size-20);
     color: var(--label-accent-default);
     font-weight: var(--font-weight-body);
-    font-size: var(--font-size-20);
+    
 }

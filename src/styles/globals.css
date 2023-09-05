@@ -37,7 +37,6 @@ p {
 }
 
 a {
-  text-decoration: none;
   line-height: 150%;
   color: var(--label-accent-default);
   font-family: var(--font-family-body);
@@ -47,6 +46,7 @@ a {
 
 span {
   line-height: 150%;
+  font-style: italic;
   color: var(--label-accent-default);
   font-family: var(--font-family-accent);
   font-weight: var(--font-weight-accent);

@@ -13,9 +13,8 @@
 }
 
 .date {
+    font-style: normal;
     font-family: var(--font-family-body);
-    font-weight: var(--font-weight-title);
-    font-size: var(--font-size-18);
     color: var(--label-primary-disabled);
 }
 

@@ -23,15 +23,3 @@
     font-weight: var(--font-weight-body);
   }
 }
-
-.iconsFooter {
-  display: flex;
-  width: 100%;
-  gap: 1rem;
-  justify-content: center;
-}
-
-.iconsFooter > svg {
-  height: 2rem;
-  width: 2rem;
-}

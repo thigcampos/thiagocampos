@@ -1,15 +1,19 @@
 .main {
+    padding: 6rem;
     display: flex;
+    min-height: 100vh;
     flex-direction: column;
     justify-content: space-between;
-    padding: 6rem;
-    min-height: 100vh;
 }
 
 .header {
     display: flex;
     gap: 0.5rem;
     margin-bottom: 2rem;
+}
+
+.title {
+    font-size: var(--font-size-64);
 }
 
 .date {
@@ -19,7 +23,8 @@
     color: var(--label-primary-disabled);
 }
 
-.text {
-    font-size: var(--font-size-32);
-    font-weight: 500;
+.content {
+    margin-top: 2rem;
+    font-size: var(--font-size-20);
+    font-family: var(--font-family-body);
 }

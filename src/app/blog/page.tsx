@@ -1,7 +1,7 @@
 import styles from "./blog.module.css";
 import { compareDesc } from 'date-fns'
 import { allPosts } from 'contentlayer/generated'
-import { NavButton, PostCard } from "@/components";
+import { Footer, NavButton, PostCard } from "@/components";
 
 
 export default function Blog() {
@@ -9,19 +9,22 @@ export default function Blog() {
 
   return (
     <main className={styles.main}>
-      <section className={styles.header}>
-          <NavButton path="/" hasIcon>Home</NavButton>
-          <NavButton path="/blog">Blog</NavButton>
-          <NavButton path="/projects">Projects</NavButton>
+      <div>
+        <section className={styles.header}>
+            <NavButton path="/" hasIcon>Home</NavButton>
+            <NavButton path="/projects">Projects</NavButton>
+            <NavButton path="/about">About Me</NavButton>
+          </section>
+        <section>
+          <h1 className={styles.title}>Blog</h1>
+          <div className={styles.postsWrapper}>
+            {posts.map((post, idx) => (
+              <PostCard key={idx} {...post} />
+              ))}
+          </div>
         </section>
-      <section>
-        <h1>That is my blog</h1>
-        <div className={styles.postsWrapper}>
-          {posts.map((post, idx) => (
-            <PostCard key={idx} {...post} />
-            ))}
-        </div>
-      </section>
+      </div>
+      <Footer />
     </main>
   )
 }

@@ -1,6 +1,5 @@
-import styles from './home.module.css'
-import Icon from '@mdi/react';
-import { mdiSonyPlaystation, mdiAt, mdiGitlab, mdiInstagram } from '@mdi/js'
+import styles from './home.module.css';
+import { Footer } from '@/components';
 
 export default function Home() {
   return (
@@ -17,14 +16,7 @@ export default function Home() {
           <p className={styles.subtitle}>Check some my <a href='/blog'>[ blog ]</a> and some cool facts <a href='/about'>[ about me ]</a></p>
         </div>
       </section>
-      <section>
-        <div className={styles.iconsFooter}>
-          <Icon path={mdiSonyPlaystation}/>
-          <Icon path={mdiAt}/>
-          <Icon path={mdiGitlab}/>
-          <Icon path={mdiInstagram}/>
-        </div>
-      </section>
+      <Footer />
     </main>
   )
 }

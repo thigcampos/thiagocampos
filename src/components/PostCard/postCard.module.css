@@ -1,0 +1,15 @@
+.container {
+    width: max-content;
+    min-width: 15rem;
+    border-radius: 0.5rem;
+    padding: var(--container-padding);
+    background-color: var(--fill-primary-default);
+}
+
+.container:hover {
+    background-color: var(--fill-primary-hover);
+}
+
+.title > a {
+    font-weight: var(--font-weight-title);
+}

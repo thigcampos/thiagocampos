@@ -1,0 +1,20 @@
+.container {
+    gap: 1rem;
+    display: flex;
+    width: max-content;
+    border-radius: 1rem;
+    align-items: center;
+    padding: var(--container-padding);
+    background-color: var(--fill-primary-default);
+}
+
+.container > svg {
+    height: 1.5rem;
+    width: 1.5rem;
+}
+
+.text {
+    color: var(--label-accent-default);
+    font-weight: var(--font-weight-body);
+    font-size: var(--font-size-20);
+}

@@ -1,0 +1,24 @@
+.main {
+    display: flex;
+    flex-direction: column;
+    padding: 6rem;
+    min-height: 100vh;
+}
+
+.header {
+    display: flex;
+    gap: 0.5rem;
+    margin-bottom: 2rem;
+}
+
+.date {
+    font-family: var(--font-family-body);
+    font-weight: var(--font-weight-title);
+    font-size: var(--font-size-18);
+    color: var(--label-primary-disabled);
+}
+
+.text {
+    font-size: var(--font-size-32);
+    font-weight: 500;
+}

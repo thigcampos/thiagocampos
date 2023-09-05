@@ -1,3 +1,4 @@
+@import url('./_measures.css');
 @import url('./_colors.css');
 @import url('./_fonts.css');
 
@@ -16,10 +17,12 @@ body {
 body {
   color: var(--label-primary-default);
   background: var(--background-primary);
+  padding: var(--container-padding);
 }
 
 h1, h2, h3, h4, h5, h6 {
   color: inherit;
+  line-height: 150%;
   font-family: var(--font-family-title);
   font-weight: var(--font-weight-title);
   letter-spacing: var(--font-letter-spacing-title);
@@ -27,6 +30,7 @@ h1, h2, h3, h4, h5, h6 {
 
 p {
   color: inherit;
+  line-height: 150%;
   font-family: var(--font-family-body);
   font-weight: var(--font-weight-body);
   letter-spacing: var(--font-letter-spacing-body);
@@ -34,6 +38,7 @@ p {
 
 a {
   text-decoration: none;
+  line-height: 150%;
   color: var(--label-accent-default);
   font-family: var(--font-family-body);
   font-weight: var(--font-weight-body);
@@ -41,6 +46,7 @@ a {
 }
 
 span {
+  line-height: 150%;
   color: var(--label-accent-default);
   font-family: var(--font-family-accent);
   font-weight: var(--font-weight-accent);

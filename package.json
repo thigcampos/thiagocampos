@@ -9,6 +9,8 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@mdi/js": "^7.2.96",
+    "@mdi/react": "^1.6.1",
     "@types/node": "20.5.9",
     "@types/react": "18.2.21",
     "@types/react-dom": "18.2.7",
@@ -23,7 +25,6 @@
   },
   "devDependencies": {
     "@cloudflare/next-on-pages": "^1.6.0",
-    "contentlayer": "^0.3.4",
-    "sass": "^1.66.1"
+    "contentlayer": "^0.3.4"
   }
 }

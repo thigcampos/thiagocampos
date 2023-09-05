@@ -1,0 +1,10 @@
+.container {
+    gap: 8px;
+    align-items: center;
+    display: inline-flex;
+    padding: var(--container-padding);
+}
+
+.code {
+    font-family: var(--font-family-code);
+}

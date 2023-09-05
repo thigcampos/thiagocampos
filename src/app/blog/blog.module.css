@@ -1,0 +1,19 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  padding: 6rem;
+  min-height: 100vh;
+}
+
+.header {
+  display: flex;
+  gap: 0.5rem;
+  margin-bottom: 2rem;
+}
+
+.postsWrapper {
+  display: flex;
+  gap: 1rem;
+  margin-top: 2rem;
+}
+  

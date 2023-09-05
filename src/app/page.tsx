@@ -1,10 +1,14 @@
 import styles from './home.module.css'
+import Icon from '@mdi/react';
+import { mdiSonyPlaystation, mdiAt, mdiGitlab, mdiInstagram } from '@mdi/js'
 
 export default function Home() {
   return (
     <main className={styles.main}>
       <section>
-        {/*HEADER*/}
+        <div className={styles.headerButtons}>
+          {/* ICONS */}
+        </div>
       </section>
       <section>
         <div className={styles.headline}>
@@ -14,7 +18,12 @@ export default function Home() {
         </div>
       </section>
       <section>
-        {/*FOOTER*/}
+        <div className={styles.iconsFooter}>
+          <Icon path={mdiSonyPlaystation}/>
+          <Icon path={mdiAt}/>
+          <Icon path={mdiGitlab}/>
+          <Icon path={mdiInstagram}/>
+        </div>
       </section>
     </main>
   )

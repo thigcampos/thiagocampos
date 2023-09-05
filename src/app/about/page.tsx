@@ -8,7 +8,6 @@ export default function Home() {
           <section className={styles.header}>
             <NavButton path="/" hasIcon>Home</NavButton>
             <NavButton path="/blog">Blog</NavButton>
-            <NavButton path="/projects">Projects</NavButton>
           </section>
           <section>
             <div className={styles.content}>

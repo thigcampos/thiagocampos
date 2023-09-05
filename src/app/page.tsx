@@ -13,7 +13,7 @@ export default function Home() {
         <div className={styles.headline}>
           <h1 className={styles.title}>Salut, je suis <span>Thiago Campos</span> — <br/>
           a software engineer based in Brazil</h1>
-          <p className={styles.subtitle}>Check my <a href='/blog'>blog</a> and some cool facts <a href='/about'>about me</a></p>
+          <p className={styles.subtitle}>Check my <a href='/blog'>blog</a> and some cool facts <a href='/about'>about me</a>.</p>
         </div>
       </section>
       <Footer />

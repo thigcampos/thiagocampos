@@ -25,8 +25,8 @@ const PostLayout = ({ params }: { params: { slug: string } }) => {
           <NavButton path="/">Home</NavButton>
           <NavButton path="/about">About Me</NavButton>
         </section>
-        <article className="mx-auto max-w-xl py-8">
-          <div className="mb-8 text-center">
+        <article>
+          <div>
             <h1 className={styles.title}>{post.title}</h1>
             <time dateTime={post.date} className={styles.date}>
               {format(parseISO(post.date), 'LLLL d, yyyy')}

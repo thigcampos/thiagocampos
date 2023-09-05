@@ -3,7 +3,6 @@ import { compareDesc } from 'date-fns'
 import { allPosts } from 'contentlayer/generated'
 import { Footer, NavButton, PostCard } from "@/components";
 
-
 export default function Blog() {
   const posts = allPosts.sort((a, b) => compareDesc(new Date(a.date), new Date(b.date)))
 
@@ -12,7 +11,6 @@ export default function Blog() {
       <div>
         <section className={styles.header}>
             <NavButton path="/" hasIcon>Home</NavButton>
-            <NavButton path="/projects">Projects</NavButton>
             <NavButton path="/about">About Me</NavButton>
           </section>
         <section>

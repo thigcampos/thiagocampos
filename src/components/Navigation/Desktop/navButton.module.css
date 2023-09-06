@@ -6,8 +6,12 @@
     align-items: center;
     text-decoration: none;
     padding: var(--container-padding);
-    border: 1.5px solid var(--label-accent-default);
     background-color: var(--fill-primary-default);
+}
+
+.container:hover {
+    transition: 0.5s;
+    background-color: var(--fill-primary-hover);
 }
 
 .container > svg {

@@ -3,10 +3,10 @@
     display: flex;
     max-width: 25rem;
     width: max-content;
+    text-decoration: none;
     border-radius: 0.5rem;
     flex-direction: column;
     padding: var(--container-padding);
-    border: 1.5px solid var(--label-primary-default);
     background-color: var(--fill-primary-default);
 }
 
@@ -15,13 +15,14 @@
     background-color: var(--fill-primary-hover);
 }
 
-.title > a {
+.title {
     text-decoration: none;
     font-weight: var(--font-weight-600);
     font-family: var(--font-family-title);
 }
 
 .content {
+    color: var(--label-primary-default);
     font-family: var(--font-family-body);
 }
 

@@ -1,7 +1,7 @@
 :root {
     color-scheme: light dark;
-    --fill-primary-default: #EEEEEE;
-    --fill-primary-hover: #D5D5D5;
+    --fill-primary-default: #F3F3F3;
+    --fill-primary-hover: #EFEFEF;
     --fill-primary-disabled: #E4E4E4;
 
     --fill-accent-default: #0066FF;
@@ -13,7 +13,7 @@
 
     --label-accent-default: #004BBD;
 
-    --background-primary: #EEEEEE;
+    --background-primary: #FFFFFF;
 }
 /*
 @media (prefers-color-scheme: dark) {

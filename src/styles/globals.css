@@ -25,7 +25,14 @@ h1, h2, h3, h4, h5, h6 {
   line-height: 150%;
   font-family: var(--font-family-title);
   font-weight: var(--font-weight-600);
+}
+
+h1 {
   letter-spacing: var(--font-letter-spacing-title);
+}
+
+h2, h3, h4, h5, h6 {
+  letter-spacing: var(--font-letter-spacing-body);
 }
 
 p {

@@ -24,7 +24,7 @@ h1, h2, h3, h4, h5, h6 {
   color: inherit;
   line-height: 150%;
   font-family: var(--font-family-title);
-  font-weight: var(--font-weight-title);
+  font-weight: var(--font-weight-600);
   letter-spacing: var(--font-letter-spacing-title);
 }
 
@@ -32,7 +32,7 @@ p {
   color: inherit;
   line-height: 150%;
   font-family: var(--font-family-body);
-  font-weight: var(--font-weight-body);
+  font-weight: var(--font-weight-400);
   letter-spacing: var(--font-letter-spacing-body);
 }
 
@@ -40,7 +40,7 @@ a {
   line-height: 150%;
   color: var(--label-accent-default);
   font-family: var(--font-family-body);
-  font-weight: var(--font-weight-body);
+  font-weight: var(--font-weight-400);
   letter-spacing: var(--font-letter-spacing-body);
 }
 
@@ -49,11 +49,11 @@ span {
   font-style: italic;
   color: var(--label-accent-default);
   font-family: var(--font-family-accent);
-  font-weight: var(--font-weight-accent);
+  font-weight: var(--font-weight-500);
 }
 
 pre {
   color: inherit;
   font-family: var(--font-family-code);
-  font-weight: var(--font-weight-code);
+  font-weight: var(--font-weight-500);
 }

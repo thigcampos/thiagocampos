@@ -18,6 +18,6 @@
 .text {
     font-size: var(--font-size-20);
     color: var(--label-accent-default);
-    font-weight: var(--font-weight-body);
+    font-weight: var(--font-weight-400);
     
 }

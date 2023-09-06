@@ -18,7 +18,7 @@
 
 .date {
     font-family: var(--font-family-body);
-    font-weight: var(--font-weight-title);
+    font-weight: var(--font-weight-600);
     font-size: var(--font-size-18);
     color: var(--label-primary-disabled);
 }

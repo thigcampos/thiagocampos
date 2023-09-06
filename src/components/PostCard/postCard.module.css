@@ -1,15 +1,32 @@
 .container {
+    gap: .5rem;
+    display: flex;
+    max-width: 25rem;
     width: max-content;
-    min-width: 15rem;
     border-radius: 0.5rem;
+    flex-direction: column;
     padding: var(--container-padding);
+    border: 1.5px solid var(--label-primary-default);
     background-color: var(--fill-primary-default);
 }
 
 .container:hover {
+    transition: 0.5s;
     background-color: var(--fill-primary-hover);
 }
 
 .title > a {
-    font-weight: var(--font-weight-title);
+    text-decoration: none;
+    font-weight: var(--font-weight-600);
+    font-family: var(--font-family-title);
+}
+
+.content {
+    font-family: var(--font-family-body);
+}
+
+.date {
+    font-family: var(--font-family-body);
+    font-size: var(--font-size-14);
+    color: var(--label-primary-disabled);
 }

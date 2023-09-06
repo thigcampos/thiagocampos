@@ -6,10 +6,9 @@
     --font-family-accent: 'Playfair Display', serif;
     --font-family-code: 'Roboto Mono', monospace;
     
-    --font-weight-title: 600;
-    --font-weight-body: 400;
-    --font-weight-accent: 500;
-    --font-weight-code: 500;
+    --font-weight-600: 600;
+    --font-weight-500: 500;
+    --font-weight-400: 400;
     
     --font-size-64: 4rem;
     --font-size-48: 3rem;

@@ -13,12 +13,12 @@
 
   .title {
     font-size: var(--font-size-48);
-    font-weight: var(--font-weight-body);
+    font-weight: var(--font-weight-400);
   }
   .title > span {
     font-style: italic;
     color: var(--label-primary-default);
-    font-weight: var(--font-weight-title);
+    font-weight: var(--font-weight-600);
   }
   .subtitle {
     font-size: var(--font-size-20);

@@ -11,7 +11,8 @@ export default function PostCard(post: Post) {
             {post.title}
           </Link>
         </h2>
-        <time dateTime={post.date} className="mb-2 block text-xs text-gray-600">
+        <div className={styles.content} dangerouslySetInnerHTML={{ __html: post.description }} />
+        <time dateTime={post.date} className={styles.date}>
           {format(parseISO(post.date), 'LLLL d, yyyy')}
         </time>
       </div>

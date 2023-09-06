@@ -17,11 +17,11 @@
 .container > svg {
     height: 1.5rem;
     width: 1.5rem;
+    color: var(--label-primary-default);
 }
 
 .text {
     font-size: var(--font-size-20);
-    color: var(--label-accent-default);
+    color: var(--label-primary-default);
     font-weight: var(--font-weight-400);
-    
 }

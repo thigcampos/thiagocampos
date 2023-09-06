@@ -19,10 +19,10 @@ export default function Footer() {
           <a href="https://www.reddit.com/user/ya-aqob" target="_blank">
             <Icon path={mdiReddit}/>
           </a>
-          <a href="https://pinterest.fr/1acobus/" target="_blank">
+          <a href="https://pinterest.fr/thigcampos/" target="_blank">
             <Icon path={mdiPinterest}/>
           </a>
-          <a href="https://instagram.com/thivgocampos" target="_blank">
+          <a href="https://instagram.com/thigcampos" target="_blank">
             <Icon path={mdiInstagram}/>
           </a>
         </div>

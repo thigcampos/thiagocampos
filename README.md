@@ -1,31 +1,8 @@
-# Euskadi
-
-Euskadi is a website designed and developed by and for me. It was built with NextJS and ContentLayer, and includes the base version of my web component library Ionique, which is still under development.
-
-## Technologies
-TD;LR: Eusakdi was developed using NextJS, with TypeScript and SCSS support, ContentLayer, to handle markdown files, and kBar.
-
-### NextJS (TS + SCSS)
-
-### Content Layer
-
-### Extras
-
-## Future Implementations
-Euskadi has been developed at a really fast pace, so some features that I would have liked to have have not been implemented in this 0.1 version, but they will be added in future updates.
-
-### Support more languages + DeepL API
-Besides en-US and pt-BR, I'd like to support es-ES and fr-FR. For blog posts, I might use DeepL API to automatically localize all blog posts from en-US to pt-BR, es-ES and fr-FR.
-
-### Design Philosophy
-Content-driven design
-
-## Deploy on Cloudflare
-
-Euskadi has been deployed on Cloudflare Pages. To achieve this, the installation of some packages was required:
-
-```js
-npm install --save-dev @cloudflare/next-on-pages
-```
-
-You can refer to the complete tutorial and troubleshooting guide on Cloudflare Pages for deploying a Next.js website.
+# Iukeri
+Iukeri represents the culmination of three years of continuous redesign. Every minor change in my life prompted a new iteration of the site's design,turning it into a never-ending in-development project.  
+### Design
+In early 2023, I began conceptualizing the core structure of Iukeri, drawing inspiration heavily from the websites of [Yaroslav Samoylov](tab:https://yaosamo.com) and [Danilo Tanic](tab:https://danilotanic.com). Over the following months, the design underwent numerous subtle updates, each influenced by a variety of sources. These sources ranged from my [Bossa & Café](tab:https://open.spotify.com/playlist/6unyax6qQyhunvOd2QOAzB?si=0b069d34368f4773) Spotify playlist to episodes of [London Diaries](tab:https://youtube.com/playlist?list=PL3F8c49z5qlQkQOwZLYN_4Q03cEneiOlG&si=yAoGu0mkeaz-soJh) by Daniel Simmons, as well as handpicked [Vintage Ads](tab:https://www.pinterest.fr/thigcampos/iukeri/) discovered on Pinterest. Additional changes were made during the website's development, with more likely to come in the months and years ahead.
+### Development
+As for the development of the website, the technical scope involves using [NextJS](tab:https://nextjs.org) with TypeScript. For the back-end, a straightforward blog system developed using FastAPI, named [Papyrus](tab:https://github.com/ivansantiagojr/papyrus). After outlining the initial application infrastructure, I made the decision to start with a front-end-only application as the initial phase of the MVP. To replace Papyrus in the MVP, I tried using [mdx-remote](tab:https://github.com/hashicorp/next-mdx-remote), but I had some problems. After doing some research, I did the initial setup of [ContanteLayer](tab:https://contentlayer.dev/) and it worked like a charm.
+### Deployment
+The deployment of the MVP version of Iukeri was carried out on Cloudflare Pages. It was a straightforward process, as Cloudflare offers a guide for deploying various types of applications, including [NextJS Apps](tab:https://developers.cloudflare.com/pages/framework-guides/deploy-a-nextjs-site)

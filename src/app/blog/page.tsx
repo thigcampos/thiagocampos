@@ -14,7 +14,7 @@ export default function Blog() {
             <NavButton path="/about">About Me</NavButton>
           </section>
         <section>
-          <h1 className={styles.title}>O Generalista</h1>
+          <h1 className={styles.title}>Blog</h1>
           <div className={styles.postsWrapper}>
             {posts.map((post, idx) => (
               <PostCard key={idx} {...post} />

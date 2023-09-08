@@ -1,4 +1,4 @@
-import { ButtonHTMLAttributes, MouseEventHandler, ReactNode } from "react";
+import { ButtonHTMLAttributes, ImgHTMLAttributes, MouseEventHandler, ReactNode } from "react";
 
 export interface Button extends ButtonHTMLAttributes<HTMLButtonElement> {
     hasIcon?: Boolean

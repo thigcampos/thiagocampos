@@ -1,10 +1,10 @@
 import { Header } from "./header";
-import { Button } from "./button";
+import { Button } from "./ionique";
 import { DesktopNavigation, MobileNavigation, NavigationGroup } from "./navigation";
 
 export type { 
     Header,
-    Button, 
+    Button,
     DesktopNavigation,
     MobileNavigation, 
     NavigationGroup 

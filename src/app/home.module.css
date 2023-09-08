@@ -3,7 +3,7 @@
   flex-direction: column;
   justify-content: space-between;
   padding: 6rem;
-  max-height: 80vh;
+  height: 100vh;
 }
 
 .headline {

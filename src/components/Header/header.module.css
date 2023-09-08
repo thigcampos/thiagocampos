@@ -1,0 +1,13 @@
+.container {
+    display: block;
+}
+
+.mobileButtons {
+    display: none;
+}
+
+@media only screen and (max-width: 768px) {
+    .mobileButtons {
+        display: block;
+    }
+  }

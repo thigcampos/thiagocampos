@@ -1,22 +1,22 @@
 "use client"
-import styles from "./header.module.css";
-import { Button } from "..";
-import NavModal from "../Navigation/Mobile";
 import { useState } from "react";
+import styles from "./header.module.css";
+import NavModal from "../Navigation/Mobile";
+import { Button } from "..";
 
 export default function Header() {
-    const [modal, setModal] = useState<boolean>(false);
+    const [modalVisibility, seyModalVisibility] = useState<boolean>(false);
 
-    const changeModal = () => {
-        setModal(!modal)
+    const toggleModal = () => {
+        seyModalVisibility(!modalVisibility)
     }
 
     return (
         <section className={styles.container}>
-            <div className={styles.headerButtons}>
-              <Button hasIcon onClick={() => changeModal()}>Options</Button>
+            <div className={styles.mobileButtons}>
+              <Button hasIcon onClick={() => toggleModal()}>Options</Button>
             </div>
-            <NavModal status={modal}/>
+            <NavModal modalVisible={modalVisibility} toggleModal={() => toggleModal()}/>
         </section>
     )
 }

@@ -9,7 +9,14 @@ const inter = Inter({
 
 const playfair = Playfair_Display({
   variable: '--font-playfair',
-  subsets: ['latin']
+  subsets: ['latin'],
+  style: 'normal'
+})
+
+const playfairItalic = Playfair_Display({
+  variable: '--font-playfair-italic',
+  subsets: ['latin'],
+  style: 'italic'
 })
 
 export const metadata: Metadata = {
@@ -23,7 +30,7 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-    <html lang="en" className={`${inter.variable} ${playfair.variable}`}>
+    <html lang="en" className={`${inter.variable} ${playfair.variable} ${playfairItalic.variable}`}>
       <body>{children}</body>
     </html>
   )

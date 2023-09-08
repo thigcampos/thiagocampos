@@ -1,7 +1,7 @@
 :root {
     --font-family-title: var(--font-playfair);
     --font-family-body: var(--font-inter);
-    --font-family-accent: var(--font-playfair);
+    --font-family-accent: var(--font-playfair-italic);
 
     --font-weight-600: 600;
     --font-weight-500: 500;

@@ -1,9 +1,17 @@
 .main {
+  gap: 1.5rem;
   padding: 6rem;
   display: flex;
   min-height: 100vh;
   flex-direction: column;
   justify-content: space-between;
+}
+
+.highlight {
+  gap: 1.5rem;
+  display: flex;
+  height: 100%;
+  flex-direction: column;
 }
 
 .header {

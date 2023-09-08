@@ -1,4 +1,11 @@
+import { Header } from "./header";
 import { Button } from "./button";
-import { DesktopNavigation } from "./navigation";
+import { DesktopNavigation, MobileNavigation, NavigationGroup } from "./navigation";
 
-export type { Button, DesktopNavigation };
+export type { 
+    Header,
+    Button, 
+    DesktopNavigation,
+    MobileNavigation, 
+    NavigationGroup 
+};

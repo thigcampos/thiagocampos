@@ -2,9 +2,9 @@ import Link from "next/link";
 import Icon from "@mdi/react";
 import styles from "./navButton.module.css";
 import { mdiArrowLeft } from "@mdi/js";
-import { Url } from "next/dist/shared/lib/router/router";
+import { DesktopNavigation } from "@/types";
 
-export default function NavButton({children, path, hasIcon} : {children: String, path: Url, hasIcon?: Boolean}) {
+export default function NavButton({children, path, hasIcon} : DesktopNavigation) {
     function renderIcon() {
         return hasIcon ? (<Icon path={mdiArrowLeft}/>) : null;
     }

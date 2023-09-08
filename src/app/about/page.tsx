@@ -9,10 +9,10 @@ export default function Home() {
           <Header navGroup={aboutNavigation}/>
           <section>
             <div className={styles.content}>
-              <span className={styles.date}>February, 11 2023 | 16:14</span>
+              <span className={styles.date}>September, 08 2023 | 19:09</span>
                 <p className={styles.text}>
                   Hey there! 👋 I'm <span>Thiago Campos</span>, a software engineer based in <span>Brazil</span> 🇧🇷. 
-                  Currently, I'm working as a React Developer at <span>Pride Innovations</span>, where I'm deeply involved in crafting in-house systems. 
+                  Currently, I'm working as a React Developer at Pride Innovations, where I'm deeply involved in crafting in-house systems. 
                   All my devices are powered by Linux, from my Android smartphone to Fedora running on my home server, desktop, and laptop.
                 </p>
                 <br/><br/>
@@ -25,11 +25,14 @@ export default function Home() {
                   Feel free to check out some of my Spotify playlists filled with handpicked treasures.
                 </p>
                 <br/><br/>
-                <iframe className={styles.spotify} src="https://open.spotify.com/embed/playlist/6unyax6qQyhunvOd2QOAzB?utm_source=generator&theme=0" frameBorder="0" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+                <div className={styles.spotifyWrapper}>
+                  <iframe className={styles.spotify} src="https://open.spotify.com/embed/playlist/6unyax6qQyhunvOd2QOAzB?utm_source=generator&theme=0" frameBorder="0" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+                  <iframe className={styles.spotify} src="https://open.spotify.com/embed/playlist/2mau9BQ3cVx7cyKcrGmoSr?utm_source=generator&theme=0" frameBorder="0" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+                </div>
                 <br/><br/>
                 <p className={styles.text}>
                   Beyond the screen, you'll find me watching movies, <span>cooking up some pasta</span>, or embarking on new adventures. 
-                  I've had the privilege of exploring various Brazilian cities, each with its unique charm and culture. 
+                  I've had the privilege of exploring various <span>Brazilian cities</span>, each with its unique charm and culture. 
                   Additionally, I've ventured beyond my homeland, visiting captivating countries in Europe like <span>Spain, France, 
                   Italy and Monaco</span>, which have enriched my life with diverse experiences and cultural insights.
                 </p>

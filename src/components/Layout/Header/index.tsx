@@ -1,8 +1,7 @@
 "use client"
-import { useState } from "react";
 import styles from "./header.module.css";
-import NavModal from "../Navigation/Mobile";
-import { Button, NavButton } from "..";
+import { useState } from "react";
+import { Button, Anchor, Modal } from "../..";
 import { Header } from "@/types";
 
 export default function Header({ navGroup, hideDesktop }: Header) {
@@ -18,7 +17,7 @@ export default function Header({ navGroup, hideDesktop }: Header) {
         } 
         
         return navGroup.map((link, idx) => (
-            <NavButton key={idx} path={link.path} hasIcon={link.hasIcon}>{link.name}</NavButton>
+            <Anchor key={idx} path={link.path} hasIcon={link.hasIcon}>{link.name}</Anchor>
         ));
     }
 
@@ -30,7 +29,7 @@ export default function Header({ navGroup, hideDesktop }: Header) {
             <div className={styles.desktopButtons}>
                 { renderDesktopNav() }
             </div>
-            <NavModal modalVisible={modalVisibility} toggleModal={() => toggleModal()} navGroup={navGroup}/>
+            <Modal modalVisible={modalVisibility} toggleModal={() => toggleModal()} navGroup={navGroup}/>
         </section>
     )
 }

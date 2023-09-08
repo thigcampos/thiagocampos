@@ -1,7 +1,7 @@
 import styles from "./post.module.css";
 import { format, parseISO } from 'date-fns'
-import { allPosts } from 'contentlayer/generated';
 import { Footer, Header } from '@/components';
+import { allPosts } from 'contentlayer/generated';
 import { postNavigation } from "@/constants/navigations";
 
 export const runtime = 'edge';

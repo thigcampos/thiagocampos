@@ -1,5 +1,4 @@
 "use client"
-
 import Icon from "@mdi/react";
 import styles from "./button.module.css";
 import { mdiPlus } from "@mdi/js";

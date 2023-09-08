@@ -1,11 +1,11 @@
-import styles from "./navModal.module.css";
+import styles from "./modal.module.css";
 import { MobileNavigation } from "@/types";
-import { Footer, NavButton } from "@/components";
+import { Footer, Anchor } from "@/components";
 
-export default function NavModal({modalVisible, toggleModal, navGroup}: MobileNavigation) {        
+export default function Modal({modalVisible, toggleModal, navGroup}: MobileNavigation) {        
     const renderMobileNav = () => {
         return navGroup.map((link, idx) => (
-            <NavButton key={idx} path={link.path} hasIcon={link.hasIcon}>{link.name}</NavButton>
+            <Anchor key={idx} path={link.path} hasIcon={link.hasIcon}>{link.name}</Anchor>
         ))
     }
 
@@ -13,8 +13,8 @@ export default function NavModal({modalVisible, toggleModal, navGroup}: MobileNa
         return null;
     }
     return (
-        <div className={styles.modal}>
-            <div className={styles.modalContent}>
+        <div className={styles.background}>
+            <div className={styles.container}>
                 <button className={styles.closeButton} onClick={() => toggleModal()}>Close</button>
                 { renderMobileNav() }
                 <Footer/>

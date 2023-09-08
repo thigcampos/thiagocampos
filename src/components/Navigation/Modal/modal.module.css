@@ -1,4 +1,4 @@
-.modal {
+.background {
     display: flex;
     align-items: flex-end;
     position: fixed;
@@ -12,17 +12,17 @@
     background-color: rgba(0,0,0,0.4);
 }
   
-.modalContent {
+.container {
     gap: 13px; 
     width: 100%;
-    height: max-content;
     padding: 1rem;
     display: flex;
-    background: var(--background-primary);
     align-items: center;
+    height: max-content;
     flex-direction: column;
     justify-content: center;
     border-radius: 24px 24px 0px 0px;
+    background: var(--background-primary);
 }
 
 .closeButton {

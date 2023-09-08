@@ -6,7 +6,6 @@ import { blogNavigation } from "@/constants/navigations";
 
 export default function Blog() {
   const posts = allPosts.sort((a, b) => compareDesc(new Date(a.date), new Date(b.date)))
-
   return (
     <main className={styles.main}>
       <div className={styles.highlight}>

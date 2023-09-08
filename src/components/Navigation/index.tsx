@@ -1,5 +1,7 @@
-import NavButton from "./Desktop";
+import Anchor from "./Anchor";
+import Modal from "./Modal";
 
 export {
-    NavButton
+    Anchor,
+    Modal
 };

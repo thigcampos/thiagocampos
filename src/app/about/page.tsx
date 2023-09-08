@@ -1,5 +1,5 @@
-import { Footer, Header } from '@/components'
 import styles from './about.module.css'
+import { Footer, Header } from '@/components'
 import { aboutNavigation } from '@/constants/navigations'
 
 export default function Home() {

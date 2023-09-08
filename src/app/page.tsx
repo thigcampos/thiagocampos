@@ -1,6 +1,6 @@
 import styles from './home.module.css';
-import { homeNavigation } from '@/constants/navigations';
 import { Footer, Header } from '@/components';
+import { homeNavigation } from '@/constants/navigations';
 
 export default function Home() {
   return (

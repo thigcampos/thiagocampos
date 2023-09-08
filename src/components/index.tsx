@@ -1,13 +1,13 @@
 import PostCard from "./PostCard";
-import Footer from "./Footer";
-import Button from "./Button";
-import Header from "./Header";
-import { NavButton } from "./Navigation";
+import Button from "./Ionique/Button";
+import {Header, Footer} from "./Layout";
+import { Anchor, Modal } from "./Navigation";
 
 export {
-    PostCard,
-    NavButton,
+    Header,
     Footer,
+    Anchor,
+    Modal,
     Button,
-    Header
+    PostCard,
 };

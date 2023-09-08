@@ -1,6 +1,12 @@
-import styles from './about.module.css'
-import { Anchor, Footer, Header } from '@/components'
-import { aboutNavigation } from '@/constants/navigations'
+import styles from './about.module.css';
+import { Anchor, Footer, Header } from '@/components';
+import { aboutNavigation } from '@/constants/navigations';
+import Image from 'next/image';
+import Riviera from '../../../public/about/Riviera.jpg';
+import Lazio from '../../../public/about/Lazio.jpg';
+import Serra from '../../../public/about/Serra.jpg';
+import Sampa from '../../../public/about/Sampa.jpg';
+import Barcelona from '../../../public/about/Barcelona.jpg';
 
 export default function Home() {
     return (
@@ -37,6 +43,13 @@ export default function Home() {
                   Italy and Monaco</span>, which have enriched my life with diverse experiences and cultural insights.
                 </p>
                 <br/>
+                <div className={styles.photosWrapper}>
+                  <Image src={Riviera} alt={''} />
+                  <Image src={Lazio} alt={''} />
+                  <Image src={Serra} alt={''} />
+                  <Image src={Sampa} alt={''} />
+                  <Image src={Barcelona} alt={''} />
+                </div>
                 {/* ADD PHOTOS */}
                 <br/>
             </div>

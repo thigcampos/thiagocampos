@@ -9,7 +9,6 @@ export default function NavModal({status}: {status: boolean}) {
     }
 
     useEffect(() => {
-        console.log("CLICKED")
         setIsModalVisible(true)
     }, [status])
     

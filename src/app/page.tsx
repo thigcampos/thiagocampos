@@ -1,14 +1,10 @@
 import styles from './home.module.css';
-import { Footer } from '@/components';
+import { Footer, Header } from '@/components';
 
 export default function Home() {
   return (
     <main className={styles.main}>
-      <section>
-        <div className={styles.headerButtons}>
-          {/* ICONS */}
-        </div>
-      </section>
+      <Header />
       <section>
         <div className={styles.headline}>
           <h1 className={styles.title}>Salut, je suis <span>Thiago Campos</span> — <br/>

@@ -2,11 +2,20 @@
     display: block;
 }
 
+.desktopButtons {
+    gap: 0.5rem;
+    display: flex;
+}
+
 .mobileButtons {
     display: none;
 }
 
 @media only screen and (max-width: 768px) {
+    .desktopButtons {
+        display: none;
+    }
+
     .mobileButtons {
         display: block;
     }

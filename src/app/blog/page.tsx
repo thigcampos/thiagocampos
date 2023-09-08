@@ -1,18 +1,16 @@
 import styles from "./blog.module.css";
 import { compareDesc } from 'date-fns'
 import { allPosts } from 'contentlayer/generated'
-import { Footer, NavButton, PostCard } from "@/components";
+import { Footer, Header, PostCard } from "@/components";
+import { blogNavigation } from "@/constants/navigations";
 
 export default function Blog() {
   const posts = allPosts.sort((a, b) => compareDesc(new Date(a.date), new Date(b.date)))
 
   return (
     <main className={styles.main}>
-      <div>
-        <section className={styles.header}>
-            <NavButton path="/" hasIcon>Home</NavButton>
-            <NavButton path="/about">About Me</NavButton>
-          </section>
+      <div className={styles.highlight}>
+        <Header navGroup={blogNavigation}/>
         <section>
           <h1 className={styles.title}>Blog</h1>
           <div className={styles.postsWrapper}>

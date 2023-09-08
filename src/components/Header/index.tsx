@@ -2,13 +2,24 @@
 import { useState } from "react";
 import styles from "./header.module.css";
 import NavModal from "../Navigation/Mobile";
-import { Button } from "..";
+import { Button, NavButton } from "..";
+import { Header } from "@/types";
 
-export default function Header() {
+export default function Header({ navGroup, hideDesktop }: Header) {
     const [modalVisibility, seyModalVisibility] = useState<boolean>(false);
 
     const toggleModal = () => {
         seyModalVisibility(!modalVisibility)
+    }
+
+    const renderDesktopNav = () => {
+        if (hideDesktop) {
+            return null;
+        } 
+        
+        return navGroup.map((link, idx) => (
+            <NavButton key={idx} path={link.path} hasIcon={link.hasIcon}>{link.name}</NavButton>
+        ));
     }
 
     return (
@@ -16,7 +27,10 @@ export default function Header() {
             <div className={styles.mobileButtons}>
               <Button hasIcon onClick={() => toggleModal()}>Options</Button>
             </div>
-            <NavModal modalVisible={modalVisibility} toggleModal={() => toggleModal()}/>
+            <div className={styles.desktopButtons}>
+                { renderDesktopNav() }
+            </div>
+            <NavModal modalVisible={modalVisibility} toggleModal={() => toggleModal()} navGroup={navGroup}/>
         </section>
     )
 }

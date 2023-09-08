@@ -1,14 +1,12 @@
-import { Footer, NavButton } from '@/components'
+import { Footer, Header } from '@/components'
 import styles from './about.module.css'
+import { aboutNavigation } from '@/constants/navigations'
 
 export default function Home() {
     return (
       <main className={styles.main}>
-        <div>
-          <section className={styles.header}>
-            <NavButton path="/" hasIcon>Home</NavButton>
-            <NavButton path="/blog">Blog</NavButton>
-          </section>
+        <div className={styles.highlight}>
+          <Header navGroup={aboutNavigation}/>
           <section>
             <div className={styles.content}>
               <span className={styles.date}>February, 11 2023 | 16:14</span>

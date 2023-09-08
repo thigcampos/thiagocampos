@@ -1,5 +1,6 @@
 .container {
     gap: 0.5rem;
+    border: none;
     display: flex;
     width: max-content;
     border-radius: 1rem;

@@ -1,7 +1,8 @@
 import styles from "./post.module.css";
 import { format, parseISO } from 'date-fns'
 import { allPosts } from 'contentlayer/generated';
-import { Footer, NavButton } from '@/components';
+import { Footer, Header } from '@/components';
+import { postNavigation } from "@/constants/navigations";
 
 export const runtime = 'edge';
 
@@ -19,12 +20,8 @@ const PostLayout = ({ params }: { params: { slug: string } }) => {
 
   return (
     <main className={styles.main}>
-      <div>
-        <section className={styles.header}>
-          <NavButton path="/blog" hasIcon>Blog</NavButton>
-          <NavButton path="/">Home</NavButton>
-          <NavButton path="/about">About Me</NavButton>
-        </section>
+      <div className={styles.highlight}>
+        <Header navGroup={postNavigation}/>
         <article>
           <div>
             <h1 className={styles.title}>{post.title}</h1>

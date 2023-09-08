@@ -28,3 +28,13 @@
     font-size: var(--font-size-20);
     font-family: var(--font-family-body);
 }
+
+@media only screen and (max-width: 768px) {
+    .main {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      padding: 1rem;
+      min-height: 100vh;
+    }
+}

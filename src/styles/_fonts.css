@@ -24,3 +24,18 @@
     --font-letter-spacing-title: -1.44px;
     --font-letter-spacing-body: -0.54px;  
 }
+
+@media only screen and (max-width: 768px) {
+    :root {
+        --font-size-64: 3rem;
+        --font-size-48: 2.5rem;
+        --font-size-40: 2.25rem;
+        --font-size-36: 2rem;
+        --font-size-32: 1.5rem;
+        --font-size-24: 1.25rem;
+        --font-size-20: 1.125rem;
+        --font-size-18: 1rem;
+        --font-size-16: 0.875rem;
+        --font-size-14: 0.75rem;
+    }
+  }

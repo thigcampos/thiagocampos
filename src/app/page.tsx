@@ -1,5 +1,5 @@
-import { homeNavigation } from '@/constants/navigations';
 import styles from './home.module.css';
+import { homeNavigation } from '@/constants/navigations';
 import { Footer, Header } from '@/components';
 
 export default function Home() {

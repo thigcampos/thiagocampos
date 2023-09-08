@@ -1,0 +1,20 @@
+.container {
+    margin-top: 2rem;
+}
+
+.iconsFooter {
+    display: flex;
+    width: 100%;
+    gap: 1rem;
+    justify-content: center;
+}
+
+
+.iconsFooter > a {
+  color: var(--label-primary-default);
+}
+
+.iconsFooter > * > svg {
+  height: 1.75rem;
+  width: 1.75rem;
+}

@@ -26,7 +26,7 @@ export default function About() {
             <div className={styles.content}>
               <span className={styles.date}>September, 08 2023 | 19:09</span>
                 <p className={styles.text}>
-                  Hey there! I&apos;m Thiago Campos, a software engineer based in Brazil. 
+                  Hey there! I&apos;m <span>Thiago Campos</span>, a software engineer based in <span>Brazil</span>. 
                   Currently, I&apos;m working as a React Developer at Pride Innovations, where I&apos;m deeply involved in crafting in-house systems. 
                   All my devices are powered by Linux, from my Android smartphone to Fedora running on my home server, desktop, and laptop.
                 </p>

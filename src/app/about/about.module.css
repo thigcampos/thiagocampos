@@ -25,9 +25,10 @@
 }
 
 .photosWrapper {
-    gap: 1rem;
     width: 100%;
-    display: flex;
+    grid-gap: 2rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
 }
 
 .photo {
@@ -35,9 +36,7 @@
     height: auto;
     max-width: 100%;
     max-height: 100%;
-    overflow: hidden;
-    object-fit: cover;
-    border-radius: 1rem;
+    border-radius: 2rem;
 }
 
 @media only screen and (max-width: 768px) {
@@ -49,11 +48,7 @@
       min-height: 100vh;
     }
 
-    .spotifyWrapper {
-        flex-direction: column;
-    }
-
     .photosWrapper {
-        flex-direction: column;
+        grid-template-columns: 1fr 1fr;
     }
 }

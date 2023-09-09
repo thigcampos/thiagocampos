@@ -11,9 +11,9 @@ export const metadata: Metadata = {
 
 export default function About() {
     const renderImages = () => {
-      return aboutImages.map((image) => {
+      return aboutImages.map((image, idx) => {
         return (
-          <Image className={styles.photo} src={image.url} alt={image.alt} loading='lazy'/>
+          <Image className={styles.photo} key={idx} src={image.url} alt={image.alt} loading='lazy'/>
         )
       })
     }

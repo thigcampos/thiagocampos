@@ -39,10 +39,10 @@ export default function Home() {
                 </p>
                 <br/>
                 <div className={styles.photosWrapper}>
-                  <img className={styles.photo} width="auto" height="auto" src="about/Riviera.webp" alt='Photo of a random building in French Riviera in my Summer Euro trip in 2022' />
-                  <img className={styles.photo} width="auto" height="auto" src="about/Lazio.webp" alt='Photo of the Coliseo in Rome in my Summer Euro trip in 2022' />
-                  <img className={styles.photo} width="auto" height="auto" src="about/Serra.webp" alt='Photo of me and my girlfriend in Serra Negra' />
-                  <img className={styles.photo} width="auto" height="auto" src="about/Sampa.webp" alt='Photo of Estação da Luz in São Paulo' />
+                  <img className={styles.photo} width="auto" height="auto" src="about/Riviera.webp" srcSet="about/Riviera@2.webp 780w" alt='Photo of a random building in French Riviera in my Summer Euro trip in 2022' />
+                  <img className={styles.photo} width="auto" height="auto" src="about/Lazio.webp" srcSet="about/Lazio@2.webp 780w" alt='Photo of the Coliseo in Rome in my Summer Euro trip in 2022' />
+                  <img className={styles.photo} width="auto" height="auto" src="about/Serra.webp" srcSet="about/Serra@2.webp 780w" alt='Photo of me and my girlfriend in Serra Negra' />
+                  <img className={styles.photo} width="auto" height="auto" src="about/Sampa.webp" srcSet="about/Sampa@2.webp 780w" alt='Photo of Estação da Luz in São Paulo' />
                 </div>
                 {/* ADD PHOTOS */}
                 <br/>

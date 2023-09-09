@@ -6,7 +6,6 @@ import Riviera from '../../../public/about/Riviera.jpg';
 import Lazio from '../../../public/about/Lazio.jpg';
 import Serra from '../../../public/about/Serra.jpg';
 import Sampa from '../../../public/about/Sampa.jpg';
-import Barcelona from '../../../public/about/Barcelona.jpg';
 
 export default function Home() {
     return (
@@ -22,7 +21,6 @@ export default function Home() {
                   All my devices are powered by Linux, from my Android smartphone to Fedora running on my home server, desktop, and laptop.
                 </p>
                 <br/><br/>
-                <Anchor path="https://github.com/thigcampos" arial-label="Follow me on GitHub">Check out my GitHub</Anchor>
                 {/* ADD LINKS TO GITHUB AND SIDE-PROJECTS */}
                 <br/>
                 <p className={styles.text}>
@@ -32,8 +30,8 @@ export default function Home() {
                 </p>
                 <br/><br/>
                 <div className={styles.spotifyWrapper}>
-                  <iframe className={styles.spotify} src="https://open.spotify.com/embed/playlist/6unyax6qQyhunvOd2QOAzB?utm_source=generator&theme=0" frameBorder="0" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
-                  <iframe className={styles.spotify} src="https://open.spotify.com/embed/playlist/2mau9BQ3cVx7cyKcrGmoSr?utm_source=generator&theme=0" frameBorder="0" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+                  <iframe title='Spotify Playlist Café e Bossa' className={styles.spotify} src="https://open.spotify.com/embed/playlist/6unyax6qQyhunvOd2QOAzB?utm_source=generator&theme=0" frameBorder="0" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+                  <iframe title='Spotify Playlist Jazz and Cigar' className={styles.spotify} src="https://open.spotify.com/embed/playlist/2mau9BQ3cVx7cyKcrGmoSr?utm_source=generator&theme=0" frameBorder="0" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
                 </div>
                 <br/><br/>
                 <p className={styles.text}>
@@ -44,11 +42,10 @@ export default function Home() {
                 </p>
                 <br/>
                 <div className={styles.photosWrapper}>
-                  <Image src={Riviera} alt={''} />
-                  <Image src={Lazio} alt={''} />
-                  <Image src={Serra} alt={''} />
-                  <Image src={Sampa} alt={''} />
-                  <Image src={Barcelona} alt={''} />
+                  <Image className={styles.photo} src={Riviera} alt='Photo of a random building in French Riviera in my Summer Euro trip in 2022' />
+                  <Image className={styles.photo} src={Lazio} alt='Photo of the Coliseo in Rome in my Summer Euro trip in 2022' />
+                  <Image className={styles.photo} src={Serra} alt='Photo of me and my girlfriend in Serra Negra' />
+                  <Image className={styles.photo} src={Sampa} alt='Photo of Estação da Luz in São Paulo' />
                 </div>
                 {/* ADD PHOTOS */}
                 <br/>

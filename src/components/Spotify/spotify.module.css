@@ -9,3 +9,9 @@
     height: 352px; 
     border-radius: 1rem;
 }
+
+@media only screen and (max-width: 768px) {
+    .spotifyWrapper {
+        flex-direction: column;
+    }
+}

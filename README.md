@@ -15,6 +15,7 @@ The deployment of the MVP version of Iukeri was carried out on Cloudflare Pages.
 - [X] Markdown Support;
 - [X] `Blog` and `About Me` pages;
 - [ ] `Projects` page;
+- [ ] Improve `About Me` page perfomance;
 - [ ] Dark Mode;
 - [ ] Tags system;
 - [ ] Searchs for specific post;

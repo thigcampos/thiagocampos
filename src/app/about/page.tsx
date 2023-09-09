@@ -1,11 +1,11 @@
 import styles from './about.module.css';
-import { Anchor, Footer, Header } from '@/components';
+import { Anchor, Footer, Header, Spotify } from '@/components';
 import { aboutNavigation } from '@/constants/navigations';
 import Image from 'next/image';
-import Riviera from '../../../public/about/Riviera.jpg';
-import Lazio from '../../../public/about/Lazio.jpg';
-import Serra from '../../../public/about/Serra.jpg';
-import Sampa from '../../../public/about/Sampa.jpg';
+import Riviera from '../../../public/about/Riviera.webp';
+import Lazio from '../../../public/about/Lazio.webp';
+import Serra from '../../../public/about/Serra.webp';
+import Sampa from '../../../public/about/Sampa.webp';
 
 export default function Home() {
     return (
@@ -29,10 +29,7 @@ export default function Home() {
                   Feel free to check out some of my Spotify playlists filled with handpicked treasures.
                 </p>
                 <br/><br/>
-                <div className={styles.spotifyWrapper}>
-                  <iframe title='Spotify Playlist Café e Bossa' className={styles.spotify} src="https://open.spotify.com/embed/playlist/6unyax6qQyhunvOd2QOAzB?utm_source=generator&theme=0" frameBorder="0" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
-                  <iframe title='Spotify Playlist Jazz and Cigar' className={styles.spotify} src="https://open.spotify.com/embed/playlist/2mau9BQ3cVx7cyKcrGmoSr?utm_source=generator&theme=0" frameBorder="0" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
-                </div>
+                <Spotify />
                 <br/><br/>
                 <p className={styles.text}>
                   Beyond the screen, you&apos;ll find me watching movies, <span>cooking up some pasta</span>, or embarking on new adventures. 
@@ -42,10 +39,10 @@ export default function Home() {
                 </p>
                 <br/>
                 <div className={styles.photosWrapper}>
-                  <Image className={styles.photo} src={Riviera} alt='Photo of a random building in French Riviera in my Summer Euro trip in 2022' />
-                  <Image className={styles.photo} src={Lazio} alt='Photo of the Coliseo in Rome in my Summer Euro trip in 2022' />
-                  <Image className={styles.photo} src={Serra} alt='Photo of me and my girlfriend in Serra Negra' />
-                  <Image className={styles.photo} src={Sampa} alt='Photo of Estação da Luz in São Paulo' />
+                  <img className={styles.photo} width="auto" height="auto" src="about/Riviera.webp" alt='Photo of a random building in French Riviera in my Summer Euro trip in 2022' />
+                  <img className={styles.photo} width="auto" height="auto" src="about/Lazio.webp" alt='Photo of the Coliseo in Rome in my Summer Euro trip in 2022' />
+                  <img className={styles.photo} width="auto" height="auto" src="about/Serra.webp" alt='Photo of me and my girlfriend in Serra Negra' />
+                  <img className={styles.photo} width="auto" height="auto" src="about/Sampa.webp" alt='Photo of Estação da Luz in São Paulo' />
                 </div>
                 {/* ADD PHOTOS */}
                 <br/>

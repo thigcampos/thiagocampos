@@ -1,9 +1,12 @@
 import styles from './about.module.css';
 import { Metadata } from 'next';
-import { Footer, Header, Spotify } from '@/components';
+import dynamic from 'next/dynamic';
+import Image from 'next/image';
+import { Footer, Header } from '@/components';
 import { aboutNavigation } from '@/constants/navigations';
 import { aboutImages } from '@/constants/images';
-import Image from 'next/image';
+
+const Spotify = dynamic(() => import('@/components/Spotify'));
 
 export const metadata: Metadata = {
   title: `Salut! Je suis Thiagos`

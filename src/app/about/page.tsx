@@ -6,7 +6,7 @@ import { aboutImages } from '@/constants/images';
 import Image from 'next/image';
 
 export const metadata: Metadata = {
-  title: `Salut 👋`
+  title: `Salut! Je suis Thiagos`
 }
 
 export default function About() {

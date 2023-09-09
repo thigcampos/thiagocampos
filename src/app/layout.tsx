@@ -20,8 +20,9 @@ const playfairItalic = Playfair_Display({
 })
 
 export const metadata: Metadata = {
-  title: 'Hi There!',
-  description: 'Salut! Je suis Thiago. I am a software developer and design enthusiast, based in Brazil.',
+  title: 'Thiago Campos | Software Engineer',
+  description: `Hey there! I am Thiago Campos, a software engineer based in Brazil. 
+  Currently, I am working as a React Developer at Pride Innovations, where I am deeply involved in crafting in-house systems.`,
 }
 
 export default function RootLayout({

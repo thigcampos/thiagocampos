@@ -1,11 +1,16 @@
 import styles from './about.module.css';
-import { Anchor, Footer, Header, Spotify } from '@/components';
+import { Footer, Header, Spotify } from '@/components';
 import { aboutNavigation } from '@/constants/navigations';
 import Image from 'next/image';
-import Riviera from '../../../public/about/Riviera.webp';
-import Lazio from '../../../public/about/Lazio.webp';
-import Serra from '../../../public/about/Serra.webp';
-import Sampa from '../../../public/about/Sampa.webp';
+import Riviera from '../../../public/about/Riviera@2.webp';
+import Lazio from '../../../public/about/Lazio@2.webp';
+import Serra from '../../../public/about/Serra@2.webp';
+import Sampa from '../../../public/about/Sampa@2.webp';
+import { Metadata } from 'next';
+
+export const metadata: Metadata = {
+  title: `Salut 👋`
+}
 
 export default function Home() {
     return (
@@ -39,10 +44,10 @@ export default function Home() {
                 </p>
                 <br/>
                 <div className={styles.photosWrapper}>
-                  <img className={styles.photo} width="auto" height="auto" src="about/Riviera@2.webp" alt='Photo of a random building in French Riviera in my Summer Euro trip in 2022' />
-                  <img className={styles.photo} width="auto" height="auto" src="about/Lazio@2.webp" alt='Photo of the Coliseo in Rome in my Summer Euro trip in 2022' />
-                  <img className={styles.photo} width="auto" height="auto" src="about/Serra@2.webp" alt='Photo of me and my girlfriend in Serra Negra' />
-                  <img className={styles.photo} width="auto" height="auto" src="about/Sampa@2.webp" alt='Photo of Estação da Luz in São Paulo' />
+                  <Image className={styles.photo} src={Riviera} alt='Photo of a random building in French Riviera in my Summer Euro trip in 2022' />
+                  <Image className={styles.photo} src={Lazio} alt='Photo of the Coliseo in Rome in my Summer Euro trip in 2022' />
+                  <Image className={styles.photo} src={Serra} alt='Photo of me and my girlfriend in Serra Negra' />
+                  <Image className={styles.photo} src={Sampa} alt='Photo of Estação da Luz in São Paulo' />
                 </div>
                 {/* ADD PHOTOS */}
                 <br/>

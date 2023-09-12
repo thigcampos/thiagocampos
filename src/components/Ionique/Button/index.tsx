@@ -1,17 +1,17 @@
-"use client"
-import Icon from "@mdi/react";
-import styles from "./button.module.css";
-import { mdiPlus } from "@mdi/js";
-import { Button } from "@/types";
+"use client";
 
-export default function Button({children, onClick, hasIcon} : Button) {
-    function renderIcon() {
-        return hasIcon ? (<Icon path={mdiPlus}/>) : null;
+import Icon from "@mdi/react";
+import { ButtonAttributes } from "@/types";
+import styles from "./button.module.css";
+
+export default function Button({children, onClick, icon } : ButtonAttributes) {
+    function renderLeftIcon(icon: string | undefined) {
+        return icon ? (<Icon path={icon}/>) : null;
     }
     return (
-        <button className={styles.container} onClick={onClick}>
-            {renderIcon()}
+        <button type="button" className={styles.container} onClick={onClick}>
+            {renderLeftIcon(icon)}
             <p className={styles.text}>{children}</p>
         </button>
-    )
+    );
 }

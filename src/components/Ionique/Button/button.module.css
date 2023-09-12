@@ -26,3 +26,12 @@
     color: var(--label-primary-default);
     font-weight: var(--font-weight-400);
 }
+
+.outline {
+    color: var(--label-primary-default);
+    border: 1.5px solid var(--label-primary-default);
+}
+
+.outline > span {
+    color: var(--label-accent-default);
+}

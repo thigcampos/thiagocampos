@@ -21,8 +21,6 @@ const aboutImages: Array<Images> = [
         url: Sampa,
         alt: "Photo of Estação da Luz in São Paulo"
     },
-]
+];
 
-export {
-    aboutImages
-}
+export default aboutImages;

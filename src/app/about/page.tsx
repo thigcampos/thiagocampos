@@ -1,25 +1,21 @@
-import styles from './about.module.css';
 import { Metadata } from 'next';
 import dynamic from 'next/dynamic';
 import Image from 'next/image';
 import { Footer, Header } from '@/components';
 import { aboutNavigation } from '@/constants/navigations';
-import { aboutImages } from '@/constants/images';
+import aboutImages from '@/constants/images';
+import styles from './about.module.css';
 
 const Spotify = dynamic(() => import('@/components/Spotify'));
 
 export const metadata: Metadata = {
   title: `Salut! Je suis Thiagos`
-}
+};
 
 export default function About() {
-    const renderImages = () => {
-      return aboutImages.map((image, idx) => {
-        return (
+    const renderImages = () => aboutImages.map((image, idx) => (
           <Image className={styles.photo} key={idx} src={image.url} alt={image.alt} loading='lazy'/>
-        )
-      })
-    }
+        ));
 
     return (
       <main className={styles.main}>
@@ -58,5 +54,5 @@ export default function About() {
         </div>
         <Footer />
       </main>
-    )
+    );
   }

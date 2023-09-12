@@ -1,63 +1,59 @@
+import { mdiArrowLeft } from "@mdi/js";
+
 const homeNavigation = [
     {
         name: "Blog",
         path: "/blog",
-        hasIcon: false
     },
     {
         name: "About Me",
         path: "/about",
-        hasIcon: false
     }
-]
+];
 
 const blogNavigation = [
     {
         name: "Home",
         path: "/",
-        hasIcon: true
+        icon: mdiArrowLeft
     },
     {
         name: "About Me",
         path: "/about",
-        hasIcon: false
     }
-]
+];
 
 const aboutNavigation = [
     {
         name: "Home",
         path: "/",
-        hasIcon: true
+        icon: mdiArrowLeft
     },
     {
         name: "Blog",
         path: "/blog",
-        hasIcon: false
     }
-]
+];
 
 const postNavigation = [
     {
         name: "Blog",
         path: "/blog",
-        hasIcon: true
+        icon: mdiArrowLeft
     },
     {
         name: "Home",
         path: "/",
-        hasIcon: false
     },
     {
         name: "About Me",
         path: "/about",
-        hasIcon: false
     }
-]
+];
 
 export {
     homeNavigation,
     blogNavigation,
     aboutNavigation,
     postNavigation
-}
+};

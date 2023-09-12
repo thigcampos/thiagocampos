@@ -1,3 +1,15 @@
 {
-  "extends": "next/core-web-vitals"
+  "extends": ["next"],
+  "parserOptions": {
+    "project": "./tsconfig.json"
+  },
+  "rules": {
+    "semi": ["error", "always"],
+    "array-bracket-newline": ["error"],
+    "array-bracket-spacing": ["error", "always"],
+    "arrow-parens": ["error", "always"],
+    "eqeqeq": ["error", "always"],
+    "no-cond-assign": ["error", "always"]
+  },
+  "ignorePatterns": ["**/*.js", "**/*.jsx"]
 }

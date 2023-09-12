@@ -1,13 +1,13 @@
-import { Header } from "./header";
-import { Button } from "./ionique";
+import { HeaderAttributes } from "./header";
+import { ButtonAttributes } from "./ionique";
 import { Images } from "./images";
-import { DesktopNavigation, MobileNavigation, NavigationGroup } from "./navigation";
+import { AnchorAttributes, ModalAttributes, NavigationGroup } from "./navigation";
 
 export type { 
-    Header,
-    Button,
+    HeaderAttributes,
+    ButtonAttributes,
     Images,
-    DesktopNavigation,
-    MobileNavigation, 
+    AnchorAttributes,
+    ModalAttributes, 
     NavigationGroup 
 };

@@ -1,6 +1,6 @@
 import { NavigationGroup } from ".";
 
-export interface Header {
+export interface HeaderAttributes {
     navGroup: Array<NavigationGroup>,
     hideDesktop?: boolean
 }

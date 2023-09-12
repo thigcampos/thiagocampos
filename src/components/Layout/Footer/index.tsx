@@ -1,6 +1,6 @@
 import Icon from "@mdi/react";
-import styles from "./footer.module.css"
 import { mdiAt, mdiGithub, mdiInstagram, mdiPinterest, mdiReddit, mdiSpotify } from "@mdi/js";
+import styles from "./footer.module.css";
 
 
 export default function Footer() {
@@ -27,5 +27,5 @@ export default function Footer() {
           </a>
         </div>
       </section>
-    )
+    );
 }

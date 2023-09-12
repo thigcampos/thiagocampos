@@ -1,12 +1,12 @@
 import { Url } from "next/dist/shared/lib/router/router";
 
-export interface DesktopNavigation {
-    children: String, 
+export interface AnchorAttributes {
     path: Url, 
-    hasIcon?: Boolean
+    icon?: string,
+    children: String, 
 }
 
-export interface MobileNavigation {
+export interface ModalAttributes {
     modalVisible: boolean, 
     toggleModal: () => void,
     navGroup: Array<NavigationGroup>
@@ -15,5 +15,5 @@ export interface MobileNavigation {
 export interface NavigationGroup {
     name: String,
     path: Url,
-    hasIcon: boolean
+    icon?: string
 }

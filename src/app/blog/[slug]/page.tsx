@@ -1,22 +1,22 @@
-import styles from "./post.module.css";
-import { format, parseISO } from 'date-fns'
+import { format, parseISO } from 'date-fns';
 import { Footer, Header } from '@/components';
 import { allPosts } from 'contentlayer/generated';
 import { postNavigation } from "@/constants/navigations";
+import styles from "./post.module.css";
 
 export const runtime = 'edge';
 
-export const generateStaticParams = async () => allPosts.map((post) => ({ slug: post._raw.flattenedPath }))
+export const generateStaticParams = async () => allPosts.map((post) => ({ slug: post._raw.flattenedPath }));
 
 export const generateMetadata = ({ params }: { params: { slug: string } }) => {
-  const post = allPosts.find((post) => post._raw.flattenedPath === params.slug)
-  if (!post) throw new Error(`Post not found for slug: ${params.slug}`)
-  return { title: post.title }
-}
+  const blogPost = allPosts.find((blogPost) => blogPost._raw.flattenedPath === params.slug);
+  if (!blogPost) throw new Error(`Post not found for slug: ${params.slug}`);
+  return { title: blogPost.title };
+};
 
-const PostLayout = ({ params }: { params: { slug: string } }) => {
-  const post = allPosts.find((post) => post._raw.flattenedPath === params.slug)
-  if (!post) throw new Error(`Post not found for slug: ${params.slug}`)
+function PostLayout({ params }: { params: { slug: string } }) {
+  const post = allPosts.find((post) => post._raw.flattenedPath === params.slug);
+  if (!post) throw new Error(`Post not found for slug: ${params.slug}`);
 
   return (
     <main className={styles.main}>
@@ -34,7 +34,7 @@ const PostLayout = ({ params }: { params: { slug: string } }) => {
       </div>
       <Footer />
     </main>
-  )
+  );
 }
 
-export default PostLayout
+export default PostLayout;

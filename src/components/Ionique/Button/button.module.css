@@ -28,10 +28,26 @@
 }
 
 .outline {
-    color: var(--label-primary-default);
-    border: 1.5px solid var(--label-primary-default);
+    background-color: transparent;
+    border: 1.5px solid var(--label-accent-default);
 }
 
-.outline > span {
+.outline:hover {
+    transition: 0.5s;
+    background-color: transparent;
+    border-color: var(--label-accent-hover);
+    
+    .text {
+       color: var(--label-accent-hover); 
+    }
+}
+
+.outline > svg {
+    height: 1.5rem;
+    width: 1.5rem;
+    color: var(--label-accent-default);
+}
+
+.outline > p {
     color: var(--label-accent-default);
 }

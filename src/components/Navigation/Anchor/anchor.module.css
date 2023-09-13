@@ -26,6 +26,24 @@
     font-weight: var(--font-weight-400);
 }
 
+.outline {
+    background-color: transparent;
+    border: 1.5px solid var(--label-accent-default);
+}
+
+.outline:hover {
+    transition: 0.5s;
+    background-color: transparent;
+    border-color: var(--label-accent-hover);
+    .text {
+       color: var(--label-accent-hover); 
+    }
+}
+
+.outline > p {
+    color: var(--label-accent-default);
+}
+
 @media only screen and (max-width: 768px) {
     .container {
         width: 100%;

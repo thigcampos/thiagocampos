@@ -3,7 +3,8 @@ import { Url } from "next/dist/shared/lib/router/router";
 export interface AnchorAttributes {
     path: Url, 
     icon?: string,
-    children: String, 
+    children: string, 
+    variant?: string
 }
 
 export interface ModalAttributes {
@@ -13,7 +14,7 @@ export interface ModalAttributes {
 }
 
 export interface NavigationGroup {
-    name: String,
+    name: string,
     path: Url,
     icon?: string
 }

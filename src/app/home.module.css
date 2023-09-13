@@ -28,6 +28,11 @@
   color: var(--label-primary-disabled);
 }
 
+.buttonWrapper {
+  display: flex;
+  gap: 1rem;
+}
+
 @media only screen and (max-width: 768px) {
   .main {
     display: flex;
@@ -42,6 +47,10 @@
   }
 
   .subtitle {
+    display: none;
+  }
+
+  .buttonWrapper > a {
     display: none;
   }
 }

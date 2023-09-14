@@ -5,11 +5,11 @@ import { Anchor, Modal } from './Navigation';
 import Spotify from './Spotify';
 
 export {
-    Header,
-    Footer,
-    Anchor,
-    Modal,
-    Button,
-    PostCard,
-    Spotify
+  Header,
+  Footer,
+  Anchor,
+  Modal,
+  Button,
+  PostCard,
+  Spotify
 };

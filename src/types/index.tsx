@@ -4,10 +4,10 @@ import { Images } from './images';
 import { AnchorAttributes, ModalAttributes, NavigationGroup } from './navigation';
 
 export type { 
-    HeaderAttributes,
-    ButtonAttributes,
-    Images,
-    AnchorAttributes,
-    ModalAttributes, 
-    NavigationGroup 
+  HeaderAttributes,
+  ButtonAttributes,
+  Images,
+  AnchorAttributes,
+  ModalAttributes, 
+  NavigationGroup 
 };

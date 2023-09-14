@@ -17,6 +17,7 @@
 
 .title {
     text-decoration: none;
+    color: var(--label-primary-default);
     font-weight: var(--font-weight-600);
     font-family: var(--font-family-title);
 }

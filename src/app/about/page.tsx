@@ -9,7 +9,7 @@ import styles from './about.module.css';
 const Spotify = dynamic(() => import('@/components/Spotify'));
 
 export const metadata: Metadata = {
-    title: 'Salut! Je suis Thiagos'
+    title: 'Salut! Je suis Thiago'
 };
 
 export default function About() {

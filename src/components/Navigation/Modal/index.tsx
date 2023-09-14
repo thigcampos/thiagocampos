@@ -1,11 +1,11 @@
-import { ModalAttributes } from "@/types";
-import { Footer, Anchor } from "@/components";
-import styles from "./modal.module.css";
+import { ModalAttributes } from '@/types';
+import { Footer, Anchor } from '@/components';
+import styles from './modal.module.css';
 
 export default function Modal({modalVisible, toggleModal, navGroup}: ModalAttributes) {        
     const renderMobileNav = () => navGroup.map((link, idx) => (
-            <Anchor key={idx} path={link.path} icon={link?.icon}>{link.name}</Anchor>
-        ));
+        <Anchor key={idx} path={link.path} icon={link?.icon}>{link.name}</Anchor>
+    ));
 
     if (!modalVisible) {
         return null;

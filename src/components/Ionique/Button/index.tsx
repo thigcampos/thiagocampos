@@ -1,8 +1,8 @@
-"use client";
+'use client';
 
-import Icon from "@mdi/react";
-import { ButtonAttributes } from "@/types";
-import styles from "./button.module.css";
+import Icon from '@mdi/react';
+import { ButtonAttributes } from '@/types';
+import styles from './button.module.css';
 
 export default function Button({children, onClick, icon } : ButtonAttributes) {
     function renderLeftIcon(icon: string | undefined) {

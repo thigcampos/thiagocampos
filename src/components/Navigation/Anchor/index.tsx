@@ -1,7 +1,7 @@
-import Link from "next/link";
-import Icon from "@mdi/react";
-import { AnchorAttributes } from "@/types";
-import styles from "./anchor.module.css";
+import Link from 'next/link';
+import Icon from '@mdi/react';
+import { AnchorAttributes } from '@/types';
+import styles from './anchor.module.css';
 
 export default function Anchor({children, path, icon, variant} : AnchorAttributes) {
     function renderLeftIcon(icon: string | undefined) {

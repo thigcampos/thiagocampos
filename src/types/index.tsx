@@ -1,7 +1,7 @@
-import { HeaderAttributes } from "./header";
-import { ButtonAttributes } from "./ionique";
-import { Images } from "./images";
-import { AnchorAttributes, ModalAttributes, NavigationGroup } from "./navigation";
+import { HeaderAttributes } from './header';
+import { ButtonAttributes } from './ionique';
+import { Images } from './images';
+import { AnchorAttributes, ModalAttributes, NavigationGroup } from './navigation';
 
 export type { 
     HeaderAttributes,

@@ -1,4 +1,4 @@
-import { NavigationGroup } from ".";
+import { NavigationGroup } from '.';
 
 export interface HeaderAttributes {
     navGroup: Array<NavigationGroup>,

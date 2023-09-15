@@ -16,12 +16,12 @@
 
     --background-primary: #FFFFFF;
 }
-/*
+
 @media (prefers-color-scheme: dark) {
     :root {
-        --fill-primary-default: #F3F3F3;
-        --fill-primary-hover: #EFEFEF;
-        --fill-primary-disabled: #E4E4E4;
+        --fill-primary-default: #333333;
+        --fill-primary-hover: #414141;
+        --fill-primary-disabled: #404040;
 
         --fill-accent-default: #0066FF;
         --fill-accent-hover: #0047B3;
@@ -32,7 +32,6 @@
 
         --label-accent-default: #0066FF;
 
-        --background-primary: #272727;
+        --background-primary: #161616;;
     }
 }
-*/

@@ -1,7 +1,7 @@
 :root {
     color-scheme: light dark;
-    --fill-primary-default: #E6E6E6;
-    --fill-primary-hover: #DADADA;
+    --fill-primary-default: #EFEFEF;
+    --fill-primary-hover: #E6E6E6;
     --fill-primary-disabled: #E4E4E4;
 
     --fill-accent-default: #0066FF;

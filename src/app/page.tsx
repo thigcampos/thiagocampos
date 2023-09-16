@@ -12,7 +12,7 @@ export default function Home() {
           a software engineer based in Brazil</h1>
           <div className={styles.buttonWrapper}>
             <Anchor path={'/blog'}>Personal blog</Anchor>
-            <Anchor path={'/projects'}>Selected work</Anchor>
+            {/* <Anchor path={'/projects'}>Selected work</Anchor> */}
             <Anchor path={'/about'}>Facts about me</Anchor>
             <Anchor path={'mailto:salut@thigcampos'} variant={'outline'}>salut@thigcampos.com</Anchor>
           </div>

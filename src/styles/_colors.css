@@ -16,7 +16,7 @@
 
     --background-primary: #FFFFFF;
 }
-
+/*
 @media (prefers-color-scheme: dark) {
     :root {
         --fill-primary-default: #333333;
@@ -35,3 +35,4 @@
         --background-primary: #161616;;
     }
 }
+*/

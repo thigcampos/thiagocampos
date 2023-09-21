@@ -1,8 +1,7 @@
 .container {
     gap: .5rem;
     display: flex;
-    max-width: 25rem;
-    width: max-content;
+    width: 50%;
     text-decoration: none;
     border-radius: 0.5rem;
     flex-direction: column;
@@ -19,7 +18,7 @@
     text-decoration: none;
     color: var(--label-primary-default);
     font-weight: var(--font-weight-600);
-    font-family: var(--font-family-title);
+    font-family: var(--font-family-body);
 }
 
 .content {

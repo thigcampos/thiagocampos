@@ -21,13 +21,21 @@
 }
 
 .title {
-  font-size: var(--font-size-64);
+    gap: 1rem;
+    display: flex;
+    align-items: flex-end;
+    font-size: var(--font-size-64);
+}
+
+.title > svg {
+    height: 85px;
 }
 
 .postsWrapper {
-  display: flex;
   gap: 1rem;
+  display: flex;
   margin-top: 2rem;
+  flex-direction: column;
 }
 
 @media only screen and (max-width: 768px) {

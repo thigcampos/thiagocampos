@@ -1,0 +1,12 @@
+.postsWrapper {
+    gap: 1rem;
+    display: flex;
+    margin-top: 2rem;
+    flex-direction: column;
+}
+
+.filterWrapper {
+  gap: 0.5rem;
+  display: flex;
+  margin-top: 2rem;
+}

@@ -44,13 +44,6 @@
     color: var(--label-primary-default);
 }
 
-.postsWrapper {
-  gap: 1rem;
-  display: flex;
-  margin-top: 2rem;
-  flex-direction: column;
-}
-
 @media only screen and (max-width: 768px) {
   .main {
     display: flex;

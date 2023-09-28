@@ -1,5 +1,5 @@
 import { HeaderAttributes } from './header';
-import { ButtonAttributes } from './ionique';
+import { ButtonAttributes, SelectAttributes } from './ionique';
 import { Images } from './images';
 import { AnchorAttributes, ModalAttributes, NavigationGroup } from './navigation';
 
@@ -9,5 +9,6 @@ export type {
   Images,
   AnchorAttributes,
   ModalAttributes, 
-  NavigationGroup 
+  NavigationGroup,
+  SelectAttributes
 };

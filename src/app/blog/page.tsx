@@ -15,7 +15,7 @@ export default function Blog() {
         <Header navGroup={blogNavigation}/>
         <section>
           <h1 className={styles.title}>
-            Blog
+            <span>Iukeri Blog</span>
             <Link href='/feed.xml' target='_blank' className={styles.rss}>
               <Icon path={mdiRss} />
             </Link>

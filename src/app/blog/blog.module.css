@@ -27,6 +27,11 @@
     font-size: var(--font-size-64);
 }
 
+.title > span {
+    font-weight: 600;
+    color: var(--label-primary-default);
+}
+
 .title > svg {
     height: 85px;
 }

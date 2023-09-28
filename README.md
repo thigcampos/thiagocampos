@@ -10,15 +10,26 @@ As for the development of the website, the technical scope involves using [NextJ
 ### Deployment
 The deployment of the MVP version of Iukeri was carried out on Cloudflare Pages. It was a straightforward process, as Cloudflare offers a guide for deploying various types of applications, including [NextJS Apps](https://developers.cloudflare.com/pages/framework-guides/deploy-a-nextjs-site).
 
-## Roadmap
-- [X] Initial Setup with NextJS;
-- [X] Markdown Support;
-- [X] `Blog` and `About Me` pages;
-- [ ] `Projects` page;
-- [ ] Improve `About Me` page perfomance;
-- [ ] Dark Mode;
+### Roadmap
+Features to be implemented in the website.
+
+**Work In Progress**
 - [ ] Tags system;
+- [ ] `Projects` page;
+
+**Planned for the future**
+- [ ] Dark Mode;
 - [ ] Searchs for specific post;
-- [ ] Support for pt-BR and es-ES; 
-- [ ] Support for it-IT and fr-FR;
+
+### Language Support
+**Supported**
+- [X] English
+
+**Work In Progress**
+- [ ] Portuguese
+
+**Planned for the future**
+- [ ] Spanish
+- [ ] French
+- [ ] Italian
 

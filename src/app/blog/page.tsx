@@ -3,8 +3,9 @@ import { allPosts } from 'contentlayer/generated';
 import { Footer, Header, PostCard } from '@/components';
 import { blogNavigation } from '@/constants/navigations';
 import Icon from '@mdi/react';
-import { mdiAt, mdiGithub, mdiInstagram, mdiPinterest, mdiReddit, mdiRss, mdiSpotify } from '@mdi/js';
+import { mdiRss } from '@mdi/js';
 import styles from './blog.module.css';
+import Link from 'next/link';
 
 export default function Blog() {
   const posts = allPosts.sort((a, b) => compareDesc(new Date(a.date), new Date(b.date)));
@@ -15,7 +16,9 @@ export default function Blog() {
         <section>
           <h1 className={styles.title}>
             Blog
-            <Icon path={mdiRss} />
+            <Link href='/feed.xml' target='_blank' className={styles.rss}>
+              <Icon path={mdiRss} />
+            </Link>
           </h1>
           <div className={styles.postsWrapper}>
             {posts.map((post, idx) => (

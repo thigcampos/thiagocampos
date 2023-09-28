@@ -1,6 +1,6 @@
 {
   "name": "iukeri",
-  "version": "0.2.21",
+  "version": "0.2.22",
   "private": true,
   "scripts": {
     "dev": "next dev",
@@ -15,11 +15,11 @@
     "@types/react": "18.2.21",
     "@types/react-dom": "18.2.7",
     "date-fns": "^2.30.0",
-    "eslint-config-next": "13.4.19",
-    "next": "13.4.19",
+    "eslint-config-next": "^13.5.3",
+    "next": "^13.5.3",
     "next-contentlayer": "^0.3.4",
-    "react": "18.2.0",
-    "react-dom": "18.2.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
     "rss": "^1.2.2",
     "sharp": "^0.32.5",
     "typescript": "5.2.2"

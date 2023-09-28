@@ -7,8 +7,7 @@ export interface ButtonAttributes extends ButtonHTMLAttributes<HTMLButtonElement
     onClick: MouseEventHandler<HTMLButtonElement> | undefined, 
 }
 
-export interface SelectAttributes extends ButtonHTMLAttributes<HTMLButtonElement> {
-    mode?: string,
-    callback: Function,
-    children: ReactNode,
+export interface SelectAttributes {
+    type: string,
+    callback: (tag: string, status: boolean) => void,
 }

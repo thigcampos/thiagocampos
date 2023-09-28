@@ -1,10 +1,7 @@
+import styles from './blog.module.css';
 import { Footer, Header } from '@/components';
 import { blogNavigation } from '@/constants/navigations';
-import Icon from '@mdi/react';
-import { mdiRss } from '@mdi/js';
-import styles from './blog.module.css';
-import Link from 'next/link';
-import ListPosts from '@/components/ListPosts';
+import Articles from '@/components/Articles';
 
 export default function Blog() {
   return (
@@ -15,7 +12,7 @@ export default function Blog() {
           <h1 className={styles.title}>
             <span>Iukeri Blog</span>
           </h1>
-          <ListPosts />
+          <Articles />
         </section>
       </div>
       <Footer />

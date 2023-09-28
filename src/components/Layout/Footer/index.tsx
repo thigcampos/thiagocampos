@@ -1,5 +1,5 @@
 import Icon from '@mdi/react';
-import { mdiAt, mdiGithub, mdiInstagram, mdiPinterest, mdiReddit, mdiRss, mdiSpotify } from '@mdi/js';
+import { mdiAt, mdiGithub, mdiInstagram, mdiPinterest, mdiRss, mdiSpotify } from '@mdi/js';
 import styles from './footer.module.css';
 
 

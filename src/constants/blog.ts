@@ -1,5 +1,5 @@
 const tagOptions = ['Logs', 'Sketch', 'Diaries'];
 
 export {
-    tagOptions
+  tagOptions
 };

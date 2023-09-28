@@ -12,24 +12,24 @@ export async function GET() {
     webMaster: `${(metadata?.authors as Author).name}`,
     managingEditor: `${(metadata?.authors as Author).name}`,
     language: 'en-US',
-  })
+  });
 
   allPosts.forEach((article) => {
-    const author = (metadata?.authors as Author).name
+    const author = (metadata?.authors as Author).name;
     feed.item({
       title: article.title,
-      description: article.description ?? '',
+      description: article.summary ?? '',
       url: `${(metadata?.authors as Author).url}${article.url}`,
       guid: `${(metadata?.authors as Author).url}${article.url}`,
       date: article.date,
       author: `${author}`,
-    })
-  })
+    });
+  });
 
   return new Response(feed.xml(), {
     headers: {
       'Content-Type': 'application/xml',
     },
-  })
+  });
 }
 

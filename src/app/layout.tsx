@@ -1,5 +1,5 @@
+import { metadata as siteMetada } from '@/config/metadata';
 import '@/styles/globals.css';
-import type { Metadata } from 'next';
 import { Inter, Playfair_Display } from 'next/font/google';
 
 const inter = Inter({
@@ -18,6 +18,8 @@ const playfairItalic = Playfair_Display({
   subsets: [ 'latin' ],
   style: 'italic'
 });
+
+export const metadata = siteMetada;
 
 export default function RootLayout({
   children,

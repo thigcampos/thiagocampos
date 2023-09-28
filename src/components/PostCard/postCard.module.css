@@ -31,3 +31,9 @@
     font-size: var(--font-size-14);
     color: var(--label-primary-disabled);
 }
+
+@media only screen and (max-width: 768px) {
+    .container {
+        width: 100%;
+    }
+  }

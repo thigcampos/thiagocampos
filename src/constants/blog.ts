@@ -1,3 +1,5 @@
-const TagOptions = ['Logs', 'Sketch', 'Diaries'];
+const tagOptions = ['Logs', 'Sketch', 'Diaries'];
 
-export default TagOptions;
+export {
+    tagOptions
+};

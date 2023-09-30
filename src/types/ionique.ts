@@ -9,5 +9,12 @@ export interface ButtonAttributes extends ButtonHTMLAttributes<HTMLButtonElement
 
 export interface SelectAttributes {
     type: string,
+    isActive: boolean,
     callback: (tag: string, status: boolean) => void,
+}
+
+export interface FilterAttributes {
+    options: string[],
+    defaultValue?: string,
+    callback: (selected: string) => void,
 }

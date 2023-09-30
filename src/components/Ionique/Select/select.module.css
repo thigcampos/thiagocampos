@@ -1,11 +1,8 @@
 .inactive {
-    gap: 0.5rem;
-    display: flex;
+    border: none;
     width: max-content;
     border-radius: 1rem;
-    align-items: center;
     text-decoration: none;
-    border: 1px solid transparent;
     padding: var(--container-padding);
     background-color: var(--fill-primary-default);
 }
@@ -22,15 +19,12 @@
 }
 
 .active {
-    gap: 0.5rem;
-    display: flex;
+    border: none;
     width: max-content;
     border-radius: 1rem;
-    align-items: center;
     text-decoration: none;
     padding: var(--container-padding);
-    border: 1px solid var(--fill-accent-default);
-    background-color: var(--fill-accent-disabled);
+    background-color: var(--fill-primary-disabled);
 }
 
 .active:hover {
@@ -41,29 +35,4 @@
     font-size: var(--font-size-20);
     color: var(--label-primary-default);
     font-weight: var(--font-weight-400);
-}
-
-.outline {
-    background-color: transparent;
-    border: 1.5px solid var(--label-accent-default);
-}
-
-.outline:hover {
-    transition: 0.5s;
-    background-color: transparent;
-    border-color: var(--label-accent-hover);
-    
-    .text {
-       color: var(--label-accent-hover); 
-    }
-}
-
-.outline > svg {
-    height: 1.5rem;
-    width: 1.5rem;
-    color: var(--label-accent-default);
-}
-
-.outline > p {
-    color: var(--label-accent-default);
 }

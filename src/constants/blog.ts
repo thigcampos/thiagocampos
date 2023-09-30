@@ -1,4 +1,4 @@
-const tagOptions = ['Logs', 'Sketch', 'Diaries'];
+const tagOptions = ['All', 'Logs', 'Sketch', 'Diaries'];
 
 export {
   tagOptions

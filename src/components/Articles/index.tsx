@@ -2,30 +2,25 @@
 
 import styles from './articles.module.css';
 import { useState } from 'react';
-import Select from '../Ionique/Select';
 import { allPosts } from 'contentlayer/generated';
 import { PostCard } from '..';
 import { compareDesc } from 'date-fns';
+import { tagOptions } from '@/constants/blog';
+import Filter from '../Ionique/Filter';
 
 export default function Articles() {
-  const [filter, setFilter] = useState<Array<string>>([]);
+  const [filter, setFilter] = useState<string>('All');
   const posts = allPosts.sort((a, b) => compareDesc(new Date(a.date), new Date(b.date)));
   
-  function getStatus(tag: string, status: boolean) {
-    let currentFilter = [...filter];
-      
-    if (currentFilter.includes(tag) && status === false) {
-      currentFilter = currentFilter.filter((filtro) => filtro !== tag);
-    } else currentFilter.push(tag);  
-      
-    setFilter(currentFilter);
+  function getStatus(selected: string) {
+    setFilter(selected);
   }
 
   function filterPosts() {
-    if (filter.length === 0) {
+    if (filter === 'All') {
       return posts;
     } 
-    const filteredPosts = posts.filter((post) => filter.includes(post.tag));
+    const filteredPosts = posts.filter((post) => post.tag === filter);
     return filteredPosts;
   }
 
@@ -39,8 +34,7 @@ export default function Articles() {
   return (
     <div>
       <div className={styles.filterWrapper}>
-        <Select callback={getStatus} type='Logs' />
-        <Select callback={getStatus} type='Sketch' />
+        <Filter callback={getStatus} options={tagOptions} defaultValue='All'/>
       </div>
       <div className={styles.postsWrapper}>
         { renderPosts() }

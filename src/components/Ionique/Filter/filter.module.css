@@ -1,0 +1,7 @@
+.filterWrapper {
+    gap: 0;
+    display: flex;
+    padding: 0.125rem;
+    border-radius: 1rem;
+    background-color: var(--fill-primary-default);
+}

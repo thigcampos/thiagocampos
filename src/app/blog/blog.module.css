@@ -36,14 +36,6 @@
     height: 85px;
 }
 
-.rss {
-    width: 85px;
-    height: 85px;
-    margin: none;
-    padding: none;
-    color: var(--label-primary-default);
-}
-
 @media only screen and (max-width: 768px) {
   .main {
     display: flex;

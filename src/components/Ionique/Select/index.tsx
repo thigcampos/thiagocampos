@@ -2,16 +2,12 @@
 
 import { SelectAttributes } from '@/types';
 import styles from './select.module.css';
-import { useState } from 'react';
 
-export default function Select({type, callback} : SelectAttributes) {
-  const [isActive, setIsActive] = useState<boolean>(false);
+export default function Select({type, callback, isActive} : SelectAttributes) {
   const containerStyle = isActive ? styles.active : styles.inactive; 
-  
+
   function handleClick(tag: string, status: boolean) {
-    const currentStatus = status;
-    setIsActive(!currentStatus);
-    callback(tag, !currentStatus);
+    callback(tag, !status);
   }
 
   return (

@@ -6,7 +6,12 @@
 }
 
 .filterWrapper {
-  gap: 0.5rem;
   display: flex;
   margin-top: 2rem;
+  align-items: center;
+}
+
+.filterTitle {
+    font-size: var(--font-size-24);
+    font-family: var(--font-family-body);
 }

@@ -9,9 +9,16 @@ export default function Filter({callback, options, defaultValue} : FilterAttribu
   const [selected, setSelected] = useState<string>(defaultValue || options[0]);
 
   function handleClick(tag: string, status: boolean) {
-    if(status === false) setSelected(defaultValue || options[0]); 
-    else setSelected(tag);
-    callback(tag); 
+    let selectedOption;
+    
+    if (status === false) {
+      selectedOption = defaultValue || options[0]; 
+    } else {
+      selectedOption = tag; 
+    }
+
+    setSelected(selectedOption);
+    callback(selectedOption); 
   }
 
   function renderOptions() {

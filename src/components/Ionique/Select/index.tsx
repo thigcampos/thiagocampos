@@ -1,13 +1,14 @@
 'use client';   
 
-import { SelectAttributes } from '@/types';
 import styles from './select.module.css';
+import { SelectAttributes } from '@/types';
 
-export default function Select({type, callback, isActive} : SelectAttributes) {
+export default function Select({type, isActive, callback} : SelectAttributes) {
   const containerStyle = isActive ? styles.active : styles.inactive; 
-
-  function handleClick(tag: string, status: boolean) {
-    callback(tag, !status);
+  
+  function handleClick(tag: string, currentStatus: boolean) {
+    const status = !currentStatus;
+    callback(tag, status);
   }
 
   return (

@@ -1,5 +1,8 @@
-const tagOptions = ['All', 'Logs', 'Sketch', 'Diaries'];
+const tagOptions = ['Logs', 'Sketch', 'Diaries'];
+
+const filterPostOptions = ['All', 'Logs', 'Sketch', 'Diaries'];
 
 export {
-  tagOptions
+  tagOptions,
+  filterPostOptions
 };

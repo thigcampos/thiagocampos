@@ -35,7 +35,7 @@ export default function Articles() {
     
     if (filteredPosts.length === 0) {
       // TODO: Create a componente for empty list
-      return null;
+      return <p className={styles.warning}>We don&apos;t have any post... Try to set the filter to <span>All</span></p>;
     }
 
     return filteredPosts.map((post, idx) => (

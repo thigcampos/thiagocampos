@@ -15,3 +15,13 @@
     font-size: var(--font-size-24);
     font-family: var(--font-family-body);
 }
+
+.warning {
+  font-size: var(--font-size-20);
+}
+
+.warning > span {
+  font-weight: 600;
+  font-style: normal;
+  font-family: var(--font-family-body);
+}

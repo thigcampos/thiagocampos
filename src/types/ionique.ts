@@ -1,3 +1,4 @@
+import { Url } from 'next/dist/shared/lib/router/router';
 import { ButtonHTMLAttributes, MouseEventHandler, ReactNode } from 'react';
 
 export interface ButtonAttributes extends ButtonHTMLAttributes<HTMLButtonElement> {
@@ -17,4 +18,12 @@ export interface FilterAttributes {
     options: string[],
     defaultValue?: string,
     callback: (selected: string) => void,
+}
+
+export interface ShowcaseAttributes {
+    title: string,
+    description: string,
+    image: string
+    icon: string,
+    path: Url,
 }

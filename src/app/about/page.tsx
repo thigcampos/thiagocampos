@@ -33,7 +33,6 @@ export default function About() {
                         Feel free to check out some of my Spotify playlists filled with handpicked treasures.
             </p>
             <br/><br/>
-            <br/><br/>
             <p className={styles.text}>
                         Beyond the screen, you&apos;ll find me watching movies, cooking up some pasta, or embarking on new adventures. 
                         I&apos;ve had the privilege of exploring various Brazilian cities, each with its unique charm and culture. 

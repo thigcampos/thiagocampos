@@ -1,12 +1,9 @@
 import { Metadata } from 'next';
-import dynamic from 'next/dynamic';
 import Image from 'next/image';
 import { Footer, Header } from '@/components';
 import { aboutNavigation } from '@/constants/navigations';
 import aboutImages from '@/constants/images';
 import styles from './about.module.css';
-
-const Spotify = dynamic(() => import('@/components/Spotify'));
 
 export const metadata: Metadata = {
   title: 'Salut! Je suis Thiago'
@@ -36,7 +33,6 @@ export default function About() {
                         Feel free to check out some of my Spotify playlists filled with handpicked treasures.
             </p>
             <br/><br/>
-            <Spotify />
             <br/><br/>
             <p className={styles.text}>
                         Beyond the screen, you&apos;ll find me watching movies, cooking up some pasta, or embarking on new adventures. 

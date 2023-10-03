@@ -13,7 +13,7 @@ export default function Anchor({children, path, icon, variant} : AnchorAttribute
   }
 
   return (
-    <Link className={getClassNames()} href={path}>
+    <Link className={getClassNames()} href={path} prefetch={false}>
       {renderLeftIcon(icon)}
       <p className={styles.text}>{children}</p>
     </Link>

@@ -5,7 +5,7 @@ import styles from './postCard.module.css';
 
 export default function PostCard({title, tag, summary, url, date}: Post) {
   return (
-    <Link href={url} className={styles.container}>
+    <Link href={url} className={styles.container} prefetch={false}>
       <h2 className={styles.title}>
         {tag} | {title}
       </h2>

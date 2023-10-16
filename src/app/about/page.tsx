@@ -20,30 +20,38 @@ export default function About() {
         <Header navGroup={aboutNavigation}/>
         <section>
           <div className={styles.content}>
-            <span className={styles.date}> September, 08 2023 | 19:09 </span>
+            <span className={styles.date}> October, 16 2023 | 16:05 </span>
             <p className={styles.text}>
-                        Hey there! I&apos;m <span>Thiago Campos</span>, a software engineer based in <span>Brazil</span>.
-                        Currently, I&apos;m working as a React Developer at Pride Innovations, where I&apos;m deeply involved in crafting in-house systems.
-                        All my devices are powered by Linux, from my Android smartphone to Fedora running on my home server, desktop, and laptop.
+              Salut! I&apos;m Thiago Campos, a software engineer based in Brazil. 
+              Currently, I&apos;m working as a Front-end Developer, maintaining 
+              and improving in-house systems at Pride Innovations.
             </p>
             <br/><br/>
             <p className={styles.text}>
-                        Besides coding, I&apos;m a design enthusiast, primarily inspired by fashion and architecture. 
-                        While savoring a good home-brewed coffee, you&apos;ll often find me immersed in the smooth rhythms of Bossa Nova and Jazz. 
-                        Feel free to check out some of my Spotify playlists filled with handpicked treasures.
+              Since I was a child, my skills and interests have led me to the 
+              intersection between humanities and sciences. This affinity is 
+              likely the driving force behind my deep fascination with 
+              technology. Now, I aim to draw on the creativity that emerges 
+              from this intersection to craft truly splendid things.
             </p>
             <br/><br/>
             <p className={styles.text}>
-                        Beyond the screen, you&apos;ll find me watching movies, cooking up some pasta, or embarking on new adventures. 
-                        I&apos;ve had the privilege of exploring various Brazilian cities, each with its unique charm and culture. 
-                        Additionally, I&apos;ve ventured beyond my homeland, visiting captivating countries in Europe like Spain, France, 
-                        Italy and Monaco, which have enriched my life with diverse experiences and cultural insights.
+              Despite loving technology, most of my other interests reflects my 
+              taste for humanities. I have a deep appreciation for design, 
+              especially fashion and architecture. Music, side-by-side with 
+              History, Cinematography, and Literature, are other major personal passions.
             </p>
-            <br/>
+            <br/><br/>
             <div className={styles.photosWrapper}>
               { renderImages() }
             </div>
-            <br/>
+            <br/><br/>
+            <p className={styles.text}>
+              I intend to learn as much as possible, explore diverse cultures, and 
+              craft truly special things that are worth being proud of, hoping to 
+              be on the right path to build a legacy as a creative craftsman and 
+              complete artist, influenced by each piece of knowledge acquired throughout my life.
+            </p>
           </div>
         </section>
       </div>

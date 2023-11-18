@@ -14,7 +14,7 @@ export default function Home() {
             <Anchor path={'/blog'}>Personal blog</Anchor>
             {/* <Anchor path={'/projects'}>Selected work</Anchor> */}
             <Anchor path={'/about'}>Facts about me</Anchor>
-            <Anchor path={'mailto:salut@thigcampos'} variant={'outline'}>salut@thigcampos.com</Anchor>
+            <Anchor path={'mailto:ola@thigcampos'} variant={'outline'}>ola@thigcampos.com</Anchor>
           </div>
         </div>
       </section>

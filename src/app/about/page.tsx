@@ -20,26 +20,27 @@ export default function About() {
         <Header navGroup={aboutNavigation}/>
         <section>
           <div className={styles.content}>
-            <span className={styles.date}> October, 16 2023 | 16:05 </span>
+            <span className={styles.date}> 16 de Novembro de 2023 | 16:05 </span>
             <p className={styles.text}>
-              Salut! I&apos;m Thiago Campos, a software engineer based in Brazil. 
-              Currently, I&apos;m working as a Front-end Developer, maintaining 
-              and improving in-house systems at Pride Innovations.
+              Olá! Eu sou Thiago Campos, um engenheiro de software baseado no Brasil. 
+              Atualmente, eu estou trabalhando como um Desenvolvedor Front-end, mantendo 
+              e melhorando sistemas internos na Pride Innovations.
             </p>
             <br/><br/>
             <p className={styles.text}>
-              Since I was a child, my skills and interests have led me to the 
-              intersection between humanities and sciences. This affinity is 
-              likely the driving force behind my deep fascination with 
-              technology. Now, I aim to draw on the creativity that emerges 
-              from this intersection to craft truly splendid things.
+              Desde a infância, minhas habilidades e interesses me levaram a
+              intersecção entre as humanidades e as ciências. Essa afinidade é
+              possivelmente a principal força por trás da minha profunda fascinação
+              com tecnologia. Agora, eu pretendo beneficiar-me da critatividade que 
+              emerge da intersecção para criar coisas verdadeiramente esplêndidas.
             </p>
             <br/><br/>
             <p className={styles.text}>
-              Despite loving technology, most of my other interests reflects my 
-              taste for humanities. I have a deep appreciation for design, 
-              especially fashion and architecture. Music, side-by-side with 
-              History, Cinematography, and Literature, are other major personal passions.
+              Apesar de amar tecnologia, grande parte dos meus outros interesses e
+              passatempos refletem o meu gosto por humanidades. Eu tenho uma profunda
+              paixão por design, especialmente os segmentos de produtos e arquitetura. 
+              Música, lado a lado com História, Cinematografia e Literatura, são os meus
+              principais interesses.
             </p>
             <br/><br/>
             <div className={styles.photosWrapper}>
@@ -47,10 +48,11 @@ export default function About() {
             </div>
             <br/><br/>
             <p className={styles.text}>
-              I intend to learn as much as possible, explore diverse cultures, and 
-              craft truly special things that are worth being proud of, hoping to 
-              be on the right path to build a legacy as a creative craftsman and 
-              complete artist, influenced by each piece of knowledge acquired throughout my life.
+              Eu pretendo aprender o máximo possível, explorar diversas culturas e 
+              criar itens verdadeiramente especial que eu possa me orgulhar, esperando
+              estar no caminho certo para criar um legado como um criador criativo e um
+              artista completo, influenciado por cada pedaço de conhecimento adquirido
+              ao longo da minha vida.
             </p>
           </div>
         </section>

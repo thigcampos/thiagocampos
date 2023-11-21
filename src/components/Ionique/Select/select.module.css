@@ -36,3 +36,9 @@
     color: var(--label-primary-default);
     font-weight: var(--font-weight-400);
 }
+
+@media only screen and (max-width: 359px) {
+    .text {
+        font-size: var(--font-size-18);
+    }
+}

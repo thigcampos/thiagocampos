@@ -2,51 +2,51 @@ import { mdiArrowLeft } from '@mdi/js';
 
 const homeNavigation = [
   {
-    name: 'Blog',
+    name: 'Blogue',
     path: '/blog',
   },
   {
-    name: 'About Me',
+    name: 'Sobre Mim',
     path: '/about',
   }
 ];
 
 const blogNavigation = [
   {
-    name: 'Home',
+    name: 'Início',
     path: '/',
     icon: mdiArrowLeft
   },
   {
-    name: 'About Me',
+    name: 'Sobre Mim',
     path: '/about',
   }
 ];
 
 const aboutNavigation = [
   {
-    name: 'Home',
+    name: 'Início',
     path: '/',
     icon: mdiArrowLeft
   },
   {
-    name: 'Blog',
+    name: 'Blogue',
     path: '/blog',
   }
 ];
 
 const postNavigation = [
   {
-    name: 'Blog',
+    name: 'Blogue',
     path: '/blog',
     icon: mdiArrowLeft
   },
   {
-    name: 'Home',
+    name: 'Início',
     path: '/',
   },
   {
-    name: 'About Me',
+    name: 'Sobre Mim',
     path: '/about',
   }
 ];

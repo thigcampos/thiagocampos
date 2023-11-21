@@ -5,3 +5,10 @@
     border-radius: 1rem;
     background-color: var(--fill-primary-default);
 }
+
+@media only screen and (max-width: 359px) {
+    .filterWrapper {
+        padding: 0rem;
+        border-radius: 1rem;
+    }
+}

@@ -8,12 +8,12 @@ export default function Home() {
       <Header navGroup={homeNavigation} hideDesktop/>
       <section>
         <div className={styles.headline}>
-          <h1 className={styles.title}>Salut, je suis <span>Thiago Campos</span> — <br/>
-          a software engineer based in Brazil</h1>
+          <h1 className={styles.title}>Olá, eu sou <span>Thiago Campos</span> — <br/>
+          engenheiro de software baseado no Brasil</h1>
           <div className={styles.buttonWrapper}>
-            <Anchor path={'/blog'}>Personal blog</Anchor>
+            <Anchor path={'/blog'}>Blogue pessoal</Anchor>
             {/* <Anchor path={'/projects'}>Selected work</Anchor> */}
-            <Anchor path={'/about'}>Facts about me</Anchor>
+            <Anchor path={'/about'}>Fatos sobre mim</Anchor>
             <Anchor path={'mailto:ola@thigcampos'} variant={'outline'}>ola@thigcampos.com</Anchor>
           </div>
         </div>

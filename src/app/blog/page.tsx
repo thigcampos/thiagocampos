@@ -10,7 +10,7 @@ export default function Blog() {
         <Header navGroup={blogNavigation}/>
         <section>
           <h1 className={styles.title}>
-            Blogue
+            Escritos
           </h1>
           <Articles />
         </section>

@@ -1,8 +1,8 @@
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: 'Thiago Campos | Software Engineer',
-  description: `Hey there! I am Thiago Campos, a software engineer based in Brazil. 
-      Currently, I am working as a React Developer at Pride Innovations, where I am deeply involved in crafting in-house systems.`,
+  title: 'Thiago Campos',
+  description: `Olá, Meu nome é Thiago Campos, sou um engenheiro de software baseado no Brasil. 
+    Atualmente atuo como desenvolvedor front-end na Pride Innovations. Se precisar falar comigo, mande um e-mail.`,
   authors: { name: 'Thiago Campos', url: 'https://thigcampos.com'},
 };

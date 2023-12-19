@@ -22,25 +22,24 @@ export default function About() {
           <div className={styles.content}>
             <span className={styles.date}> 16 de Novembro de 2023 | 16:05 </span>
             <p className={styles.text}>
-              Olá! Eu sou Thiago Campos, um engenheiro de software baseado no Brasil. 
-              Atualmente, eu estou trabalhando como um Desenvolvedor Front-end, mantendo 
+              Olá! Eu sou Thiago Campos, um engenheiro de software sediado no Brasil. 
+              Atualmente, eu atuo como um Desenvolvedor Front-end, mantendo 
               e melhorando sistemas internos na Pride Innovations.
             </p>
             <br/><br/>
             <p className={styles.text}>
-              Desde a infância, minhas habilidades e interesses me levaram a
-              intersecção entre as humanidades e as ciências. Essa afinidade é
-              possivelmente a principal força por trás da minha profunda fascinação
-              com tecnologia. Agora, eu pretendo beneficiar-me da critatividade que 
-              emerge da intersecção para criar coisas verdadeiramente esplêndidas.
+              Desde a infância, minhas habilidades e interesses me levaram a estar na
+              intersecção entre as humanidades e as exatas. Essa afinidade mostra-se
+              ser a principal força por trás do meu grande fascínio pela tecnologia.
+              Eu pretendo beneficiar-me da critatividade que emerge de tal intersecção 
+              para criar produtos verdadeiramente esplêndidos.
             </p>
             <br/><br/>
             <p className={styles.text}>
-              Apesar de amar tecnologia, grande parte dos meus outros interesses e
-              passatempos refletem o meu gosto por humanidades. Eu tenho uma profunda
-              paixão por design, especialmente os segmentos de produtos e arquitetura. 
-              Música, lado a lado com História, Cinematografia e Literatura, são os meus
-              principais interesses.
+              Apesar de adorar tecnologia, a maior parte dos meus interesses e passatempos
+              refletem o meu gosto por humanidades. Sou apaixonado por design, especialmente 
+              os segmentos de produtos e arquitetura. Música, lado a lado com História, 
+              Cinematografia e Literatura, são outros dos meus principais interesses.
             </p>
             <br/><br/>
             <div className={styles.photosWrapper}>

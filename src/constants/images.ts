@@ -7,19 +7,19 @@ import Sampa from '../../public/about/Sampa@2.webp';
 const aboutImages: Array<Images> = [
   {
     url: Riviera,
-    alt: 'Photo of a random building in French Riviera in my Summer Euro trip in 2022'
+    alt: 'Foto de um prédio aleatório tirada na Riviera Francesa na minha viagem de verão pela Europa em 2022'
   },
   {
     url: Lazio,
-    alt: 'Photo of the Coliseo in Rome in my Summer Euro trip in 2022'
+    alt: 'Foto do Coliseu em Roma tirada na minha viagem de verão pela Europa em 2022'
   },
   {
     url: Serra,
-    alt: 'Photo of me and my girlfriend in Serra Negra'
+    alt: 'Foto minha e da minha conjugê em Serra Negra'
   },
   {
     url: Sampa,
-    alt: 'Photo of Estação da Luz in São Paulo'
+    alt: 'Foto da Estação da Luz em São Paulo'
   },
 ];
 

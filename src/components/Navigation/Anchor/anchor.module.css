@@ -21,14 +21,14 @@
 }
 
 .text {
-    font-size: var(--font-size-20);
+    font-size: var(--font-size-22);
     color: var(--label-primary-default);
-    font-weight: var(--font-weight-400);
+    font-weight: var(--font-weight-500);
 }
 
 .outline {
     background-color: transparent;
-    border: 1.5px solid var(--label-accent-default);
+    border: 2px solid var(--label-accent-default);
 }
 
 .outline:hover {

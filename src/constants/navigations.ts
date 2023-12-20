@@ -2,7 +2,11 @@ import { mdiArrowLeft } from '@mdi/js';
 
 const homeNavigation = [
   {
-    name: 'Blogue',
+    name: 'Notes',
+    path: '/notes',
+  },
+  {
+    name: 'Escritos',
     path: '/blog',
   },
   {
@@ -18,6 +22,26 @@ const blogNavigation = [
     icon: mdiArrowLeft
   },
   {
+    name: 'Notes',
+    path: '/notes',
+  },
+  {
+    name: 'Sobre Mim',
+    path: '/about',
+  }
+];
+
+const notesNavigation = [
+  {
+    name: 'Início',
+    path: '/',
+    icon: mdiArrowLeft
+  },
+  {
+    name: 'Escritos',
+    path: '/blog',
+  },
+  {
     name: 'Sobre Mim',
     path: '/about',
   }
@@ -30,20 +54,29 @@ const aboutNavigation = [
     icon: mdiArrowLeft
   },
   {
-    name: 'Blogue',
+    name: 'Notes',
+    path: '/notes',
+  },
+  {
+    name: 'Escritos',
     path: '/blog',
   }
+
 ];
 
 const postNavigation = [
   {
-    name: 'Blogue',
+    name: 'Escritos',
     path: '/blog',
     icon: mdiArrowLeft
   },
   {
     name: 'Início',
     path: '/',
+  },
+  {
+    name: 'Notes',
+    path: '/notes',
   },
   {
     name: 'Sobre Mim',
@@ -54,6 +87,7 @@ const postNavigation = [
 export {
   homeNavigation,
   blogNavigation,
+  notesNavigation,
   aboutNavigation,
   postNavigation
 };

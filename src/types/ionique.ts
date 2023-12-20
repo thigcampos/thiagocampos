@@ -14,12 +14,6 @@ export interface SelectAttributes {
     callback: (tag: string, status: boolean) => void,
 }
 
-export interface FilterAttributes {
-    options: string[],
-    defaultValue?: string,
-    callback: (selected: string) => void,
-}
-
 export interface ShowcaseAttributes {
     title: string,
     description: string,

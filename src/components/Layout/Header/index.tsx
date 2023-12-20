@@ -20,7 +20,7 @@ export default function Header({ navGroup, hideDesktop }: HeaderAttributes) {
   return (
     <section className={styles.container}>
       <div className={styles.mobileButtons}>
-        <Button icon={mdiPlus} onClick={() => toggleModal()}>Options</Button>
+        <Button icon={mdiPlus} onClick={() => toggleModal()}>Opções</Button>
       </div>
       <div className={styles.desktopButtons}>
         { renderDesktopNav() }

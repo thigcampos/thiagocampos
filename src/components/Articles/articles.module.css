@@ -5,17 +5,6 @@
     flex-direction: column;
 }
 
-.filterWrapper {
-  display: flex;
-  margin-top: 2rem;
-  align-items: center;
-}
-
-.filterTitle {
-    font-size: var(--font-size-24);
-    font-family: var(--font-family-body);
-}
-
 .warning {
   font-size: var(--font-size-20);
 }

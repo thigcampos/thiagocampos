@@ -1,5 +1,5 @@
 import Icon from '@mdi/react';
-import { mdiAt, mdiGithub, mdiInstagram, mdiPinterest, mdiRss, mdiSpotify } from '@mdi/js';
+import { mdiAt, mdiGithub, mdiInstagram, mdiMastodon, mdiPinterest, mdiRss, mdiSpotify } from '@mdi/js';
 import styles from './footer.module.css';
 
 
@@ -16,8 +16,8 @@ export default function Footer() {
         <a href="https://open.spotify.com/user/f2qveuaxz5vf7glg8821ot1x7" target="_blank" aria-label="Follow me on Spotify" rel="noreferrer">
           <Icon path={mdiSpotify}/>
         </a>
-        <a href="https://pinterest.fr/thigcampos/" target="_blank" aria-label="Follow me on Pinterest" rel="noreferrer">
-          <Icon path={mdiPinterest}/>
+        <a rel="me" href="https://bolha.us/@thigcampos">
+          <Icon path={mdiMastodon}/>
         </a>
         <a href="https://instagram.com/thigcampos" target="_blank" aria-label="Follow me on Instagram" rel="noreferrer">
           <Icon path={mdiInstagram}/>

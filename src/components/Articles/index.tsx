@@ -5,6 +5,7 @@ import { useEffect, useState } from 'react';
 import { compareDesc } from 'date-fns';
 import { allPosts } from 'contentlayer/generated';
 import PostCard from '../PostCard';
+import Empty from '../Empty';
 
 export default function Articles() {
   const posts = allPosts.sort((a, b) => compareDesc(new Date(a.date), new Date(b.date)));
@@ -17,7 +18,7 @@ export default function Articles() {
   function renderPosts() {
     if (posts.length === 0) {
       // TODO: Create a componente for empty list
-      return <p className={styles.warning}>Não há nenhum artigo por aqui... Tente utilizar o filtro <span>Todos</span></p>;
+      return <Empty />;
     }
 
     return posts.map((post, idx) => (

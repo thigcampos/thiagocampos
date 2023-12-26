@@ -88,7 +88,7 @@ const pageTitle = {
   home: 'Thiago Campos',
   notes: 'Notes | Thiago Campos',
   blog: 'Escritos | Thiago Campos',
-  about: 'Minha história | Thiago Campos'
+  about: 'Sobre mim | Thiago Campos'
 }
 
 export {

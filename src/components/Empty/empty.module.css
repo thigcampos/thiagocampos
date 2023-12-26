@@ -4,10 +4,6 @@
     padding: 0;
 }
 
-.titleWrapper {
-    padding: 1rem;
-}
-
 .title {
     font-size: var(--font-size-128);
     color: var(--label-primary-default);

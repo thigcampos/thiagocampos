@@ -21,7 +21,7 @@
 }
 
 .text {
-    font-size: var(--font-size-22);
+    font-size: var(--font-size-20);
     color: var(--label-primary-default);
     font-weight: var(--font-weight-500);
 }

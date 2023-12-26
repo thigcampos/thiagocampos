@@ -24,7 +24,7 @@
 .text {
     font-size: var(--font-size-20);
     color: var(--label-primary-default);
-    font-weight: var(--font-weight-400);
+    font-weight: var(--font-weight-500);
 }
 
 .outline {

@@ -20,9 +20,9 @@ export default function About() {
         <Header navGroup={aboutNavigation}/>
         <section>
           <div className={styles.content}>
-            <span className={styles.date}> 26 de Novembro de 2023 | 13:12 </span>
+            <span className={styles.date}> 26 de Dezembro de 2023 | 13:12 </span>
             <p className={styles.text}>
-              Saudações! Sou Thiago Campos, um engenheiro de software e entusiasta de design. 
+              Olá! Sou Thiago Campos, um engenheiro de software e entusiasta de design. 
               Residindo nas paragens serenas da Mantiqueira. Atuo como desenvolvedor front-end 
               no Launch ATS da Pride Global. Também mantenho e contribuo com algumas aplicações 
               de código aberto, como Watchword e Read You.

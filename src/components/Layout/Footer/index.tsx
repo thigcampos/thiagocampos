@@ -16,7 +16,7 @@ export default function Footer() {
         <a href="https://open.spotify.com/user/f2qveuaxz5vf7glg8821ot1x7" target="_blank" aria-label="Follow me on Spotify" rel="noreferrer">
           <Icon path={mdiSpotify}/>
         </a>
-        <a rel="me" href="https://bolha.us/@thigcampos" target="_blank" aria-label="Follow me on Mastodon">
+        <a rel="me" href="https://bolha.us/@thigcampos" aria-label="Follow me on Mastodon">
           <Icon path={mdiMastodon}/>
         </a>
         <a href="https://instagram.com/thigcampos" target="_blank" aria-label="Follow me on Instagram" rel="noreferrer">

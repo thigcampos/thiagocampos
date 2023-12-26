@@ -1,7 +1,12 @@
 import styles from './notes.module.css';
 import { Footer, Header } from '@/components';
-import { notesNavigation } from '@/constants/navigations';
+import { notesNavigation, pageTitle } from '@/constants/navigations';
 import Articles from '@/components/Articles';
+import { Metadata } from 'next';
+
+export const metadata: Metadata = {
+  title: pageTitle.notes
+};
 
 export default function Notes() {
   return (

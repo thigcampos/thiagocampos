@@ -1,4 +1,4 @@
-const tagOptions = ['Logs', 'Sketch', 'Diaries'];
+const tagOptions = ['Notes', 'Escritos'];
 
 export {
   tagOptions,

@@ -1,7 +1,12 @@
 import styles from './blog.module.css';
 import { Footer, Header } from '@/components';
-import { blogNavigation } from '@/constants/navigations';
+import { blogNavigation, pageTitle } from '@/constants/navigations';
 import Articles from '@/components/Articles';
+import { Metadata } from 'next';
+
+export const metadata: Metadata = {
+  title: pageTitle.blog
+};
 
 export default function Blog() {
   return (

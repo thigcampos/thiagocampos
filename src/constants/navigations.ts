@@ -84,10 +84,18 @@ const postNavigation = [
   }
 ];
 
+const pageTitle = {
+  home: 'Thiago Campos',
+  notes: 'Notes | Thiago Campos',
+  blog: 'Escritos | Thiago Campos',
+  about: 'Minha história | Thiago Campos'
+}
+
 export {
   homeNavigation,
   blogNavigation,
   notesNavigation,
   aboutNavigation,
-  postNavigation
+  postNavigation,
+  pageTitle
 };

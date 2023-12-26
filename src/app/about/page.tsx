@@ -1,12 +1,12 @@
 import { Metadata } from 'next';
 import Image from 'next/image';
 import { Footer, Header } from '@/components';
-import { aboutNavigation } from '@/constants/navigations';
+import { aboutNavigation, pageTitle } from '@/constants/navigations';
 import aboutImages from '@/constants/images';
 import styles from './about.module.css';
 
 export const metadata: Metadata = {
-  title: 'Salut! Je suis Thiago'
+  title: pageTitle.about
 };
 
 export default function About() {

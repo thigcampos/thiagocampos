@@ -89,7 +89,7 @@ const pageTitle = {
   notes: 'Notes | Thiago Campos',
   blog: 'Escritos | Thiago Campos',
   about: 'Sobre mim | Thiago Campos'
-}
+};
 
 export {
   homeNavigation,

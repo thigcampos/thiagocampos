@@ -1,10 +1,13 @@
 import styles from './empty.module.css';
 
-export default function Empty() {
+import { LanguageAttribute } from '@/types';
+import { emptyMessage } from '@/constants/blog';
+
+export default function Empty({ language }: LanguageAttribute) {
   return (
     <div className={styles.containerWrapper}>
       <div>
-        <p className={styles.warning}>Não há nenhum artigo por aqui...</p>
+        <p className={styles.warning}>{ emptyMessage[language] }</p>
       </div>
     </div>
   );

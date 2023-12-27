@@ -17,7 +17,7 @@ export default function Notes() {
           <h1 className={styles.title}>
             Notes
           </h1>
-          <Articles />
+          <Articles language='english' />
         </section>
       </div>
       <Footer />

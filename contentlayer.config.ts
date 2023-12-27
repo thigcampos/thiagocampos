@@ -1,4 +1,4 @@
-import { tagOptions } from './src/constants/blog';
+import { languageOptions } from './src/constants/blog';
 import { defineDocumentType, makeSource } from 'contentlayer/source-files';
 
 export const Post = defineDocumentType(() => ({
@@ -8,7 +8,7 @@ export const Post = defineDocumentType(() => ({
     date: { type: 'date', required: true },
     title: { type: 'string', required: true },
     summary: { type: 'string', required: true },
-    tag: { type: 'enum', options: tagOptions, required: true }
+    language: { type: 'enum', options: languageOptions, required: true }
   },
   computedFields: {
     url: { type: 'string', resolve: (post) => `/blog/${post._raw.flattenedPath}` },

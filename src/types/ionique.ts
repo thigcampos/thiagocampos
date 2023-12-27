@@ -21,3 +21,7 @@ export interface ShowcaseAttributes {
     icon: string,
     path: Url,
 }
+
+export interface LanguageAttribute {
+    language: string
+}

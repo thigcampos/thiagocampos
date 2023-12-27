@@ -17,7 +17,7 @@ export default function Blog() {
           <h1 className={styles.title}>
             Escritos
           </h1>
-          <Articles />
+          <Articles language='portuguese'/>
         </section>
       </div>
       <Footer />

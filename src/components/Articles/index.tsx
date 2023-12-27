@@ -1,14 +1,16 @@
 'use client';
 
-import styles from './articles.module.css';
 import { useEffect, useState } from 'react';
-import { compareDesc } from 'date-fns';
-import { allPosts } from 'contentlayer/generated';
-import PostCard from '../PostCard';
-import Empty from '../Empty';
 
-export default function Articles() {
-  const posts = allPosts.sort((a, b) => compareDesc(new Date(a.date), new Date(b.date)));
+import styles from './articles.module.css';
+
+import Empty from '../Empty';
+import PostCard from '../PostCard';
+import { LanguageAttribute } from '@/types';
+import { usePosts } from '@/hooks/usePosts';
+
+export default function Articles({ language }: LanguageAttribute) {
+  const posts = usePosts({ language: language });
   const [hydrated, setHydrated] = useState(false);
 	
   useEffect(() => {
@@ -17,8 +19,7 @@ export default function Articles() {
 
   function renderPosts() {
     if (posts.length === 0) {
-      // TODO: Create a componente for empty list
-      return <Empty />;
+      return <Empty language={language} />;
     }
 
     return posts.map((post, idx) => (

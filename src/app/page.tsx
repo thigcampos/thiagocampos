@@ -13,7 +13,7 @@ export default function Home() {
           <div className={styles.buttonWrapper}>
             <Anchor path={'/notes'}>Notes</Anchor>
             <Anchor path={'/blog'}>Escritos</Anchor>
-            <Anchor path={'/blog'}>Portfólio</Anchor>
+            <Anchor path={'/portfolio'}>Portfólio</Anchor>
             <Anchor path={'/about'}>Sobre mim</Anchor>
             <Anchor path={'mailto:ola@thigcampos'} variant={'outline'}>ola@thigcampos.com</Anchor>
           </div>

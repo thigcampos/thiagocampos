@@ -10,6 +10,10 @@ const homeNavigation = [
     path: '/blog',
   },
   {
+    name: 'Portfólio',
+    path: '/portfolio',
+  },
+  {
     name: 'Sobre Mim',
     path: '/about',
   }
@@ -26,6 +30,10 @@ const blogNavigation = [
     path: '/notes',
   },
   {
+    name: 'Portfólio',
+    path: '/portfolio',
+  },
+  {
     name: 'Sobre Mim',
     path: '/about',
   }
@@ -40,6 +48,10 @@ const notesNavigation = [
   {
     name: 'Escritos',
     path: '/blog',
+  },
+  {
+    name: 'Portfólio',
+    path: '/portfolio',
   },
   {
     name: 'Sobre Mim',
@@ -60,8 +72,32 @@ const aboutNavigation = [
   {
     name: 'Escritos',
     path: '/blog',
+  },
+  {
+    name: 'Portfólio',
+    path: '/portfolio',
   }
 
+];
+
+const portfolioNavigation = [
+  {
+    name: 'Início',
+    path: '/',
+    icon: mdiArrowLeft
+  },
+  {
+    name: 'Notes',
+    path: '/notes',
+  },
+  {
+    name: 'Escritos',
+    path: '/blog',
+  },
+  {
+    name: 'Sobre Mim',
+    path: '/about',
+  }
 ];
 
 const postNavigation = [
@@ -79,6 +115,10 @@ const postNavigation = [
     path: '/notes',
   },
   {
+    name: 'Portfólio',
+    path: '/portfolio',
+  },
+  {
     name: 'Sobre Mim',
     path: '/about',
   }
@@ -88,6 +128,7 @@ const pageTitle = {
   home: 'Thiago Campos',
   notes: 'Notes | Thiago Campos',
   blog: 'Escritos | Thiago Campos',
+  portfolio: 'Porfólio | Thiago Campos',
   about: 'Sobre mim | Thiago Campos'
 };
 
@@ -97,5 +138,6 @@ export {
   notesNavigation,
   aboutNavigation,
   postNavigation,
+  portfolioNavigation,
   pageTitle
 };

@@ -1,0 +1,25 @@
+.container {
+    padding: 2.5rem;
+    max-width: 640px;
+    max-height: 403px;
+    border-radius: 1rem;
+    background-color: var(--fill-primary-default);
+}
+
+.title {
+    color: var(--label-primary-default);
+    font-size: var(--font-size-40);
+}
+
+.description {
+    font-size: var(--font-size-18);
+}
+
+.link {
+    color: var(--fill-accent-default);
+}
+
+.image {
+    max-width: 480px;
+    height: auto;
+}

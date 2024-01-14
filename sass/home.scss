@@ -1,0 +1,43 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 6rem;
+  height: 100vh;
+}
+
+.welcome {
+  gap: 1.5rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.title {
+  font-weight: normal;
+  font-size: var(--font-size-48);
+}
+
+.title > span {
+    color: inherit;
+    font-style: normal;
+    font-weight: bold;
+}
+
+.nav-row {
+  display: flex;
+  gap: 2rem;
+}
+
+.link {
+    text-decoration: underline;
+    font-size: var(--font-size-22);
+    color: var(--label-primary-default);
+}
+
+.link:hover {
+    color: var(--label-accent-default);
+}
+
+.email {
+    color: var(--label-accent-default);
+}

@@ -1,7 +1,8 @@
 .section {
   display: flex;
   flex-direction: column;
- }
+  gap: 3rem;
+}
 
 .title {
  font-size: var(--font-size-64); 
@@ -20,7 +21,7 @@
 
 .list-item > span {
   font-style: normal;
-  font-weight: medium;
+  font-weight: 400;
   font-family: "Inter";
   font-size: var(--font-size-20);
   color: var(--label-primary-disabled);

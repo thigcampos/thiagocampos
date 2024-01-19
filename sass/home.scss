@@ -11,14 +11,14 @@
 }
 
 .title {
-  font-weight: normal;
+  font-weight: 400;
   font-size: var(--font-size-48);
 }
 
 .title > span {
     color: inherit;
-    font-style: normal;
-    font-weight: bold;
+    font-style: italic;
+    font-weight: 600;
 }
 
 .nav-row {

@@ -1,5 +1,6 @@
 +++
 title = "Notes"
 sort_by = "date"
-template = "pages/blog.html"
+template = "pages/notes.html"
+page_template = "post/notes.html"
 +++

@@ -69,7 +69,7 @@
 
 @font-face {
     font-family: 'Inter';
-    src: local('Inter'), url('fonts/Inter/Inter.tff');
+    src: local('Inter'), url('fonts/Inter/Inter-Regular.woff2');
     font-weight: normal;
     font-style: normal;
 }
@@ -94,3 +94,19 @@
     font-weight: bold;
     font-style: italic;
 }
+
+@font-face {
+    font-family: 'Inter';
+    src: url('fonts/Inter/Inter-Medium.woff2');
+    font-weight: medium;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Inter';
+    src: url('fonts/Inter/Inter-MediumItalic.woff2');
+    font-weight: medium;
+    font-style: italic;
+}
+
+

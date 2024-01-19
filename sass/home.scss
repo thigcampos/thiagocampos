@@ -1,12 +1,10 @@
-.container {
+.section {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  padding: 6rem;
-  height: 100vh;
-}
+ }
 
-.welcome {
+.container {
   gap: 1.5rem;
   display: flex;
   flex-direction: column;
@@ -29,15 +27,9 @@
 }
 
 .link {
-    text-decoration: underline;
     font-size: var(--font-size-22);
-    color: var(--label-primary-default);
-}
-
-.link:hover {
-    color: var(--label-accent-default);
 }
 
 .email {
-    color: var(--label-accent-default);
+  text-decoration: underline;
 }

@@ -1,21 +1,21 @@
-{% extends 'base.html' %}
+{% extends "base.html" %}
 {% block head %}
-  <link rel='stylesheet' href='home.css' /> 
+  <link rel="stylesheet" href="home.css" /> 
 {% endblock head %}
 
-
 {% block content %}
-    <div class='welcome'>
-        <h1 class='title'>
+  <section class="section">
+    <div class="container">
+        <h1 class="title">
             Olá, sou <span>Thiago Campos</span> — <br>
             engenheiro de software sediado no brasil  
         </h1>
-        <div class='nav-row'>
-            <a href='notes' class='link'>Notes</a>
-            <a href='blog' class='link'>Escritos</a>
-            <a href='portfolio' class='link'>Porfolio</a>
-            <a href='about' class='link'>Sobre Mim</a>
-            <a href='mailto:ola@thigcampos.com' class='link email'>ola@thigcampos.com</a>
+        <div class="nav-row">
+            <a href="notes" class="link">Notes</a>
+            <a href="blog" class="link">Escritos</a>
+            <a href="portfolio" class="link">Porfolio</a>
+            <a href="about" class="link">Sobre Mim</a>
+            <a href="mailto:ola@thigcampos.com" class="link email">ola@thigcampos.com</a>
         </div>
     </div>
 {% endblock content %}

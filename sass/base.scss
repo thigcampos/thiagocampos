@@ -23,7 +23,7 @@ body {
 
 h1, h2, h3, h4, h5, h6 {
   color: inherit;
-  line-height: 150%;
+  line-height: var(--font-line-height-title);
   font-family: var(--font-family-title);
   font-weight: var(--font-weight-600);
 }
@@ -45,7 +45,7 @@ p {
 }
 
 a {
-  line-height: 100%;
+  line-height: var(--font-line-height-body);
   text-decoration: none;
   color: var(--label-accent-default);
   font-family: var(--font-family-body);
@@ -54,7 +54,7 @@ a {
 }
 
 span {
-  line-height: 150%;
+  line-height: var(--font-line-height-title);
   font-style: italic;
   color: var(--label-accent-default);
   font-family: var(--font-family-accent);
@@ -65,4 +65,8 @@ pre {
   color: inherit;
   font-family: var(--font-family-code);
   font-weight: var(--font-weight-500);
+}
+
+.footer {
+
 }

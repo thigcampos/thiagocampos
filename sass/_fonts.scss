@@ -1,7 +1,7 @@
 :root {
     --font-family-title: 'Playfair', serif;
     --font-family-body: 'Inter', sans-serif;
-    --font-family-accent: 'Playfair';
+    --font-family-accent: 'Playfair', sans-serif;
 
     --font-weight-600: 600;
     --font-weight-500: 500;
@@ -19,8 +19,11 @@
     --font-size-16: 1rem;
     --font-size-14: 0.875rem;
     
-    --font-letter-spacing-title: -1.44px;
-    --font-letter-spacing-body: -0.54px;  
+    --font-letter-spacing-title: -2.88px;
+    --font-letter-spacing-body: -0.54px;
+
+    --font-line-height-title: 105%;
+    --font-line-height-body: 100%;
 }
 
 @media only screen and (max-width: 768px) {

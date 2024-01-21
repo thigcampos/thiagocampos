@@ -1,8 +1,8 @@
 {% extends "base.html" %}
 
 {% block head %}
-  <link rel="stylesheet" href="about.css" crossorigin="anonymous" />
-  <title>Sobre Mim | Thiago Campos</title>
+  <link rel="stylesheet" href="{{ get_url(path='about.css', trailing_slash=false) | safe }}" />
+<title>Sobre Mim | Thiago Campos</title>
 {% endblock head %}
 
 {% block content %} 

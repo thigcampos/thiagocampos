@@ -1,8 +1,8 @@
 {% extends "base.html" %}
 
 {% block head %}
-  <link rel="stylesheet" href="blog.css" crossorigin="anonymous" />
-  <link rel="stylesheet" href="mobile/blog.css" crossorigin="anonymous" media="screen and (max-width: 600px)" /> 
+  <link rel="stylesheet"  href="{{ get_url(path='blog.css', trailing_slash=false) | safe }}"  />
+  <link rel="stylesheet"  href="{{ get_url(path='mobile/blog.css', trailing_slash=false) | safe }}"  media="screen and (max-width: 600px)" /> 
   <title>Notes by Thiago Campos</title>
 {% endblock head %}
 

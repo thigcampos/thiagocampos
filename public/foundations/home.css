@@ -1,1 +1,0 @@
-.section{height:100%;display:flex;flex-direction:column;justify-content:center}.container{gap:1.5rem;display:flex;flex-direction:column}.title{font-weight:400;font-size:var(--font-size-48)}.title>span{color:inherit;font-style:italic;font-weight:600}.nav-row{display:flex;gap:2rem}.link{font-size:var(--font-size-22)}.email{text-decoration:underline}

@@ -1,16 +1,17 @@
 .section {
   display: flex;
   flex-direction: column;
-  gap: 3rem;
+  gap: 2rem;
 }
 
 .title {
+  margin-bottom: 2rem;
   font-size: var(--font-size-64); 
 }
 
 .listing {
-  margin-top: 2rem;
   list-style: none;
+  padding-left: 0rem;
 }
 
 .list-item {

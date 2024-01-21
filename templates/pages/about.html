@@ -1,0 +1,13 @@
+{% extends "base.html" %}
+
+{% block head %}
+  <link rel="stylesheet" href="about.css" crossorigin="anonymous" />
+  <title>Sobre Mim | Thiago Campos</title>
+{% endblock head %}
+
+{% block content %} 
+  <a href="/"><- Voltar para o Início</a>
+  <div class="content">
+    {{ page.content | safe }} 
+  </div>
+{% endblock content %}

@@ -4,16 +4,14 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width" />
-  <title>Thiago Campos</title>
-  <link rel="stylesheet" href="{{ get_url(path='base.css', trailing_slash=false) | safe }}" crossorigin="anonymous" />
-  <link rel="stylesheet" href="{{ get_url(path='mobile/base.css', trailing_slash=false) | safe }}"  media="screen and (max-width: 600px)" />
-  <link rel="icon" href="favicon.ico" crossorigin="anonymous" />
+  <link rel="stylesheet" href="{{ get_url(path="base.css", trailing_slash=false) | safe }}" crossorigin="anonymous" />
+  <link rel="stylesheet" href="{{ get_url(path="mobile/base.css", trailing_slash=false) | safe }}"  media="screen and (max-width: 600px)" />
+  <link rel="icon" href="{{ get_url(path="favicon.ico", trailing_slash=false) | safe }}" crossorigin="anonymous" />
   {% block head %} {% endblock head %}
 </head>
 
 <body>
   {% block content %} {% endblock content %}
-  {% include "components/footer.html" %}
 </body>
 
 </html>

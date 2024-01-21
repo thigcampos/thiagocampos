@@ -3,6 +3,7 @@
 {% block head %}
 <link rel="stylesheet" href="{{ get_url(path='post.css', trailing_slash=false) | safe }}" crossorigin="anonymous" />
 <link rel="stylesheet" href="{{ get_url(path="mobile/post.css", trailing_slash=false) | safe }}" crossorigin="anonymous" media="screen and (max-width: 600px)" />
+<title>{{  page.title }} | Notes</title>
 {% endblock head %}
 
 {% block content %}

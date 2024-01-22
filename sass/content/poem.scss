@@ -3,11 +3,12 @@
 }
 
 .container {
-  width: 50%;
-  display: flex;
-  flex-direction: column;
+  width: 60%;
   gap: 0.5rem;
   margin: auto;
+  display: flex;
+  max-width: 768px;
+  flex-direction: column;
 }
 
 span {
@@ -19,11 +20,17 @@ span {
 }
 
 .title {
- font-size: var(--font-size-48); 
+  font-size: var(--font-size-48); 
 }
 
 p {
-  font-size: var(--font-size-22);
   font-weight: 500;
   margin-bottom: 0.5rem;
+  font-size: var(--font-size-22);
+}
+
+@media screen and (max-width: 768px) {
+  .container {
+    width: 70%;
+  }
 }

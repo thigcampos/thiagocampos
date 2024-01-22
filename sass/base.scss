@@ -16,6 +16,15 @@ body {
   background: var(--background-primary); 
 }
 
+@media screen and (max-width: 768px) {
+  body {
+    height: 100vh;
+    padding: 1.5rem;
+    color: var(--label-primary-default);
+    background: var(--background-primary); 
+  }
+}
+
 h1, h2, h3, h4, h5, h6 {
   color: inherit;
   line-height: var(--font-line-height-title);

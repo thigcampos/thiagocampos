@@ -28,3 +28,18 @@
   color: var(--label-primary-disabled);
 }
 
+@media screen and (max-width: 768px) {
+  .section {
+    gap: 1rem;
+  }
+
+  .listing {
+    padding-left: 0;
+  }
+
+  .list-item {
+    gap: 0.5rem;
+    align-items: flex-start;
+    flex-direction: column;
+  }
+}

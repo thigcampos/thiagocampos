@@ -24,5 +24,16 @@ span {
 
 p {
   font-size: var(--font-size-18);
-  margin-bottom: 1rem;
+  margin-bottom: .25em;
+}
+
+p > a {
+  text-decoration: underline;
+}
+
+@media screen and (max-width: 768px) {
+  .container {
+    gap: 0.25rem;
+    width: 100%;
+  }
 }

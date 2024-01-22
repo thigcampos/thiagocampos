@@ -1,8 +1,9 @@
 {% extends "base.html" %}
 
 {% block head %}
-<link rel="stylesheet" href="{{ get_url(path="poem.css", trailing_slash=false) | safe }}" crossorigin="anonymous" />
-<link rel="stylesheet" href="{{ get_url(path="mobile/post.css", trailing_slash=false) | safe }}" crossorigin="anonymous" media="screen and (max-width: 600px)" /> 
+<title>{{ page.title }} | Líricos</title>
+<meta name="description" content="{{ page.summary }}" />
+<link rel="stylesheet" href="{{ get_url(path="content/poem.css", trailing_slash=false) | safe }}" crossorigin="anonymous" />
 {% endblock head %}
 
 {% block content %}

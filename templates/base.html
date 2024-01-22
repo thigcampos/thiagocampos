@@ -1,17 +1,15 @@
 <!DOCTYPE html>
 <html lang="pt">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width" />
+    <link rel="stylesheet" href="{{ get_url(path="base.css", trailing_slash=false) | safe }}" crossorigin="anonymous" />
+    <link rel="icon" href="{{ get_url(path="favicon.ico", trailing_slash=false) | safe }}" crossorigin="anonymous" />
+    {% block head %} {% endblock head %}
+  </head>
 
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width" />
-  <link rel="stylesheet" href="{{ get_url(path="base.css", trailing_slash=false) | safe }}" crossorigin="anonymous" />
-  <link rel="stylesheet" href="{{ get_url(path="mobile/base.css", trailing_slash=false) | safe }}"  media="screen and (max-width: 600px)" />
-  <link rel="icon" href="{{ get_url(path="favicon.ico", trailing_slash=false) | safe }}" crossorigin="anonymous" />
-  {% block head %} {% endblock head %}
-</head>
-
-<body>
-  {% block content %} {% endblock content %}
-</body>
+  <body>
+    {% block content %} {% endblock content %}
+  </body>
 
 </html>

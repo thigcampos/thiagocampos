@@ -1,25 +1,24 @@
 {% extends "base.html" %}
 {% block head %}
-  <title> Thiago Campos </title>
-  <meta name="description" content="Engenheiro de Software sediado no Brasil"> 
-  <link rel="stylesheet" href="{{ get_url(path='home.css', trailing_slash=false) | safe }}"  /> 
-  <link rel="stylesheet" href="{{ get_url(path='mobile/home.css', trailing_slash=false) | safe }}" media="screen and (max-width: 600px)" /> 
+<title> Thiago Campos </title>
+<meta name="description" content="Engenheiro de Software sediado no Brasil" /> 
+<link rel="stylesheet" href="{{ get_url(path='home.css', trailing_slash=false) | safe }}"  /> 
 {% endblock head %}
 
 {% block content %}
-  <section class="section">
-    <div class="container">
-        <h1 class="title">
-            Olá, sou <span>Thiago Campos</span> — <br>
-            engenheiro de software sediado no Brasil  
-        </h1>
-        <div class="nav-row">
-            <a href="notes" class="link">Notes</a>
-            <a href="blog" class="link">Escritos</a>
-            <a href="liricos" class="link">Líricos</a>
-            <a href="about" class="link">Sobre Mim</a>
-            <a href="mailto:ola@thigcampos.com" class="link email">ola@thigcampos.com</a>
-        </div>
+<section class="section">
+  <div class="container">
+    <h1 class="title">
+      Olá, sou <span>Thiago Campos</span> — <br>
+      engenheiro de software sediado no Brasil  
+    </h1>
+    <div class="nav-row">
+      <a href="notes" class="link">Notes</a>
+      <a href="blog" class="link">Escritos</a>
+      <a href="liricos" class="link">Líricos</a>
+      <a href="about" class="link">Sobre Mim</a>
+      <a href="mailto:ola@thigcampos.com" class="link email">ola@thigcampos.com</a>
     </div>
-  </section>
+  </div>
+</section>
 {% endblock content %}

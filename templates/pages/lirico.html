@@ -1,26 +1,27 @@
 {% extends "base.html" %}
 
 {% block head %}
-  <link rel="stylesheet" href="blog.css" crossorigin="anonymous" />
-  <link rel="stylesheet" href="mobile/blog.css" crossorigin="anonymous" media="screen and (max-width: 600px)" /> 
+<title>Líricos por Thiago Campos</title>
+<meta name="description" content="Poemas escritos por mim" />
+<link rel="stylesheet" href="{{ get_url(path='pages/blog.css', trailing_slash=false) | safe }}" />
 {% endblock head %}
 
 {% block content %}
-  <section class="section"> 
-    <a href="/"><- Voltar para o Início</a>
-    <div class="content">
-      <h1 class="title">
-        {{ section.title }}
-      </h1>
-      <ul class="listing">
-        <!-- If you are using pagination, section.pages will be empty. You need to use the paginator object -->  
-        {% for page in section.pages %}
-        <li class="list-item">
-          <span>{{ page.extra.longDate }}</span>
-          <a href="{{ page.permalink | safe }}">{{ page.title }}</a>
-        </li>
-        {% endfor %}
-      </ul>
-    </div>
-  </section>
+<section class="section"> 
+  <a href="/"><- Voltar para o Início</a>
+  <div class="content">
+    <h1 class="title">
+      {{ section.title }}
+    </h1>
+    <ul class="listing">
+      <!-- If you are using pagination, section.pages will be empty. You need to use the paginator object -->  
+      {% for page in section.pages %}
+      <li class="list-item">
+        <span>{{ page.extra.longDate }}</span>
+        <a href="{{ page.permalink | safe }}">{{ page.title }}</a>
+      </li>
+      {% endfor %}
+    </ul>
+  </div>
+</section>
 {% endblock content %}

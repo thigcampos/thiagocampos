@@ -17,5 +17,5 @@ Após mais uma semana de tentativas frustrantes, comecei a rascunhar sobre a dif
 
 Agora, refletindo sobre o todo o ocorrido, imagino que os outros rascunhos talvez nem fossem tão ruins, eu apenas tinha tempo o suficiente para buscar por problemas neles.
 
-Thiago Campos, em Mantiqueira de Bragança.
+_Thiago Campos, em Mantiqueira de Bragança._
 

@@ -43,60 +43,68 @@
 }
 
 @font-face {
-    font-family: 'Playfair';
-    src: local('Playfair'), url('fonts/Playfair/Playfair-Display.otf');
-    font-weight: 400;
-    font-style: normal;
+  font-family: 'Playfair';
+  src: local('Playfair'), url('fonts/Playfair/Playfair-Display.otf');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
 }
 
 @font-face {
-    font-family: 'Playfair';
-    src: url('fonts/Playfair/Playfair-DisplayItalic.otf');
-    font-weight: 400;
-    font-style: italic;
+  font-family: 'Playfair';
+  src: url('fonts/Playfair/Playfair-DisplayItalic.otf');
+  font-weight: 400;
+  font-style: italic;
+  font-display: swap;
 }
 
 @font-face {
-    font-family: 'Playfair';
-    src: url('fonts/Playfair/Playfair-DisplaySemiBold.otf');
-    font-weight: 600;
-    font-style: normal;
+  font-family: 'Playfair';
+  src: url('fonts/Playfair/Playfair-DisplaySemiBold.otf');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
 }
 
 @font-face {
-    font-family: 'Playfair';
-    src: url('fonts/Playfair/Playfair-DisplaySemiBoldItalic.otf');
-    font-weight: 600;
-    font-style: italic;
+  font-family: 'Playfair';
+  src: url('fonts/Playfair/Playfair-DisplaySemiBoldItalic.otf');
+  font-weight: 600;
+  font-style: italic;
+  font-display: swap;
 }
 
 @font-face {
-    font-family: 'Playfair';
-    src: url('fonts/Playfair/Playfair-DisplayBold.otf');
-    font-weight: 700;
-    font-style: normal;
+  font-family: 'Playfair';
+  src: url('fonts/Playfair/Playfair-DisplayBold.otf');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
 }
 
 @font-face {
-    font-family: 'Playfair';
-    src: url('fonts/Playfair/Playfair-DisplayBoldItalic.otf');
-    font-weight: 700;
-    font-style: italic;
+  font-family: 'Playfair';
+  src: url('fonts/Playfair/Playfair-DisplayBoldItalic.otf');
+  font-weight: 700;
+  font-style: italic;
+  font-display: swap;
 }
 
 // Inter
 @font-face {
-    font-family: 'Inter';
-    src: local('Inter'), url('fonts/Inter/Inter-Regular.woff2');
-    font-weight: 400;
-    font-style: normal;
+  font-family: 'Inter';
+  src: local('Inter'), url('fonts/Inter/Inter-Regular.woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
 }
 
 @font-face {
-    font-family: 'Inter';
-    src: url('fonts/Inter/Inter-Italic.woff2');
-    font-weight: 400;
-    font-style: italic;
+  font-family: 'Inter';
+  src: url('fonts/Inter/Inter-Italic.woff2');
+  font-weight: 400;
+  font-style: italic;
+  font-display: swap;
 }
 
 @font-face {
@@ -104,6 +112,7 @@
   src: url('fonts/Inter/Inter-Medium.woff2');
   font-weight: 500;
   font-style: normal;
+  font-display: swap;
 }
 
 @font-face {
@@ -111,20 +120,23 @@
   src: url('fonts/Inter/Inter-MediumItalic.woff2');
   font-weight: 500;
   font-style: italic;
+  font-display: swap;
 }
 
 @font-face {
-    font-family: 'Inter';
-    src: url('fonts/Inter/Inter-Bold.woff2');
-    font-weight: 700;
-    font-style: normal;
+  font-family: 'Inter';
+  src: url('fonts/Inter/Inter-Bold.woff2');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
 }
 
 @font-face {
-    font-family: 'Inter';
-    src: url('fonts/Inter/Inter-BoldItalic.woff2');
-    font-weight: 700;
-    font-style: italic;
+  font-family: 'Inter';
+  src: url('fonts/Inter/Inter-BoldItalic.woff2');
+  font-weight: 700;
+  font-style: italic;
+  font-display: swap;
 }
 
 

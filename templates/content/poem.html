@@ -1,0 +1,19 @@
+{% extends "base.html" %}
+
+{% block head %}
+<link rel="stylesheet" href="{{ get_url(path="poem.css", trailing_slash=false) | safe }}" crossorigin="anonymous" />
+<link rel="stylesheet" href="{{ get_url(path="mobile/post.css", trailing_slash=false) | safe }}" crossorigin="anonymous" media="screen and (max-width: 600px)" /> 
+{% endblock head %}
+
+{% block content %}
+<section class="section">
+  <div class="container">
+    <a href="{{ get_url(path='liricos') }}"><- Voltar para Líricos</a>
+    <h1 class="title">
+      {{ page.title }}
+    </h1>
+    <span>{{ page.extra.longDate}}</span>
+    {{ page.content | safe }}
+  </div>
+</section>
+{% endblock content %}

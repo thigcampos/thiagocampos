@@ -3,7 +3,6 @@
 }
 
 .container {
-  width: 60%;
   gap: 0.5rem;
   margin: auto;
   display: flex;
@@ -29,8 +28,3 @@ p {
   font-size: var(--font-size-22);
 }
 
-@media screen and (max-width: 768px) {
-  .container {
-    width: 70%;
-  }
-}

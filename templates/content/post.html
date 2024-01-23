@@ -2,7 +2,7 @@
 
 {% block head %}
 <title>{{ page.title }} | Escritos</title>
-<meta name="description" content="{{ page.summary }}" />
+<meta name="description" content="{{ page.extra.summary }}" />
 <link rel="stylesheet" href="{{ get_url(path="content/post.css", trailing_slash=false) | safe }}" />
 {% endblock head %}
 

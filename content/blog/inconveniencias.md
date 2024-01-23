@@ -3,6 +3,7 @@ title = "Incoveniências no processo de escrita criativa"
 date = 2024-01-21
 [extra]
 longDate = "21 de Janeiro, 2024"
+summary = "Uma breve reflexão sobre os inconivientes que me levaram a procrastinar a escrita de um artigo para o meu blogue por longos 4 meses. E sucintas menções a personagens que me levaram a encerrar esta maré de procrastinação e finalmente escrever algo."
 +++
 
 Entre as diversas mudanças que ocorreram neste *website* nos últimos quatro meses, algo manteve-se constante: a falta de postagens neste blogue. Não foi por falta de tentativa; diversos esboços foram escritos (e descartados), mas nenhum deles me agradava.

@@ -5,22 +5,22 @@ date = 2024-01-25
 longDate = "25 de Janeiro, 2024"
 summary = "Saudade companheira, te entrego essa missão, Siga para tão longe e diga à Solidão, Que já não a quero, nem dela preciso, Que ao meu lado há um novo sorriso. E diga-a que belo amor encontrei, Aquela paixão que tanto ansiei..."
 +++
-Saudade companheira, te entrego essa missão,
-Siga para tão longe e diga à Solidão,
-Que já não a quero, nem dela preciso,
-Que ao meu lado há um novo sorriso.
+Saudade companheira, te entrego essa missão, <br>
+Siga para tão longe e diga à Solidão, <br>
+Que já não a quero, nem dela preciso, <br>
+Que ao meu lado há um novo sorriso. <br>
 
-E diga-a que belo amor encontrei, 
-Aquela paixão que tanto ansiei,
-Carinho tranquilo, abraços inebriantes,
-E tantos beijos amantes.
+E diga-a que belo amor encontrei, <br> 
+Aquela paixão que tanto ansiei, <br>
+Carinho tranquilo, abraços inebriantes, <br>
+E tantos beijos amantes.  <br>
 
-Que há tempos não vejo a Tristeza,
-E se as minhas preces forem atendidas,
-Nunca mais a irei encontrar.
+Que há tempos não vejo a Tristeza,  <br>
+E se as minhas preces forem atendidas,  <br>
+Nunca mais a irei encontrar.  <br>
 
-Espero que minhas cartas não sejam perdidas,
-Espero esse amor a ti relatar,
-Com todos os detalhes em rica beleza.
+Espero que minhas cartas não sejam perdidas,  <br>
+Espero esse amor a ti relatar,  <br>
+Com todos os detalhes em rica beleza.  <br>
 
 _Thiago Campos, em Mantiqueira da Bragança_

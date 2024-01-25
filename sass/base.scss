@@ -10,15 +10,16 @@ body {
 }
 
 body {
-  height: 100vh;
-  padding: 6rem;
+  padding: 3rem 6rem;
   color: var(--label-primary-default);
   background: var(--background-primary); 
 }
 
+section {
+  min-height: 82.5vh;
+}
 @media screen and (max-width: 768px) {
   body {
-    height: 100vh;
     padding: 1.5rem;
     color: var(--label-primary-default);
     background: var(--background-primary); 
@@ -71,3 +72,19 @@ pre {
   font-weight: var(--font-weight-500);
 }
 
+footer {
+  width: 100%;
+  display: flex;
+  margin-top: 3rem;
+  justify-content: center;
+}
+
+.icons-row {
+  display: flex;
+  gap: 1rem;
+}
+
+.icon {
+  width: 20px;
+  height: 20px;
+}

@@ -3,7 +3,7 @@ title = "Transição do NextJs para o Zola"
 date = 2024-01-28
 [extra]
 longDate = "28 de Janeiro, 2024"
-summary = "Uma breve reflexão sobre os inconivientes que me levaram a procrastinar a escrita de um artigo para o meu blogue por longos 4 meses. E sucintas menções a personagens que me levaram a encerrar esta maré de procrastinação e finalmente escrever algo."
+summary = "Detalhes e motivações que me levaram a re-escrever todo meu sítio web, migrando do NextJS para o Zola. Para encerrar, uma breve reflexão sobre a experiência de desenvolvimento no Zola, considerando as vantagens e desvantagens."
 +++
 
 Desde o início do desenvolvimento, havia poucas dúvidas de que este sítio *web* 

@@ -22,12 +22,13 @@ span {
  font-size: var(--font-size-48); 
 }
 
-p {
+p, li {
+  font-family: var(--font-family-body);
   font-size: var(--font-size-18);
   margin-bottom: .25em;
 }
 
-p > a {
+p a, li a {
   text-decoration: underline;
 }
 

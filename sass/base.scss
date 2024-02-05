@@ -58,6 +58,11 @@ a {
   letter-spacing: var(--font-letter-spacing-body);
 }
 
+a:focus {
+  text-decoration: underline;
+  color: var(fill-accent-hover);
+}
+
 span {
   line-height: var(--font-line-height-title);
   font-style: italic;

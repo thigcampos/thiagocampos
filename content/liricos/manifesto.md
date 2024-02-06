@@ -3,7 +3,7 @@ title = "Breve Manifesto Lusófono"
 date = 2024-01-23
 [extra]
 longDate = "23 de Janeiro, 2024"
-summary = "Somente as palavras lusófonas nos unem. Socialmente. Economicamente. Filosoficamente. Em um mundo dominado pela anglofania, há um exuberante conforto e potencial nas palavras lusófonas. Que expressam de forma saudosa memórias de nossa história. Nossa língua sem erudição, cresce..."
+summary = "Somente as palavras lusófonas nos unem. Socialmente. Economicamente. Filosoficamente."
 +++
 Somente as palavras lusófonas nos unem. Socialmente. Economicamente. Filosoficamente.
 

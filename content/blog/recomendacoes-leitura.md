@@ -3,7 +3,7 @@ title = "Recomendações de Leitura"
 date = 2024-01-30
 [extra]
 longDate = "30 de Janeiro, 2024"
-summary = "Há alguns meses venho acompanhando e descobrindo novos blogues pela Web como uma alternativa às grandes plataformas. A proposta desta publicação, que possuirá uma frequência semanal, é compartilhar um pouco do que venho lendo e recomendar serviços e produtos úteis ou interessantes."
+summary = "A proposta desta publicação, que possuirá uma frequência semanal, é compartilhar um pouco do que venho lendo e recomendar serviços e produtos úteis ou interessantes."
 +++
 Há alguns meses venho acompanhando e descobrindo novos blogues pela Web, como uma alternativa às grandes plataformas. 
 Apesar de tentar explorar diferentes nichos, aqueles cujo tema principal seja tecnologia acabam por apanhar a

@@ -3,7 +3,7 @@
 {% block head %}
 <title>{{  page.title }} | Notes</title>
 <meta name="description" content="{{ page.extra.summary }}" />
-<link rel="stylesheet" href="{{ get_url(path='content/post.css', trailing_slash=false) | safe }}" />
+<link rel="stylesheet" href="{{ get_url(path='pages/escrito.css', trailing_slash=false) | safe }}" />
 {% endblock head %}
 
 {% block content %}
@@ -18,3 +18,6 @@
   </div>
 </section>
 {% endblock content %}
+{% block footer %}
+{% include "license.html" %}
+{% endblock footer %}

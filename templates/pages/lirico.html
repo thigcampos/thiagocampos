@@ -1,27 +1,23 @@
 {% extends "base.html" %}
 
 {% block head %}
-<title>Líricos por Thiago Campos</title>
-<meta name="description" content="Em 'Líricos', as palavras dançam em versos que ecoam emoções profundas. Cada post é uma viagem poética, um mergulho nas sutilezas da alma. Descubra a magia das letras que revelam sentimentos, pensamentos e narrativas poéticas, criando um universo onde a poesia é a linguagem mais pura da expressão." />
-<link rel="stylesheet" href="{{ get_url(path='pages/blog.css', trailing_slash=false) | safe }}" />
+<title>{{ page.title }} | Líricos</title>
+<meta name="description" content="{{ page.extra.summary }}" />
+<link rel="stylesheet" href="{{ get_url(path="pages/lirico.css", trailing_slash=false) | safe }}" crossorigin="anonymous" />
 {% endblock head %}
 
 {% block content %}
-<section class="section"> 
-  <a href="/"><- Voltar para o Início</a>
-  <div class="content">
+<section class="section">
+  <div class="container">
+    <a href="{{ get_url(path='liricos') }}"><- Voltar para Líricos</a>
     <h1 class="title">
-      {{ section.title }}
+      {{ page.title }}
     </h1>
-    <ul class="listing">
-      <!-- If you are using pagination, section.pages will be empty. You need to use the paginator object -->  
-      {% for page in section.pages %}
-      <li class="list-item">
-        <span>{{ page.extra.longDate }}</span>
-        <a href="{{ page.permalink | safe }}">{{ page.title }}</a>
-      </li>
-      {% endfor %}
-    </ul>
+    <span>{{ page.extra.longDate}}</span>
+    {{ page.content | safe }}
   </div>
 </section>
 {% endblock content %}
+{% block footer %}
+{% include "license.html" %}
+{% endblock footer %}

@@ -10,13 +10,13 @@ body {
 }
 
 body {
-  padding: 3rem 6rem;
+  padding: 3rem 6rem 1rem 6rem;
   color: var(--label-primary-default);
   background: var(--background-primary); 
 }
 
 section {
-  min-height: 82.5vh;
+  min-height: 81.5vh;
 }
 @media screen and (max-width: 768px) {
   body {
@@ -78,15 +78,34 @@ pre {
 }
 
 footer {
+  gap: 1rem;
   width: 100%;
   display: flex;
   margin-top: 3rem;
+  align-items: center;
+  flex-direction: column;
   justify-content: center;
 }
 
-.icons-row {
+.footer-icons {
   display: flex;
   gap: 1rem;
+}
+
+.footer-text {
+  display: flex;
+  flex-direction: column;
+  font-size: var(--font-size-16);
+  font-weight: var(--font-weight-600);
+
+  & > p {
+    margin: 0.125rem;
+    color: var(--label-primary-disabled);
+  }
+
+  & a {
+    text-decoration: underline;
+  }
 }
 
 .icon {

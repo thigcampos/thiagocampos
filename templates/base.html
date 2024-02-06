@@ -10,7 +10,9 @@
 
   <body>
     {% block content %} {% endblock content %}
-    {% include "components/footer.html" %} 
+    <footer>
+      {% include "footer-icons.html" %}
+      {% block footer %} {% endblock footer %}
   </body>
 
 </html>

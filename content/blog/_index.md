@@ -1,6 +1,6 @@
 +++
 title = "Escritos"
 sort_by = "date"
-template = "pages/blog.html"
-page_template = "content/post.html"
+template = "pages/escritos.html"
+page_template = "pages/escrito.html"
 +++

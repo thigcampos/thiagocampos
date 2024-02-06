@@ -87,12 +87,12 @@ footer {
   justify-content: center;
 }
 
-.footer-icons {
+#footer-icons {
   display: flex;
   gap: 1rem;
 }
 
-.footer-text {
+#footer-text {
   display: flex;
   flex-direction: column;
   font-size: var(--font-size-16);

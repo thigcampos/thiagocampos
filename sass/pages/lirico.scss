@@ -1,5 +1,19 @@
 .section {
   margin: 0 auto;
+  
+  p {
+    font-weight: 500;
+    margin-bottom: 0.5rem;
+    font-size: var(--font-size-22);
+  }
+
+  span {
+    font-style: normal;
+    font-weight: 500;
+    font-family: "Inter";
+    font-size: var(--font-size-16);
+    color: var(--label-primary-disabled);
+  }
 }
 
 .container {
@@ -10,21 +24,7 @@
   flex-direction: column;
 }
 
-span {
-  font-style: normal;
-  font-weight: 500;
-  font-family: "Inter";
-  font-size: var(--font-size-16);
-  color: var(--label-primary-disabled);
-}
 
 .title {
   font-size: var(--font-size-48); 
 }
-
-p {
-  font-weight: 500;
-  margin-bottom: 0.5rem;
-  font-size: var(--font-size-22);
-}
-

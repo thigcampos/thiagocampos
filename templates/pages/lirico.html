@@ -7,16 +7,16 @@
 {% endblock head %}
 
 {% block content %}
-<section class="section">
-  <div class="container">
+<main class="page__container">
+  <section class="content__container">
     <a href="{{ get_url(path='liricos') }}"><- Voltar para Líricos</a>
-    <h1 class="title">
+    <h1 class="content__title">
       {{ page.title }}
     </h1>
     <span>{{ page.extra.longDate}}</span>
     {{ page.content | safe }}
-  </div>
-</section>
+  </section>
+</main>
 {% endblock content %}
 {% block footer %}
 {% include "license.html" %}

@@ -1,6 +1,14 @@
-.section {
+.page__container {
   margin: 0 auto;
-  
+}
+
+.content__container {
+  gap: 0.5rem;
+  margin: auto;
+  display: flex;
+  max-width: 768px;
+  flex-direction: column;
+ 
   p {
     font-weight: 500;
     margin-bottom: 0.5rem;
@@ -16,15 +24,7 @@
   }
 }
 
-.container {
-  gap: 0.5rem;
-  margin: auto;
-  display: flex;
-  max-width: 768px;
-  flex-direction: column;
-}
 
-
-.title {
+.content__title {
   font-size: var(--font-size-48); 
 }

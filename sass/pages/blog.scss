@@ -1,20 +1,20 @@
-.section {
+.page__container {
   display: flex;
   flex-direction: column;
   gap: 2rem;
 }
 
-.title {
+.content__title {
   margin-bottom: 2rem;
   font-size: var(--font-size-64); 
 }
 
-.listing {
+.content__listing {
   list-style: none;
   padding-left: 0rem;
 }
 
-.list-item {
+.content__list-item {
   gap: 2rem;
   display: flex;
   margin-bottom: 3rem;
@@ -22,7 +22,7 @@
   font-size: var(--font-size-22);
 }
 
-.list-item > span {
+.content__list-item > span {
   font-style: normal;
   font-family: "Inter";
   font-size: var(--font-size-20);
@@ -30,15 +30,15 @@
 }
 
 @media screen and (max-width: 768px) {
-  .section {
+  .page__container {
     gap: 1rem;
   }
 
-  .listing {
+  .content__listing {
     padding-left: 0;
   }
 
-  .list-item {
+  .content__list-item {
     gap: 0.5rem;
     align-items: flex-start;
     flex-direction: column;

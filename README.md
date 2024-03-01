@@ -1,5 +1,5 @@
 ## Thiago Campos
-My personal website was built using [Zola](https://getzola.com) and styled in [SASS](https://sass.org).
+My personal website was built using [Zola](https://getzola.org) and styled in [SASS](https://sass-lang.com).
 
 ## Ambitions
 From a philosophical point of view, the website aims to be a platform for exhibiting all my creative 

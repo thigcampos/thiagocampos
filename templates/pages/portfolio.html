@@ -1,0 +1,30 @@
+{% extends "base.html" %}
+
+{% block head %}
+<title>Escritos por Thiago Campos</title>
+<meta name="description" content="Bem-vindo ao 'Escritos'. Aqui, misturo prosa e poesia, técnica e sentimento. São viagens, receitas e reflexões, tudo costurado numa melodia única. Sinta-se em casa nesse samba de palavras, onde cada post é uma nota no meu vasto repertório." />
+<link rel="stylesheet" href="{{ get_url(path='pages/blog.css', trailing_slash=false) | safe }}" />
+{% endblock head %}
+
+{% block content %}
+<main class="page__container"> 
+    <a href="/" class="page__return"><- Voltar para o Início</a>
+  <section class="content__container">
+    <h1 class="content__title">
+      {{ section.title }}
+    </h1>
+    <ul class="content__listing">
+      <!-- If you are using pagination, section.pages will be empty. You need to use the paginator object -->  
+      {% for page in section.pages %}
+      <li class="content__list-item">
+        <span>{{ page.extra.longDate }}</span>
+        <a href="{{ page.permalink | safe }}">{{ page.title }}</a>
+      </li>
+      {% endfor %}
+    </ul>
+  </section>
+</main>
+{% endblock content %}
+{% block footer %}
+{% include "license.html" %}
+{% endblock footer %}

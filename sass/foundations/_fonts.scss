@@ -1,7 +1,7 @@
 :root {
-  --font-family-title: 'Playfair', serif;
+  --font-family-title: 'Apple Garamond', serif;
   --font-family-body: 'Inter', sans-serif;
-  --font-family-accent: 'Playfair', sans-serif;
+  --font-family-accent: 'Apple Garamond', sans-serif;
 
   --font-weight-600: 600;
   --font-weight-500: 500;
@@ -42,54 +42,6 @@
     --font-size-16: 0.875rem;
     --font-size-14: 0.75rem;
   }
-}
-
-@font-face {
-  font-family: 'Playfair';
-  src: local('Playfair'), url('fonts/Playfair/Playfair-Display.otf');
-  font-weight: 400;
-  font-style: normal;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: 'Playfair';
-  src: url('fonts/Playfair/Playfair-DisplayItalic.otf');
-  font-weight: 400;
-  font-style: italic;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: 'Playfair';
-  src: url('fonts/Playfair/Playfair-DisplaySemiBold.otf');
-  font-weight: 600;
-  font-style: normal;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: 'Playfair';
-  src: url('fonts/Playfair/Playfair-DisplaySemiBoldItalic.otf');
-  font-weight: 600;
-  font-style: italic;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: 'Playfair';
-  src: url('fonts/Playfair/Playfair-DisplayBold.otf');
-  font-weight: 700;
-  font-style: normal;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: 'Playfair';
-  src: url('fonts/Playfair/Playfair-DisplayBoldItalic.otf');
-  font-weight: 700;
-  font-style: italic;
-  font-display: swap;
 }
 
 // Inter
@@ -141,5 +93,51 @@
   font-display: swap;
 }
 
+// Garamond
+@font-face {
+  font-family: 'Apple Garamond';
+  src: url('fonts/Garamond/AppleGaramond.ttf');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
 
+@font-face {
+  font-family: 'Apple Garamond';
+  src: url('fonts/Garamond/AppleGaramond-Italic.ttf');
+  font-weight: 400;
+  font-style: italic;
+  font-display: swap;
+}
 
+@font-face {
+  font-family: 'Apple Garamond';
+  src: url('fonts/Garamond/AppleGaramond-Bold.ttf');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Apple Garamond';
+  src: url('fonts/Garamond/AppleGaramond-BoldItalic.ttf');
+  font-weight: 700;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Apple Garamond';
+  src: url('fonts/Garamond/AppleGaramond-Light.ttf');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Apple Garamond';
+  src: url('fonts/Garamond/AppleGaramond-LightItalic.ttf');
+  font-weight: 300;
+  font-style: italic;
+  font-display: swap;
+}

@@ -17,7 +17,7 @@
       <!-- If you are using pagination, section.pages will be empty. You need to use the paginator object -->  
       {% for page in section.pages %}
       <li class="content__list-item">
-        <span>{{ page.extra.longDate }}</span>
+        <span>{{ page.extra.quickView }}</span>
         <a href="{{ page.permalink | safe }}">{{ page.title }}</a>
       </li>
       {% endfor %}

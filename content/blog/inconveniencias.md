@@ -17,6 +17,3 @@ Passada a virada do ano, nada havia mudado, apesar das remotas promessas. Tomei 
 Após mais uma semana de tentativas frustrantes, comecei a rascunhar sobre a dificuldade em escrever, o que resultou neste texto. Ainda que não seja aquele que tanto idealizei, aspira a um tom pessoal que gosto muito.
 
 Agora, refletindo sobre o todo o ocorrido, imagino que os outros rascunhos talvez nem fossem tão ruins, eu apenas tinha tempo o suficiente para buscar por problemas neles.
-
-_Thiago Campos, em Mantiqueira de Bragança._
-

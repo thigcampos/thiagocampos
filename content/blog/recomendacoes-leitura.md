@@ -41,5 +41,3 @@ customização estética, porém é necessário cadastrar-se.
 
 Acredito que dado o escopo proposto para esta publicação e o horário em que estou trabalhando nela (20:16),
 podemos encerrar a lista por aqui.
-
-_Thiago Campos, em Mantiqueira de Bragança._

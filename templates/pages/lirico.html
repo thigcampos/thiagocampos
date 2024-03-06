@@ -15,6 +15,10 @@
     </h1>
     <span>{{ page.extra.longDate}}</span>
     {{ page.content | safe }}
+    <div class="content__footer">
+      <p class="content__footer-signature">Thiago Campos, em Mantiqueira de Bragança</p>
+      <a class="content__footer-email" href="mailto:thiago@thigcampos.com?subject={{ page.title }}">Comente por E-mail</a>
+    </div>
   </section>
 </main>
 {% endblock content %}

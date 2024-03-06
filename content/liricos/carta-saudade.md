@@ -22,5 +22,3 @@ Nunca mais a irei encontrar.  <br>
 Espero que minhas cartas não sejam perdidas,  <br>
 Espero esse amor a ti relatar,  <br>
 Com todos os detalhes em rica beleza.  <br>
-
-_Thiago Campos, em Mantiqueira da Bragança_

@@ -22,5 +22,3 @@ Vossa arte não é art. Passatempo não é hobby. Trabalho não é Job. Saudade 
 Em escritos encontram-se os tesouros que levarão ao perdão da língua de Camões.
 
 Vosso léxico convoca os eternos amantes das letras a carregar o fado de propagar as belas conjunturas da última flor do Lácio. 
-
-_Thiago Campos, em Mantiqueira da Bragança, no ano 102 da Semana Moderna._

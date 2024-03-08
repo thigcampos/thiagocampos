@@ -1,9 +1,12 @@
 +++
+date = 2023-11-04
+authors = ["Thiago Campos"]
 title = "Carta p'ra Saudade"
-date = 2024-01-25
+description = "Saudade companheira, te entrego essa missão, Siga para tão longe e diga à Solidão..."
+[taxonomies]
+assunto = ["Poemas"]
 [extra]
-longDate = "25 de Janeiro, 2024"
-summary = "Saudade companheira, te entrego essa missão, Siga para tão longe e diga à Solidão..."
+longDate = "04 de Novembro, 2023"
 +++
 Saudade companheira, te entrego essa missão, <br>
 Siga para tão longe e diga à Solidão, <br>

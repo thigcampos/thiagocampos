@@ -14,7 +14,7 @@
   gap: 0.5rem;
   margin: auto;
   display: flex;
-  max-width: 768px;
+  max-width: var(--container-breakpoint);
   flex-direction: column;
  
   p {

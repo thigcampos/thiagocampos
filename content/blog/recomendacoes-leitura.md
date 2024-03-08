@@ -1,6 +1,10 @@
 +++
-title = "Recomendações de Leitura"
 date = 2024-01-30
+authors = ["Thiago Campos"]
+title = "Recomendações de Leitura"
+description = "A proposta desta publicação, que possuirá uma frequência semanal, é compartilhar um pouco do que venho lendo e recomendar serviços e produtos úteis ou interessantes."
+[taxonomies]
+assunto=["Relatos"]
 [extra]
 longDate = "30 de Janeiro, 2024"
 summary = "A proposta desta publicação, que possuirá uma frequência semanal, é compartilhar um pouco do que venho lendo e recomendar serviços e produtos úteis ou interessantes."

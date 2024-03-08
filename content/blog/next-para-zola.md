@@ -1,11 +1,22 @@
 +++
-title = "Transição do NextJs para o Zola"
 date = 2024-01-28
+authors = ["Thiago Campos"]
+title = "Transição do NextJs para o Zola"
+description = "Detalhes e motivações que me levaram a re-escrever todo meu sítio web, migrando do NextJS para o Zola."
+[taxonomies]
+assunto=["Relatos"]
 [extra]
 longDate = "28 de Janeiro, 2024"
-summary = "Detalhes e motivações que me levaram a re-escrever todo meu sítio web, migrando do NextJS para o Zola." 
 +++
+### Novo
+Há alguns anos trabalho com tecnologias de _Single Page Application_ (SPAs), especialmente _React_ e _frameworks_
+adjacentes, fato relevante que, somado a minha certa ignorância, levou-me a criar a primeira versão de meu sítio
+web pessoal com [NextJS](https://nextjs.org) e [ContentLayer](https://contentlayer.dev). Apesar de ter sido um
+projeto bem sucedido no que refere-se a realizar tudo aquilo que foi-se definido nos requisitos iniciais, a
+estrutura complexa de aplicações _React_ e a dificultosa manutenção de bibliotecas de JavaScript, levaram-me a
+migrar do _NextJs_ para o gerador de site estático [Zola](https://getzola.org).
 
+### Antigo
 Desde o início do desenvolvimento, havia poucas dúvidas de que este sítio *web* 
 seria feito com [*Next.JS*](https://nextjs.org/), afinal, era algo com o qual 
 eu já estava bem familiarizado e, graças ao [*ContentLayer*](https://contentlayer.dev/), poderia gerenciar 

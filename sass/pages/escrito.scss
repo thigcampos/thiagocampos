@@ -55,14 +55,14 @@
   font-style: italic;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: var(--container-breakpoint)) {
   .content__container {
     gap: 0.25rem;
     width: 100%;
   }
 
   .content__footer {
-    gap: 1rem;
+    gap: 1rem;  
     flex-direction: column;
     align-items: flex-start;
   }

@@ -6,7 +6,8 @@
   --font-weight-600: 600;
   --font-weight-500: 500;
   --font-weight-400: 400;
-
+  
+  --font-size-120: 7.5rem;
   --font-size-64: 4rem;
   --font-size-48: 3rem;
   --font-size-40: 2.5rem;
@@ -27,8 +28,9 @@
   --font-line-height-body: 100%;
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: var(--container-breakpoint)) {
   :root {
+    --font-size-120: 5rem;
     --font-size-64: 3rem;
     --font-size-48: 2.5rem;
     --font-size-40: 2.25rem;

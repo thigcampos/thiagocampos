@@ -17,7 +17,7 @@
 
 .heading__title {
   font-weight: 400;
-  font-size: 7.5rem;
+  font-size: var(--font-size-120);
   margin-bottom: .25rem;
   color: var(--label-accent-default);
 
@@ -46,11 +46,7 @@
   text-decoration: underline;
 }
 
-@media screen and (max-width: 768px) {
-  .heading__title {
-    font-size: 5rem;
-  }
-
+@media screen and (max-width: var(--container-breakpoint)) {
   .navigation__list {
     gap: 2.5rem;
     display: flex;

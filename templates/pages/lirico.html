@@ -2,7 +2,7 @@
 
 {% block head %}
 <title>{{ page.title }} | Líricos</title>
-<meta name="description" content="{{ page.extra.summary }}" />
+<meta name="description" content="{{ page.description }}" />
 <link rel="stylesheet" href="{{ get_url(path="pages/lirico.css", trailing_slash=false) | safe }}" crossorigin="anonymous" />
 {% endblock head %}
 
@@ -13,7 +13,8 @@
     <h1 class="content__title">
       {{ page.title }}
     </h1>
-    <span>{{ page.extra.longDate}}</span>
+    {% set taxonomy_term = page.taxonomies.assunto | first %}
+    <span>{{ page.extra.longDate}} em <a href="/assunto/{{ taxonomy_term | lower }}">{{ taxonomy_term }}</a></span>
     {{ page.content | safe }}
     <div class="content__footer">
       <p class="content__footer-signature">Thiago Campos, em Mantiqueira de Bragança</p>

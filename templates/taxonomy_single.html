@@ -1,21 +1,23 @@
 {% extends "base.html" %}
 
 {% block head %}
-<title>Assunto</title>
-<meta name="description" content="Aqui apresenta-se uma lista com todos os assuntos publicados em meus blogues" />
+<title>{{ term.name }} por Thiago Campos</title>
+<meta name="description" content="Aqui apresenta-se todas as publicações do assunto {{ term.name }}" />
 <link rel="stylesheet" href="{{ get_url(path='pages/blog.css', trailing_slash=false) | safe }}" />
 {% endblock head %}
 
 {% block content %}
 <main class="page__container"> 
-    <a href="/" class="page__return"><- Voltar para o Início</a>
+    <a href="/assunto" class="page__return"><- Voltar para Assuntos</a>
   <section class="content__container">
-    <h1 class="content__title">Assuntos</h1>
+    <h1 class="content__title">
+      {{ term.name }}
+    </h1>
     <ul class="content__listing">
-      {% for term in terms %}
+      {% for page in term.pages %}
       <li class="content__list-item">
-          <span>{{ term.page_count }} Arquivo(s)</span>
-        <a href="{{ term.path | safe }}">{{ term.name }}</a>
+        <span>{{ page.extra.longDate }}</span>
+        <a href="{{ page.permalink | safe }}">{{ page.title }}</a>
       </li>
       {% endfor %}
     </ul>

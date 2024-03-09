@@ -1,14 +1,14 @@
 {% extends "base.html" %}
 
 {% block head %}
-<title>Notes by Thiago Campos</title>
-<meta name="description" content="In 'Notes,' words dance in verses, blending technique and poetry. Each post is a digital serenade, where ideas and feelings embrace in harmony. Between developer experiences and glimpses of everyday life, 'Notes' is the music of words, a unique life composition." />
-<link rel="stylesheet"  href="{{ get_url(path='pages/blog.css', trailing_slash=false) | safe }}"  />
+<title>Galeria de Thiago Campos</title>
+<meta name="description" content="Bem-vindo ao 'Escritos'. Aqui, misturo prosa e poesia, técnica e sentimento. São viagens, receitas e reflexões, tudo costurado numa melodia única. Sinta-se em casa nesse samba de palavras, onde cada post é uma nota no meu vasto repertório." />
+<link rel="stylesheet" href="{{ get_url(path='pages/blog.css', trailing_slash=false) | safe }}" />
 {% endblock head %}
 
 {% block content %}
 <main class="page__container"> 
-  <a href="/" class="page__return"><- Go back to Home</a>
+    <a href="/" class="page__return"><- Voltar para o Início</a>
   <section class="content__container">
     <h1 class="content__title">
       {{ section.title }}
@@ -22,8 +22,8 @@
       </li>
       {% endfor %}
     </ul>
-  </div>
-</section>
+  </section>
+</main>
 {% endblock content %}
 {% block footer %}
 {% include "license.html" %}

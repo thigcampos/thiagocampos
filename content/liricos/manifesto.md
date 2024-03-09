@@ -1,9 +1,12 @@
 +++
+date = 2023-11-06
+authors = ["Thiago Campos"]
 title = "Breve Manifesto Lusófono"
-date = 2024-01-23
+description = "Somente as palavras lusófonas nos unem. Socialmente. Economicamente. Filosoficamente."
+[taxonomies]
+assunto = ["Manifestos"]
 [extra]
-longDate = "23 de Janeiro, 2024"
-summary = "Somente as palavras lusófonas nos unem. Socialmente. Economicamente. Filosoficamente."
+longDate = "06 de Novembro, 2023"
 +++
 Somente as palavras lusófonas nos unem. Socialmente. Economicamente. Filosoficamente.
 

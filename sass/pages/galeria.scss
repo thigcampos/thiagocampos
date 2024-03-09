@@ -8,6 +8,10 @@
     width: fit-content;
 }
 
+.content__title {
+  font-size: var(--font-size-48);
+}
+
 .content__container { 
   h2, h3, h4, h5, h6 {
     font-family: var(--font-family-body);

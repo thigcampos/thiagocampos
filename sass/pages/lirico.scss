@@ -11,25 +11,13 @@
 }
 
 .content__container {
-  gap: 0.5rem;
   margin: auto;
-  display: flex;
-  max-width: var(--container-breakpoint);
-  flex-direction: column;
+  max-width: 768px;
  
   p {
-    font-weight: 500;
     width: fit-content;
     margin-bottom: 0.5rem;
     font-size: var(--font-size-22);
-  }
-
-  span {
-    font-style: normal;
-    font-weight: 500;
-    font-family: "Inter";
-    font-size: var(--font-size-16);
-    color: var(--label-primary-disabled);
   }
 }
 

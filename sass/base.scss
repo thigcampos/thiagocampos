@@ -10,64 +10,79 @@ body {
 }
 
 body {
-  padding: 3rem 6rem 1rem 6rem;
   color: var(--label-primary-default);
+  padding: var(--page-padding-desktop);
   background: var(--background-primary); 
+}
+
+@media screen and (max-width: 768px) {
+  body {
+    padding: var(--page-padding-mobile);
+  }
 }
 
 main {
   min-height: 81.5vh;
 }
-@media screen and (max-width: var(--container-breakpoint)) {
-  body {
-    padding: 1.5rem;
-    color: var(--label-primary-default);
-    background: var(--background-primary); 
-  }
-}
 
 h1, h2, h3, h4, h5, h6 {
   color: inherit;
-  line-height: var(--font-line-height-title);
   font-family: var(--font-family-title);
   font-weight: var(--font-weight-600);
-}
-
-h1 {
+  line-height: var(--font-line-height-title);
   letter-spacing: var(--font-letter-spacing-title);
 }
 
-h2, h3, h4, h5, h6 {
-  letter-spacing: var(--font-letter-spacing-body);
+h1 {
+  font-size: var(--font-size-48);
 }
 
-p {
+h2 {
+  font-size: var(--font-size-36);
+}
+
+h3 {
+  font-size: var(--font-size-28);
+}
+
+h4 {
+  font-size: var(--font-size-22);
+}
+
+h5 {
+  font-size: var(--font-size-18);
+}
+
+h6 {
+  font-size: var(--font-size-14);
+}
+
+p, li {
   color: inherit;
-  line-height: 150%;
-  font-family: var(--font-family-body);
+  font-size: var(--font-size-20);
   font-weight: var(--font-weight-400);
+  font-family: var(--font-family-body);
+  line-height: var(--font-line-height-body);
   letter-spacing: var(--font-letter-spacing-body);
 }
 
 a {
-  line-height: var(--font-line-height-body);
   color: var(--label-accent-default);
-  font-family: var(--font-family-body);
   font-weight: var(--font-weight-400);
+  font-family: var(--font-family-body);
+  line-height: var(--font-line-height-body);
   letter-spacing: var(--font-letter-spacing-body);
 }
 
-a:focus {
-  text-decoration: underline;
-  color: var(fill-accent-hover);
+a:focus, a:hover {
+  color: var(--label-accent-hover);
 }
 
 span {
-  line-height: var(--font-line-height-title);
-  font-style: italic;
-  color: var(--label-accent-default);
-  font-family: var(--font-family-accent);
-  font-weight: var(--font-weight-500);
+  color: var(--label-accent-disabled);
+  font-weight: var(--font-weight-400);
+  font-family: var(--font-family-body);
+  line-height: var(--font-line-height-body);
 }
 
 pre {
@@ -107,9 +122,4 @@ footer {
   & a {
     text-decoration: underline;
   }
-}
-
-.footer__icon {
-  width: 20px;
-  height: 20px;
 }

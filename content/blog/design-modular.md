@@ -1,10 +1,11 @@
 +++
+draft = true
 date = 2024-03-10
 authors = ["Thiago Campos"]
 title = "Design Modular"
 description = "Uma breve reflexão sobre procrastinação e inspiração" 
 [taxonomies]
-assunto = ["Ideias"]
+assunto = ["Ensaios"]
 [extra]
 longDate = "10 de Março, 2024"
 +++

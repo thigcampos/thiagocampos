@@ -4,7 +4,7 @@ authors = ["Thiago Campos"]
 title = "Transição do NextJs para o Zola"
 description = "Detalhes e motivações que me levaram a re-escrever todo meu sítio web, migrando do NextJS para o Zola."
 [taxonomies]
-assunto=["Relatos"]
+assunto=["Ensaios"]
 [extra]
 longDate = "28 de Janeiro, 2024"
 +++

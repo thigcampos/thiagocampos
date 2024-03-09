@@ -1,9 +1,10 @@
 +++
-title = "thigcampos"
 date = 2024-03-02
+authors = ["Thiago Campos"]
+title = "thigcampos"
+description = "Sítio web de caráter pessoal que visa ser uma plataforma para expor todas as minhas produções criativas na web"
 [extra]
 quickView = "Sítio web pessoal"
-summary = "Sítio web de caráter pessoal que visa ser uma plataforma para expor todas as minhas produções criativas na web"
 +++
 O meu sítio web foi construído utilizando o gerador de site estático 
 [Zola](https://getzola.org) e estilizado com [SCSS](https://sass-lang.com).

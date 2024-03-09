@@ -21,14 +21,14 @@
   --font-size-16: 1rem;
   --font-size-14: 0.875rem;
 
-  --font-letter-spacing-title: -2.88px;
+  --font-letter-spacing-title: -0.54px;
   --font-letter-spacing-body: -0.54px;
 
   --font-line-height-title: 105%;
-  --font-line-height-body: 100%;
+  --font-line-height-body: 150%;
 }
 
-@media only screen and (max-width: var(--container-breakpoint)) {
+@media only screen and (max-width: 768px) {
   :root {
     --font-size-120: 5rem;
     --font-size-64: 3rem;

@@ -1,4 +1,5 @@
 +++
+draft = true
 date = 2024-01-10
 authors = ["Thiago Campos"]
 title = "Carta p'ro Cotidiano"

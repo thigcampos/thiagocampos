@@ -12,17 +12,20 @@
 }
 
 .heading__container {
-    max-width: 864px;
+  max-width: 864px;
 }
 
 .heading__title {
-  font-weight: 400;
-  font-size: var(--font-size-120);
   margin-bottom: .25rem;
+  letter-spacing: -2.88px;
+  font-size: var(--font-size-120);
   color: var(--label-accent-default);
+  font-weight: var(--font-weight-400);
 
   span {
+    font-style: italic;
     color: var(--label-primary-disabled);
+    font-family: var(--font-family-accent);
   }
 }
 
@@ -46,7 +49,7 @@
   text-decoration: underline;
 }
 
-@media screen and (max-width: var(--container-breakpoint)) {
+@media screen and (max-width: 768px) {
   .navigation__list {
     gap: 2.5rem;
     display: flex;

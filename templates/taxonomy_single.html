@@ -16,7 +16,7 @@
     <ul class="content__listing">
       {% for page in term.pages %}
       <li class="content__list-item">
-        <span>{{ page.extra.longDate }}</span>
+        <span>{{ page.date }}</span>
         <a href="{{ page.permalink | safe }}">{{ page.title }}</a>
       </li>
       {% endfor %}

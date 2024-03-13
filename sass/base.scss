@@ -111,8 +111,11 @@ footer {
 .footer__text {
   display: flex;
   flex-direction: column;
-  font-size: var(--font-size-16);
-  font-weight: var(--font-weight-600);
+
+  & > p, a {
+    font-size: var(--font-size-16);
+    font-weight: var(--font-weight-500);
+  }
 
   & > p {
     margin: 0.125rem;

@@ -8,6 +8,7 @@
 
 .content__title {
   font-size: var(--font-size-48);
+  letter-spacing: var(--font-letter-spacing-subtitle); 
 }
 
 .content__subtitle {
@@ -23,7 +24,7 @@
 
   h2, h3, h4, h5, h6 {
     font-family: var(--font-family-body);
-    letter-spacing: var(--letter-spacing-body);
+    letter-spacing: var(--font-letter-spacing-body);
   }
 }
 

@@ -6,13 +6,25 @@
   width: fit-content;
 }
 
+.content__title {
+  font-size: var(--font-size-48);
+  letter-spacing: var(--font-letter-spacing-subtitle); 
+}
+
+.content__subtitle {
+  color: var(--label-accent-disabled);
+  font-weight: var(--font-weight-400);
+  font-family: var(--font-family-body);
+  line-height: var(--font-line-height-body);
+}
+
 .content__container {
   width: 60%;
   margin: auto;
 
   h2, h3, h4, h5, h6 {
     font-family: var(--font-family-body);
-    letter-spacing: var(--letter-spacing-body);
+    letter-spacing: var(--font-letter-spacing-body);
   }
 }
 

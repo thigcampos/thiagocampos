@@ -53,7 +53,7 @@
   src: local('Inter'), url('fonts/Inter/Inter-Regular.woff2');
   font-weight: 400;
   font-style: normal;
-  font-display: optional;
+  font-display: block;
 }
 
 @font-face {
@@ -61,7 +61,7 @@
   src: url('fonts/Inter/Inter-Italic.woff2');
   font-weight: 400;
   font-style: italic;
-  font-display: optional;
+  font-display: swap;
 }
 
 @font-face {
@@ -69,7 +69,7 @@
   src: url('fonts/Inter/Inter-Medium.woff2');
   font-weight: 500;
   font-style: normal;
-  font-display: optional;
+  font-display: block;
 }
 
 @font-face {
@@ -77,7 +77,7 @@
   src: url('fonts/Inter/Inter-MediumItalic.woff2');
   font-weight: 500;
   font-style: italic;
-  font-display: optional;
+  font-display: swap;
 }
 
 // Garamond
@@ -86,7 +86,7 @@
   src: url('fonts/Garamond/AppleGaramond.ttf');
   font-weight: 400;
   font-style: normal;
-  font-display: optional;
+  font-display: block;
 }
 
 @font-face {
@@ -94,6 +94,6 @@
   src: url('fonts/Garamond/AppleGaramond-Italic.ttf');
   font-weight: 400;
   font-style: italic;
-  font-display: optional;
+  font-display: block;
 }
 

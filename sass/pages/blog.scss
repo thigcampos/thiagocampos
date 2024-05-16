@@ -1,0 +1,50 @@
+.page__container {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.content__title {
+  margin-bottom: 2rem;
+  font-size: var(--font-size-64); 
+}
+
+.content__listing {
+  list-style: none;
+  padding-left: 0rem;
+}
+
+.content__list-item {
+  gap: 2rem;
+  display: flex;
+  margin-bottom: 3rem;
+  align-items: center;
+  font-size: var(--font-size-22);
+}
+
+.content__list-item > span {
+  font-style: normal;
+  font-family: "Inter";
+  font-size: var(--font-size-20);
+  color: var(--label-primary-disabled);
+}
+
+.page__return {
+    width: fit-content;
+}
+
+@media screen and (max-width: 768px) {
+  .page__container {
+    gap: 1rem;
+  }
+
+  .content__listing {
+    padding-left: 0;
+  }
+
+  .content__list-item {
+    gap: 0.5rem;
+    align-items: flex-start;
+    flex-direction: column;
+  }
+}

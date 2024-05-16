@@ -1,0 +1,31 @@
+{% extends "base.html" %}
+{% block head %}
+<title> Thiago Campos </title>
+<meta name="description" content="Engenheiro de Software e entusiasta de design, atualmente residindo nas belas paragens da Mantiqueira de Bragança" /> 
+<link rel="stylesheet" href="{{ get_url(path='home.css', trailing_slash=false) | safe }}"  /> 
+{% endblock head %}
+
+{% block content %}
+<main class="page__container" aria-label="Secção de introdução">
+  <section class="content__container">
+    <div class="heading__container">
+      <h1 class="heading__title"><span>404:</span>Not found</h1>
+      <p class="heading__subtitle">
+        Não foi possível encontrar a página que está procurando. 
+        Ela pode ter sido tirada do ar ou apenas ter sido um erro de digitação. 
+        Caso esteja em dúvida, pode ir para alguns desses links: 
+      </p>
+    </div>
+    <div class="navigation__list" aria-label="Lista de links para as principais páginas do sítio web">
+      <a href="/" class="navigation__item" aria-label="Acesse a tela principal">Início</a>
+      <!-- <a href="notes" class="navigation__item" aria-label="Access my blog Notes (for english speakers only)">Notes</a> -->
+      <!-- <a href="/galeria" class="navigation__item" arial-label="Accese a minha galeria de fotos">Galeria</a> -->
+      <a href="/blog" class="navigation__item" aria-label="Acesse o meu blogue Escritos (apenas para falantes de português)">Escritos</a>
+      <a href="/liricos" class="navigation__item" aria-label="Acesse o meu blogue de poemas Líricos (apenas para falantes de português)">Líricos</a>
+      <a href="/portfolio" class="navigation__item" aria-label="Acesse o meu portfólio pessoal">Portfólio</a>
+      <!-- <a href="about" class="navigation__item" aria-label="Acesse a secção sobre mim">Sobre Mim</a> -->
+      <a href="mailto:ola@thigcampos.com" class="navigation__item email" aria-label="Entre em contato por email: ola@thigcampos.com">ola@thigcampos.com</a>
+    </div>
+  </section>
+</main>
+{% endblock content %}

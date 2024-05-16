@@ -1,0 +1,32 @@
+{% extends "base.html" %}
+{% block head %}
+<title> Thiago Campos </title>
+<meta name="description" content="Engenheiro de Software e entusiasta de design, atualmente residindo nas belas paragens da Mantiqueira de Bragança" /> 
+<link rel="preload" href="{{ get_url(path="fonts/Garamond/AppleGaramond-Italic.woff2", trailing_slash=false) | safe }}" as="font" type="font/woff2" /> 
+<link rel="stylesheet" href="{{ get_url(path='home.css', trailing_slash=false) | safe }}"  /> 
+{% endblock head %}
+
+{% block content %}
+<main class="page__container" aria-label="Secção de introdução">
+  <section class="content__container">
+    <div class="heading__container">
+      <h1 class="heading__title-italic">Thiago Campos</h1>
+      <p class="heading__subtitle">
+        Sou um engenheiro de software que reside nas belas paragens da Mantiqueira. Também sou um grande
+        apreciador da música, em especial da bossa nova, da literatura e do cinema, que me 
+        contam de outros tempos, lugares e ritmos. Inspiro-me na arquitetura, na culinária 
+        e na fotografia, que me mostram outras formas de ver e sentir.
+      </p>
+    </div>
+    <div class="navigation__list" aria-label="Lista de links para as principais páginas do sítio web">
+      <!-- <a href="notes" class="navigation__item" aria-label="Access my blog Notes (for english speakers only)">Notes</a> -->
+      <!-- <a href="galeria" class="navigation__item" arial-label="Accese a minha galeria de fotos">Galeria</a> -->
+      <a href="blog" class="navigation__item" aria-label="Acesse o meu blogue Escritos (apenas para falantes de português)">Escritos</a>
+      <a href="liricos" class="navigation__item" aria-label="Acesse o meu blogue de poemas Líricos (apenas para falantes de português)">Líricos</a>
+      <!-- <a href="portfolio" class="navigation__item" aria-label="Acesse o meu portfólio pessoal">Portfólio</a> -->
+      <!-- <a href="about" class="navigation__item" aria-label="Acesse a secção sobre mim">Sobre Mim</a> -->
+      <a href="mailto:ola@thigcampos.com" class="navigation__item email" aria-label="Entre em contato por email: ola@thigcampos.com">ola@thigcampos.com</a>
+    </div>
+  </section>
+</main>
+{% endblock content %}

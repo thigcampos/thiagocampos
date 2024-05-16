@@ -1,0 +1,27 @@
+{% extends "base.html" %}
+
+{% block head %}
+<title>Assunto</title>
+<meta name="description" content="Aqui apresenta-se uma lista com todos os assuntos publicados em meus blogues" />
+<link rel="stylesheet" href="{{ get_url(path='pages/blog.css', trailing_slash=false) | safe }}" />
+{% endblock head %}
+
+{% block content %}
+<main class="page__container"> 
+    <a href="/" class="page__return"><- Voltar para o Início</a>
+  <section class="content__container">
+    <h1 class="content__title">Assuntos</h1>
+    <ul class="content__listing">
+      {% for term in terms %}
+      <li class="content__list-item">
+          <span>{{ term.page_count }} Arquivo(s)</span>
+        <a href="{{ term.path | safe }}">{{ term.name }}</a>
+      </li>
+      {% endfor %}
+    </ul>
+  </section>
+</main>
+{% endblock content %}
+{% block footer %}
+{% include "license.html" %}
+{% endblock footer %}

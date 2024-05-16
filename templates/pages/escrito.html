@@ -1,0 +1,28 @@
+{% extends "base.html" %}
+
+{% block head %}
+<title>{{ page.title }} | Escritos</title>
+<meta name="description" content="{{ page.description }}" />
+<link rel="stylesheet" href="{{ get_url(path="pages/escrito.css", trailing_slash=false) | safe }}" />
+{% endblock head %}
+
+{% block content %}
+<main class="page__container">
+  <section class="content__container">
+    <a href="{{ get_url(path='blog') }}" class="page__return"><- Voltar para Escritos</a>
+    <h1 class="content__title">
+      {{ page.title }}
+    </h1>
+    {% set taxonomy_term = page.taxonomies.assunto | first %}
+    <span class="content__subtitle">{{ page.extra.longDate}} em <a href="/assunto/{{ taxonomy_term | lower }}">{{ taxonomy_term }}</a></span>
+    {{ page.content | safe }}
+    <div class="content__footer">
+      <p class="content__footer-signature">Thiago Campos, em Mantiqueira de Bragança</p>
+      <a class="content__footer-email" href="mailto:thiago@thigcampos.com?subject={{ page.title }}">Comente por E-mail</a>
+    </div>
+  </section>
+</main>
+{% endblock content %}
+{% block footer %}
+{% include "license.html" %}
+{% endblock footer %}

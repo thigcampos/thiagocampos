@@ -1,4 +1,5 @@
 +++
+draft = true
 date = 2024-01-28
 authors = ["Thiago Campos"]
 title = "Transição do NextJs para o Zola"

@@ -11,7 +11,7 @@ longDate = "10 de Março, 2024"
 +++
 Dentre as várias críticas que tenho à Apple, destaca-se a filosofia de design de 
 seus produtos. É difícil imaginar motivações que não sejam questionáveis para a
-produção de dispositivos que não possam melhorias ou reparos por parte dos 
+produção de dispositivos que não permitam melhorias ou reparos por parte dos 
  compradores. Embora o design seja elegante, as escolhas parecem-me refletir 
  negativamente no senso de propriedade sobre os itens adquiridos e contribuir para
  a redução da longevidade dos produtos.

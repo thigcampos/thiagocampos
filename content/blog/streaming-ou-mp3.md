@@ -2,7 +2,7 @@
 date = 2024-06-26
 authors = ["Thiago Campos"]
 title = "Fuja dos streamings... e volte ao mp3?"
-description = "Ainda é possível ser donos de músicas digitais? Após anos utilizando streaming, finalmente voltei para o MP3." 
+description = "Ainda é possível ser dono de músicas digitais? Após anos utilizando streaming, finalmente voltei para o MP3." 
 [taxonomies]
 assunto = ["Ensaios"]
 [extra]

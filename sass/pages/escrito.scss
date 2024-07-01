@@ -31,12 +31,12 @@
 .content__footer {
   display: flex;
   margin-top: 2rem;
-  align-items: center;
+  align-items: flex-end;
   justify-content: space-between;
 }
 
 .content__footer-signature {
-  margin-top: 0;
+  margin: 0;
   font-style: italic;
 }
 

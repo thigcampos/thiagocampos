@@ -8,19 +8,21 @@
 
 {% block content %}
 <main class="page__container">
-  <section class="content__container">
-    <a href="{{ get_url(path='blog') }}" class="page__return"><- Voltar para Escritos</a>
-    <h1 class="content__title">
-      {{ page.title }}
-    </h1>
-    {% set taxonomy_term = page.taxonomies.assunto | first %}
-    <span class="content__subtitle">{{ page.extra.longDate}} em <a href="/assunto/{{ taxonomy_term | lower }}">{{ taxonomy_term }}</a></span>
+  <article class="content__container">
+    <header>
+      <a href="{{ get_url(path='blog') }}" class="page__return"><- Voltar para Escritos</a>
+      <h1 class="content__title">
+        {{ page.title }}
+      </h1>
+      {% set taxonomy_term = page.taxonomies.assunto | first %}
+      <span class="content__subtitle">{{ page.extra.longDate}} em <a href="/assunto/{{ taxonomy_term | lower }}">{{ taxonomy_term }}</a></span>
+    </header>
     {{ page.content | safe }}
-    <div class="content__footer">
+    <footer class="content__footer">
       <p class="content__footer-signature">Thiago Campos, em Mantiqueira de Bragança</p>
       <a class="content__footer-email" href="mailto:thiago@thigcampos.com?subject={{ page.title }}">Comente por E-mail</a>
-    </div>
-  </section>
+    </footer>
+  </article>
 </main>
 {% endblock content %}
 {% block footer %}

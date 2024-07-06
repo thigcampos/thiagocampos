@@ -31,19 +31,18 @@
 
 .content__footer {
   gap: 1rem;
-  display: flex;
-  margin-top: 2rem;
-  flex-direction: column;
+  align-items: flex-start;
 }
  
 .content__footer-signature {
   margin-top: 0;
   font-style: italic;
+  font-size: var(--font-size-20);
 }
 
 .content__footer-email {
   font-weight: 500;
   width: fit-content;
   margin-bottom: 0.5rem;
-  font-size: var(--font-size-22);
+  font-size: var(--font-size-20);
 }

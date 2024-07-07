@@ -8,13 +8,12 @@
 
 {% block content %}
 <main class="page__container"> 
-    <a href="/" class="page__return"><- Voltar para o Início</a>
+    <a href="/" class="page__return">&larr; Voltar para Entrada</a>
   <section class="content__container">
     <h1 class="content__title">
       {{ section.title }}
     </h1>
     <ul class="content__listing">
-      <!-- If you are using pagination, section.pages will be empty. You need to use the paginator object -->  
       {% for page in section.pages %}
       <li class="content__list-item">
         <span>{{ page.date }}</span>

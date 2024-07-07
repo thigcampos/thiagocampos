@@ -45,8 +45,17 @@
 }
 
 .navigation__item {
-  font-size: var(--font-size-22);
-  text-decoration: underline;
+  transition: .5s;
+  text-decoration: none;
+  font-size: var(--font-size-28);
+  color: var(--label-accent-disabled);
+}
+
+@media screen and (max-width: 768px) {
+  .navigation__item {
+    text-decoration: underline;
+    color: var(--label-accent-default);
+  }
 }
 
 @media screen and (max-width: 768px) {

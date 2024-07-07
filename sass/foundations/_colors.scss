@@ -1,8 +1,8 @@
 :root {
   color-scheme: light dark;
-  --fill-primary-default: #EFEFEF;
-  --fill-primary-hover: #E6E6E6;
-  --fill-primary-disabled: #E4E4E4;
+  --fill-primary-default: #FEFBDB;
+  --fill-primary-hover: #FDF5A9;
+  --fill-primary-disabled: #7F937F;
 
   --fill-accent-default: #0F2F25;
   --fill-accent-hover: #0F3429;
@@ -15,6 +15,8 @@
   --label-accent-default: #FEFBDB;
   --label-accent-hover: #FDF5A9;
   --label-accent-disabled: #7F937F;
+
+  --label-secondary-default: var(--background-primary);
 
   --background-primary: #0A2019;
 }

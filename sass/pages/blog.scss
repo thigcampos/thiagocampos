@@ -29,10 +29,6 @@
   color: var(--label-primary-disabled);
 }
 
-.page__return {
-    width: fit-content;
-}
-
 @media screen and (max-width: 768px) {
   .page__container {
     gap: 1rem;

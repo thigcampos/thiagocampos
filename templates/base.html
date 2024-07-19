@@ -1,24 +1,23 @@
 <!DOCTYPE html>
 <html lang="pt">
-  <head>
-    <meta charset="utf-8">
-    <meta name="author" content="Thiago Campos" />
-    <meta name="viewport" content="width=device-width" />
-    <link rel="preload" href="{{ get_url(path='fonts/Garamond/AppleGaramond.woff2', trailing_slash=false) | safe }}" as="font" type="font/woff2" /> 
-    <link rel="stylesheet" href="{{ get_url(path='base.css', trailing_slash=false) | safe }}" crossorigin="anonymous" />
-    <link rel="icon" href="{{ get_url(path='favicon.ico', trailing_slash=false) | safe }}" crossorigin="anonymous" />
-    <link rel="alternate" type="application/rss+xml" title="Escritos" href="{{ get_url(path='blog/rss.xml', trailing_slash=false) }}">
-    <link rel="alternate" type="application/rss+xml" title="Líricos" href="{{ get_url(path='liricos/rss.xml', trailing_slash=false) }}">
-    <script defer src="https://cloud.umami.is/script.js" data-website-id="63fecaa2-0c5b-495d-a687-8d27f9c562fe"></script>
-    {% block head %} {% endblock head %}
-  </head>
-
-  <body>
-    {% block content %} {% endblock content %}
-    <footer>
-      {% include "icons.html" %}
-      {% block footer %} {% endblock footer %}
-    </footer>
-  </body>
-
+    <head>
+        <meta charset="utf-8">
+        <meta name="author" content="Thiago Campos" />
+        <meta name="viewport" content="width=device-width" />
+        <link rel="stylesheet" href="{{ get_url(path='base.css', trailing_slash=false) | safe }}" crossorigin="anonymous" />
+        <link rel="icon" href="{{ get_url(path='favicon.ico', trailing_slash=false) | safe }}" crossorigin="anonymous" />
+        <link rel="alternate" type="application/rss+xml" title="Escritos" href="{{ get_url(path='blog/rss.xml', trailing_slash=false) }}">
+        <link rel="alternate" type="application/rss+xml" title="Líricos" href="{{ get_url(path='liricos/rss.xml', trailing_slash=false) }}">
+        <script defer src="https://cloud.umami.is/script.js" data-website-id="63fecaa2-0c5b-495d-a687-8d27f9c562fe"></script>
+        {% block head %}{% endblock head %}
+    </head>
+    <body>
+        <header>
+            {% block header %}{% endblock header %}
+        </header>
+        {% block content %}{% endblock content %}
+        <footer>
+            {% block footer %}{% endblock footer %}
+        </footer>
+    </body>
 </html>

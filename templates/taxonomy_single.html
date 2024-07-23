@@ -7,23 +7,22 @@
 {% endblock head %}
 
 {% block content %}
-<main class="page__container"> 
-    <a href="/assunto" class="page__return"><- Voltar para Assuntos</a>
-    <section class="content__container">
-        <h1 class="content__title">
-            {{ term.name }}
-        </h1>
-        <ul class="content__listing">
-            {% for page in term.pages %}
-            <li class="content__list-item">
-                <span>{{ page.date }}</span>
-                <a href="{{ page.permalink | safe }}">{{ page.title }}</a>
-            </li>
-            {% endfor %}
-        </ul>
+<main> 
+    <section class="section__container--column">
+        <div>
+            <a href="/assunto" class="page__return"><- Voltar para Assuntos</a>
+            <h1 class="content__title">
+                {{ term.name }}
+            </h1>
+            <ul class="content__listing">
+                {% for page in term.pages %}
+                <li class="content__list-item">
+                    <span>{{ page.date }}</span>
+                    <a href="{{ page.permalink | safe }}">{{ page.title }}</a>
+                </li>
+                {% endfor %}
+            </ul>
+        </div>
     </section>
 </main>
 {% endblock content %}
-{% block footer %}
-{% include "license.html" %}
-{% endblock footer %}

@@ -7,18 +7,19 @@
 {% endblock head %}
 
 {% block content %}
-<main class="page__container"> 
-    <a href="/" class="page__return"><- Voltar para o Início</a>
-    <section class="content__container">
-        <h1 class="content__title">Assuntos</h1>
-        <ul class="content__listing">
-            {% for term in terms %}
-            <li class="content__list-item">
-                <span>{{ term.page_count }} Arquivo(s)</span>
-                <a href="{{ term.path | safe }}">{{ term.name }}</a>
-            </li>
-            {% endfor %}
-        </ul>
+<main> 
+    <section class="section__container--column">
+        <div>
+            <h1 class="content__title">Assuntos</h1>
+            <ul class="content__listing">
+                {% for term in terms %}
+                <li class="content__list-item">
+                    <span>{{ term.page_count }} Arquivo(s)</span>
+                    <a href="{{ term.path | safe }}">{{ term.name }}</a>
+                </li>
+                {% endfor %}
+            </ul>
+        </div>
     </section>
 </main>
 {% endblock content %}

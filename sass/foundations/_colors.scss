@@ -43,13 +43,3 @@
 
   --background-primary: #FFFFFF;
 }
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --fill-primary-default: #191919;
-    --fill-primary-hover: #4C4C4C;
-    --fill-primary-disabled: #7F7F7F;
-
-   --background-primary: #000;
-  }
-}

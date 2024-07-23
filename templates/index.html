@@ -6,18 +6,18 @@
 {% endblock head %}
 {% block content %}
 <main>
-    <section class="page__container" arial-label="Secção de introdução">
-        <menu class="header">
-            <a href="/">Thiago Campos</a>
-            <a href="mailto:ola@thigcampos.com">ola@thigcampos.com</a>
+    <section class="section__container--column" arial-label="Secção de introdução">
+        <menu>
+            <a class="menu__item--text" href="/">Thiago Campos</a>
+            <a class="menu__item--text" href="mailto:ola@thigcampos.com">ola@thigcampos.com</a>
         </menu>
-        <h1 class="heading__title">Um <i>engenheiro de software</i> multidisciplinar e <a class="heading__anchor" href="/escritos">escritor</a> aficionado por <i>design</i>.</h1>
-        <menu class="header">
-            <a href="https://galeria.thigcampos.com" target="_blank">Galeria</a>
-            <a href="/about">Sobre Mim</a>
+        <h1 class="heading__title">Um <i>engenheiro de software</i> multidisciplinar e <a class="heading__anchor" href="#blogue">escritor</a> aficionado por <i>design</i>.</h1>
+        <menu>
+            <a class="menu__item--text" href="https://galeria.thigcampos.com" target="_blank">Galeria</a>
+            <a class="menu__item--text" href="/sobre">Sobre Mim</a>
         </menu>
     </section>
-    <section class="page__container-flex" arial-label="Secção de blogue">
+    <section id="blogue" class="section__container--row" arial-label="Secção de blogue">
         <div class="content__card">
             <h1 class="heading__title">Escritos</h1>
             <ul class="content__listing">
@@ -44,10 +44,8 @@
 
         </div>
     </section>
-    <section class="page__container-center" arial-label="Secção de blogue">
-        <h1 class="heading__title">Less, but <b>better</b></h1>
+    <section class="section__container--center" arial-label="Secção de rodapé">
+        <h1 class="heading__title">From <b>Brazil</b> with Love</h1>
     </section>
 </main>
 {% endblock content %}
-{% block footer %}
-{% endblock footer %}

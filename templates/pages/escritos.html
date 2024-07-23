@@ -7,19 +7,5 @@
 {% endblock head %}
 
 {% block content %}
-<main> 
-  <section class="section__container--column">
-    <h1 class="content__title">
-      {{ section.title }}
-    </h1>
-    <ul class="content__listing">
-      {% for page in section.pages %}
-      <li class="content__list-item">
-        <span>{{ page.date }}</span>
-        <a href="{{ page.permalink | safe }}">{{ page.title }}</a>
-      </li>
-      {% endfor %}
-    </ul>
-  </section>
-</main>
+{% include "partials/listing.html" %}
 {% endblock content %}

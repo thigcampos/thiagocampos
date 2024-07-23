@@ -1,9 +1,4 @@
-.page__container {
-  height: 100vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-}
+@import '../foundations/grid';
 
 .heading__title {
   font-size: var(--font-size-80);

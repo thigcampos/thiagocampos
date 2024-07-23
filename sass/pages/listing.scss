@@ -1,8 +1,4 @@
-.page__container {
-  gap: 2rem;
-  display: flex;
-  flex-direction: column;
-}
+@import '../foundations/grid';
 
 .content__title {
   margin-bottom: 2rem;

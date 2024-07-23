@@ -2,7 +2,7 @@ section {
   display: flex;
   box-sizing: border-box;
   height: 100vh;
-  padding: var(--page-padding-desktop);
+  padding: var(--page-padding);
 }
 
 .section__container--row {
@@ -46,10 +46,6 @@ section {
 }
 
 @media screen and (max-width: 768px) {
-  section {
-    padding: var(--page-padding-mobile);
-  }
-
   .section__container--row {
     height: unset;
     flex-direction: column;

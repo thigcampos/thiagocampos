@@ -1,15 +1,13 @@
-.page__container {
-  display: flex;
-  flex-direction: column;
-  gap: 2rem;
-}
+@import '../foundations/grid';
 
 .content__title {
   margin-bottom: 2rem;
+  letter-spacing: -2.16px;
   font-size: var(--font-size-64); 
 }
 
 .content__listing {
+  margin: 0;
   list-style: none;
   padding-left: 0rem;
 }
@@ -24,8 +22,8 @@
 
 .content__list-item > span {
   font-style: normal;
-  font-family: "Inter";
   font-size: var(--font-size-20);
+  font-family: var(--font-family-body);
   color: var(--label-primary-disabled);
 }
 

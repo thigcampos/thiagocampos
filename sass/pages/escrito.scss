@@ -1,5 +1,6 @@
 .page__container {
   margin: 0 auto;
+  padding: 3rem;
 }
 
 .content__header {
@@ -58,6 +59,7 @@
   border-radius: 2rem;
   padding: 1rem 1.5rem;
   text-decoration: none;
+  color: var(--background-primary);
   background-color: var(--fill-accent-default);
 }
 
@@ -67,12 +69,10 @@
 }
 
 .content__footer-up:focus, .content__footer-up:hover {
-  color: var(--label-accent-default);
   background-color: var(--fill-accent-hover);
 }
 
 .content__footer-email:focus, .content__footer-email:hover {
-  color: var(--label-secondary-default);
   background-color: var(--fill-primary-hover);
 }
 

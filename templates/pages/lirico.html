@@ -10,7 +10,7 @@
 <main class="page__container">
   <article class="content__container">
     <header class="content__header">
-      <a href="{{ get_url(path='liricos') }}" class="page__return">&larr; Voltar para Líricos</a>
+      <a href="/" class="page__return">&larr; Voltar para Início</a>
       <h1 class="content__title">
         {{ page.title }}
       </h1>
@@ -27,6 +27,3 @@
   </article>
 </main>
 {% endblock content %}
-{% block footer %}
-{% include "license.html" %}
-{% endblock footer %}

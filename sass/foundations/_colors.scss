@@ -1,3 +1,4 @@
+/* Green-ish color scheme
 :root {
   color-scheme: light dark;
   --fill-primary-default: #FEFBDB;
@@ -19,4 +20,26 @@
   --label-secondary-default: var(--background-primary);
 
   --background-primary: #0A2019;
+} */
+
+
+:root {
+  color-scheme: light dark;
+  --fill-primary-default: #F7F7F7;
+  --fill-primary-hover: #EFEFEF;
+  --fill-primary-disabled: #E0E0E0;
+
+  --fill-accent-default: #0000EE;
+  --fill-accent-hover: #0000CC;
+  --fill-accent-disabled: #143E31;
+
+  --label-primary-default: #191919;
+  --label-primary-hover: #4C4C4C;
+  --label-primary-disabled: #7F7F7F;
+
+  --label-accent-default: #191919;
+  --label-accent-hover: #4C4C4C;
+  --label-accent-disabled: #7F7F7F;
+
+  --background-primary: #FFFFFF;
 }

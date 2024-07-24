@@ -1,6 +1,9 @@
-@import '../foundations/grid';
-
 .heading__title {
+  font-size: var(--font-size-120);
+  font-weight: var(--font-weight-400); 
+}
+
+.content__title {
   font-size: var(--font-size-80);
   font-weight: var(--font-weight-400); 
 }
@@ -14,5 +17,5 @@
 }
 
 .heading__anchor:focus, .heading__anchor:hover {
-  font-style: normal;
+  text-decoration-thickness: .3125rem;
 }

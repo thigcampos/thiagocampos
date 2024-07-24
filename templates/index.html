@@ -19,7 +19,7 @@
     </section>
     <section id="blogue" class="section__container--row" arial-label="Secção de blogue">
         <div class="content__card">
-            <h2 class="heading__title"><b><i>Artigos</i></b> publicados recentemente</h2>
+            <h2 class="content__title"><b><i>Artigos</i></b> publicados recentemente</h2>
             <ul class="content__listing">
                 {% set blog_section = get_section(path="escritos/_index.md") %}
                 {% for page in blog_section.pages %}
@@ -31,7 +31,7 @@
             </ul>
         </div>
         <div class="content__card">
-            <h2 class="heading__title">Caso prefira <b><i>poemas</i></b></h2>
+            <h2 class="content__title">Caso prefira <b><i>poemas</i></b></h2>
             <ul class="content__listing">
                 {% set blog_section = get_section(path="liricos/_index.md") %}
                 {% for page in blog_section.pages %}

@@ -1,19 +1,19 @@
-<main class="page__container">
-  <article class="content__container">
-    <header class="content__header">
-      <a href="/" class="page__return">&larr; Voltar para Início</a>
-      <h1 class="content__title">
+<main>
+  <article class="article__container">
+    <header class="article__header">
+      <a href="/" class="button">&larr; Voltar para Início</a>
+      <h1 class="article__title">
         {{ page.title }}
       </h1>
       {% set taxonomy_term = page.taxonomies.assunto | first %}
-      <span class="content__subtitle">{{ page.extra.longDate}} em <a href="/assunto/{{ taxonomy_term | lower }}">{{ taxonomy_term }}</a></span>
+      <span class="article__subtitle">{{ page.extra.longDate}} em <a href="/assunto/{{ taxonomy_term | lower }}">{{ taxonomy_term }}</a></span>
     </header>
     {{ page.content | safe }}
-    <footer class="content__footer">
-      <p class="content__footer-signature">Thiago Campos, em Mantiqueira de Bragança</p>
-      <div class="content__footer-actions">
-        <a class="content__footer-up" href="#top">Voltar ao topo</a>
-        <a class="content__footer-email" href="mailto:thiago@thigcampos.com?subject={{ page.title }}">Comente por E-mail</a>
+    <footer class="article__footer">
+      <p class="article__footer--signature">Thiago Campos, em Mantiqueira de Bragança</p>
+      <div class="article__footer--actions">
+        <a class="article__footer--top" href="#top">Voltar ao topo</a>
+        <a class="article__footer--email" href="mailto:thiago@thigcampos.com?subject={{ page.title }}">Comente por E-mail</a>
       </div>
     </footer>
   </article>

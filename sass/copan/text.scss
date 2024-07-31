@@ -1,0 +1,75 @@
+@import 'fonts';
+
+h1, h2, h3, h4, h5, h6 {
+  color: inherit;
+  font-family: var(--font-family-title);
+  line-height: var(--font-line-height-title);
+  letter-spacing: var(--font-letter-spacing-title);
+}
+
+p {
+  color: inherit;
+  font-size: var(--font-size-20);
+  font-family: var(--font-family-body);
+  line-height: var(--font-line-height-body);
+  letter-spacing: var(--font-letter-spacing-body);
+}
+
+span {
+  color: var(--label-primary-disabled);
+  font-family: var(--font-family-body);
+  line-height: var(--font-line-height-body);
+}
+
+a {
+  color: var(--label-accent-default);
+  font-family: var(--font-family-body);
+  line-height: var(--font-line-height-body);
+  letter-spacing: var(--font-letter-spacing-body);
+}
+
+.nav--item {
+  font-size: var(--font-size-20);
+  color: var(--label-accent-default);
+  transition: var(--anchor-transition);
+  text-decoration: var(--anchor-decoration);
+}
+
+.nav--item:hover, .nav--item:focus {
+  font-style: italic;
+}
+
+ol, ul {
+  list-style-type: none;
+}
+
+ol:before{
+  font-weight: bold;
+  content:attr(aria-label);
+  font-size: var(--font-size-64);
+  font-family: var(--font-family-title);
+}
+
+.list--container-column-left {
+  width: 50%; 
+}
+
+.list--container-column-right {
+  width: 50%;
+}
+
+li {
+  color: inherit;
+  font-size: var(--font-size-20);
+  font-family: var(--font-family-body);
+  line-height: var(--font-line-height-body);
+  letter-spacing: var(--font-letter-spacing-body); 
+}
+
+.list--item {
+  margin-top: 2rem;
+
+  span {
+    margin-right: 1rem;
+  }
+}

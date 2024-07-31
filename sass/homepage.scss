@@ -1,0 +1,14 @@
+.heading--title {
+  font-size: var(--font-size-120);
+  font-weight: var(--font-weight-400); 
+}
+
+.heading--anchor {
+  font-style: italic;
+  font-family: var(--font-family-title);
+  line-height: var(--font-line-height-title);
+}
+
+.heading--anchor:focus, .heading--anchor:hover {
+  text-decoration-thickness: .5rem;
+}

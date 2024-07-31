@@ -2,50 +2,43 @@
 {% block head %}
 <title> Thiago Campos </title>
 <meta name="description" content="Engenheiro de Software e entusiasta de design, atualmente residindo nas belas paragens da Mantiqueira de Bragança" /> 
-<link rel="stylesheet" href="{{ get_url(path='pages/homepage.css', trailing_slash=false) | safe }}"  /> 
+<link rel="stylesheet" href="{{ get_url(path='homepage.css', trailing_slash=false) | safe }}"  /> 
 {% endblock head %}
 {% block content %}
 <main>
-    <section class="section__container--column" arial-label="Secção de introdução">
-        <menu>
-            <a class="menu__item--text" href="/">Thiago Campos</a>
-            <a class="menu__item--text" href="mailto:ola@thigcampos.com">ola@thigcampos.com</a>
-        </menu>
-        <h1 class="heading__title">Um <i>engenheiro de software</i> multidisciplinar e <a class="heading__anchor" href="#blogue">escritor</a> aficionado por <i>design</i>.</h1>
-        <menu>
-            <a class="menu__item--text" href="https://galeria.thigcampos.com" target="_blank">Galeria</a>
-            <a class="menu__item--text" href="/sobre">Sobre Mim</a>
-        </menu>
+    <section class="section--container-spaced-between" arial-label="Secção de introdução">
+        <nav>
+            <a class="nav--item" href="/">Thiago Campos</a>
+            <a class="nav--item" href="mailto:ola@thigcampos.com">ola@thigcampos.com</a>
+        </nav>
+        <h1 class="heading--title">Um <i>engenheiro de software</i> multidisciplinar e <a class="heading--anchor" href="#blogue">escritor</a> aficionado por <i>design</i>.</h1>
+        <nav>
+            <a class="nav--item" href="https://galeria.thigcampos.com" target="_blank">Galeria</a>
+            <a class="nav--item" href="/sobre">Sobre Mim</a>
+        </nav>
     </section>
-    <section id="blogue" class="section__container--row" arial-label="Secção de blogue">
-        <div class="content__card">
-            <h2 class="content__title"><b><i>Artigos</i></b> publicados recentemente</h2>
-            <ul class="content__listing">
-                {% set blog_section = get_section(path="escritos/_index.md") %}
-                {% for page in blog_section.pages %}
-                <li class="content__list-item">
-                    <span>{{ page.date }}</span>
-                    <a href="{{ page.permalink | safe }}">{{ page.title }}</a>
-                </li>
-                {% endfor %}
-            </ul>
-        </div>
-        <div class="content__card">
-            <h2 class="content__title">Caso prefira <b><i>poemas</i></b></h2>
-            <ul class="content__listing">
-                {% set blog_section = get_section(path="liricos/_index.md") %}
-                {% for page in blog_section.pages %}
-                <li class="content__list-item">
-                    <span>{{ page.date }}</span>
-                    <a href="{{ page.permalink | safe }}">{{ page.title }}</a>
-                </li>
-                {% endfor %}
-            </ul>
-
-        </div>
+    <section id="blogue" class="section--container-column" arial-label="Secção de blogue">
+        <ol class="list--container-column-left" aria-label="Artigos recentes">
+            {% set blog_section = get_section(path="escritos/_index.md") %}
+            {% for page in blog_section.pages %}
+            <li class="list--item">
+                <span>{{ page.date }}</span>
+                <a href="{{ page.permalink | safe }}">{{ page.title }}</a>
+            </li>
+            {% endfor %}
+        </ol>
+        <ol class="list--container-column-right" aria-label="Últimos poemas">
+            {% set blog_section = get_section(path="liricos/_index.md") %}
+            {% for page in blog_section.pages %}
+            <li class="list--item">
+                <span>{{ page.date }}</span>
+                <a href="{{ page.permalink | safe }}">{{ page.title }}</a>
+            </li>
+            {% endfor %}
+        </ol>
     </section>
-    <section class="section__container--center" arial-label="Secção de rodapé">
-        <h1 class="heading__title">From <b><i>Brazil</i></b> with Love</h1>
+    <section id="frase" class="section--container-centered" arial-label="Secção de rodapé">
+        <h1 class="heading--title">From <b><i>Brazil</i></b> with Love</h1>
     </section>
 </main>
 {% endblock content %}

@@ -6,18 +6,18 @@
 {% endblock head %}
 {% block content %}
 <main>
-    <section class="section--container-spaced-between" arial-label="Secção de introdução">
+    <section class="container--spaced-between" arial-label="Secção de introdução">
         <nav>
             <a class="nav--item" href="/">Thiago Campos</a>
             <a class="nav--item" href="mailto:ola@thigcampos.com">ola@thigcampos.com</a>
         </nav>
         <h1 class="heading--title">Um <i>engenheiro de software</i> multidisciplinar e <a class="heading--anchor" href="#blogue">escritor</a> aficionado por <i>design</i>.</h1>
         <nav>
-            <a class="nav--item" href="https://galeria.thigcampos.com" target="_blank">Galeria</a>
+            <a class="nav--item" href="https://instagram.com/@thigcampos" target="_blank">Instagram</a>
             <a class="nav--item" href="/sobre">Sobre Mim</a>
         </nav>
     </section>
-    <section id="blogue" class="section--container-column" arial-label="Secção de blogue">
+    <section id="blogue" class="container--column" arial-label="Secção de blogue">
         <ol class="list--container-column-left" aria-label="Artigos recentes">
             {% set blog_section = get_section(path="escritos/_index.md") %}
             {% for page in blog_section.pages %}
@@ -37,7 +37,7 @@
             {% endfor %}
         </ol>
     </section>
-    <section id="frase" class="section--container-centered" arial-label="Secção de rodapé">
+    <section id="frase" class="container--centered" arial-label="Secção de rodapé">
         <h1 class="heading--title">From <b><i>Brazil</i></b> with Love</h1>
     </section>
 </main>

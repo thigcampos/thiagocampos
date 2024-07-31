@@ -9,7 +9,7 @@ main {
 
   h2, h3, h4, h5, h6 {
     font-family: var(--font-family-body);
-    letter-spacing: var(--font-letter-spacing-body);
+    letter-spacing: var(--letter-spacing-body);
   }
 }
 
@@ -21,13 +21,14 @@ main {
 
 .article__title {
   font-weight: 600;
+  font-size: var(--font-size-64);
 }
 
 .article__subtitle {
   color: var(--label-accent-disabled);
   font-weight: var(--font-weight-400);
   font-family: var(--font-family-body);
-  line-height: var(--font-line-height-body);
+  line-height: var(--line-height-body);
 }
 
 .article__footer {

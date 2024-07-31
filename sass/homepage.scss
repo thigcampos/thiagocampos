@@ -1,12 +1,16 @@
 .heading--title {
+  font-weight: 400; 
   font-size: var(--font-size-120);
-  font-weight: var(--font-weight-400); 
 }
 
 .heading--anchor {
   font-style: italic;
   font-family: var(--font-family-title);
-  line-height: var(--font-line-height-title);
+  line-height: var(--line-height-title);
+}
+
+nav {
+  justify-content: space-between;
 }
 
 .heading--anchor:focus, .heading--anchor:hover {

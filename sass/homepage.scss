@@ -1,3 +1,9 @@
+.space-between {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
 .heading--title {
   font-weight: 400;
   color: var(--label-accent);
@@ -26,5 +32,9 @@ nav {
     p {
       width: 100%;
     }
+  }
+
+  nav a {
+    text-decoration: underline;
   }
 }

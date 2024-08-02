@@ -1,12 +1,12 @@
-.heading--title {
-  font-weight: 400; 
-  font-size: var(--font-size-120);
+.space-between {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
-.heading--anchor {
-  font-style: italic;
-  font-family: var(--font-family-title);
-  line-height: var(--line-height-title);
+.heading--title {
+  font-weight: 400; 
+  font-size: var(--font-size-80);
 }
 
 nav {
@@ -14,5 +14,5 @@ nav {
 }
 
 .heading--anchor:focus, .heading--anchor:hover {
-  text-decoration-thickness: .5rem;
+  text-decoration-thickness: .375rem;
 }

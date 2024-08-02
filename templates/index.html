@@ -6,38 +6,18 @@
 {% endblock head %}
 {% block content %}
 <main>
-    <section class="container--spaced-between" arial-label="Secção de introdução">
+    <section class="space-between" arial-label="Secção de introdução">
         <nav>
-            <a class="nav--item" href="/">Thiago Campos</a>
-            <a class="nav--item" href="mailto:ola@thigcampos.com">ola@thigcampos.com</a>
+            <a href="/">Thiago Campos</a>
+            <a href="mailto:ola@thigcampos.com">ola@thigcampos.com</a>
         </nav>
-        <h1 class="heading--title">Um <i>engenheiro de software</i> multidisciplinar e <a class="heading--anchor" href="#blogue">escritor</a> aficionado por <i>design</i>.</h1>
+        <h1 class="heading--title">Um engenheiro de software multidisciplinar aficionado por design.</h1>
         <nav>
-            <a class="nav--item" href="https://instagram.com/@thigcampos" target="_blank">Instagram</a>
-            <a class="nav--item" href="/sobre">Sobre Mim</a>
+            <a href="{{ get_url(path='@/escritos/_index.md') }}">Escritos</a>
+            <a href="{{ get_url(path='@/liricos/_index.md') }}">Líricos</a>
         </nav>
     </section>
-    <section id="blogue" class="container--column" arial-label="Secção de blogue">
-        <ol class="list--container-column-left" aria-label="Artigos recentes">
-            {% set blog_section = get_section(path="escritos/_index.md") %}
-            {% for page in blog_section.pages %}
-            <li class="list--item">
-                <span>{{ page.date }}</span>
-                <a href="{{ page.permalink | safe }}">{{ page.title }}</a>
-            </li>
-            {% endfor %}
-        </ol>
-        <ol class="list--container-column-right" aria-label="Últimos poemas">
-            {% set blog_section = get_section(path="liricos/_index.md") %}
-            {% for page in blog_section.pages %}
-            <li class="list--item">
-                <span>{{ page.date }}</span>
-                <a href="{{ page.permalink | safe }}">{{ page.title }}</a>
-            </li>
-            {% endfor %}
-        </ol>
-    </section>
-    <section id="frase" class="container--centered" arial-label="Secção de rodapé">
+    <section id="frase" class="column-center" arial-label="Secção de rodapé">
         <h1 class="heading--title">From <b><i>Brazil</i></b> with Love</h1>
     </section>
 </main>

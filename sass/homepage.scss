@@ -1,18 +1,30 @@
-.space-between {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
+.heading--title {
+  font-weight: 400;
+  color: var(--label-accent);
+  text-align: center;
+  font-size: var(--font-size-120);
 }
 
-.heading--title {
-  font-weight: 400; 
-  font-size: var(--font-size-80);
+.flex-center {
+  width: 75%;
+  margin: 0 auto;
+  p {
+    text-align: justify;
+    width: 75%;
+    color: var(--label-accent);
+    margin: 0 auto;
+  }
 }
 
 nav {
   justify-content: space-between;
 }
 
-.heading--anchor:focus, .heading--anchor:hover {
-  text-decoration-thickness: .375rem;
+@media screen and (max-width: 768px) {
+  .flex-center {
+    width: 100%;
+    p {
+      width: 100%;
+    }
+  }
 }

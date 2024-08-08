@@ -3,10 +3,7 @@ date = 2023-11-06
 authors = ["Thiago Campos"]
 title = "Breve Manifesto Lusófono"
 description = "Somente as palavras lusófonas nos unem. Socialmente. Economicamente. Filosoficamente."
-[taxonomies]
-assunto = ["Manifestos"]
-[extra]
-longDate = "06 de Novembro, 2023"
+template = "pages/escrito.html"
 +++
 Somente as palavras lusófonas nos unem. Socialmente. Economicamente. Filosoficamente.
 

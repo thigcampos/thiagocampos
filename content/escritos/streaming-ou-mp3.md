@@ -3,10 +3,7 @@ date = 2024-06-26
 authors = ["Thiago Campos"]
 title = "Fuja dos streamings... e volte ao mp3?"
 description = "Ainda é possível ser dono de músicas digitais? Após anos utilizando streaming, finalmente voltei para o MP3." 
-[taxonomies]
-assunto = ["Ensaios"]
-[extra]
-longDate = "26 de Junho, 2024"
+template = "pages/escrito.html"
 +++
 No mundo atual, a dúvida entre alugar e comprar permeia diversas áreas da nossa vida. Desde grandes aquisições como casas e carros até itens mais simples como filmes e jogos, a decisão entre ter algo como propriedade ou pagar por acesso temporário se torna cada vez mais comum. No mundo da música, essa dicotomia se traduz na escolha entre serviços de *streaming*, como *Spotify* e *Youtube Music*, e a compra de diferentes formatos de mídia musical, como CDs, vinis e arquivos MP3.
 #### Música na infância

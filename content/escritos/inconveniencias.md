@@ -3,10 +3,7 @@ date = 2024-01-21
 authors = ["Thiago Campos"]
 title = "Incoveniências no processo de escrita criativa"
 description = "Uma breve reflexão sobre procrastinação e inspiração" 
-[taxonomies]
-assunto = ["Relatos"]
-[extra]
-longDate = "21 de Janeiro, 2024"
+template = "pages/escrito.html"
 +++
 
 Entre as diversas mudanças que ocorreram neste *website* nos últimos quatro meses, algo manteve-se constante: a falta de postagens neste blogue. Não foi por falta de tentativa; diversos esboços foram escritos (e descartados), mas nenhum deles me agradava.

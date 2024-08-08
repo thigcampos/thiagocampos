@@ -4,10 +4,7 @@ date = 2024-01-28
 authors = ["Thiago Campos"]
 title = "Transição do NextJs para o Zola"
 description = "Detalhes e motivações que me levaram a re-escrever todo meu sítio web, migrando do NextJS para o Zola."
-[taxonomies]
-assunto=["Ensaios"]
-[extra]
-longDate = "28 de Janeiro, 2024"
+template = "pages/escrito.html"
 +++
 ### Novo
 Há alguns anos trabalho com tecnologias de _Single Page Application_ (SPAs), especialmente _React_ e _frameworks_

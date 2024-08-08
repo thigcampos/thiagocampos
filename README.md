@@ -1,17 +1,12 @@
 ## *thigcampos*
-A classic-looking personal website built with [Zola](https://getzola.org) and [SASS](https://sass-lang.com). 
+A classic-looking personal website built with [Resma](https://github.com/brasilisclub/resma) and [Copan](https://copan.brasilis.club). 
 
-### Template
-Although it is not available as a Zola template yet, you can clone this project and use the `template` branch to build your own website.
-
-#### Installation
-Follow [Zola's guide](https://www.getzola.org/documentation/getting-started/installation/).
 
 #### Usage
 To get the server started, run:
 
 ```shell
-zola serve
+resma serve
 ```
 
 And that is it, you can now starting editing your website!

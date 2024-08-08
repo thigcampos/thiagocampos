@@ -9,12 +9,10 @@
 <main>
     <article>
         <header>
-            <a href="{{ get_url(path='@/liricos/_index.md') }}" class="button">&larr; Retornar</a>
+            <a href="/liricos/" class="button">&larr; Retornar</a>
             <h1>
                 {{ page.title }}
             </h1>
-            {% set taxonomy_term = page.taxonomies.assunto | first %}
-            <span>{{ page.extra.longDate}} em <a href="/assunto/{{ taxonomy_term | lower }}">{{ taxonomy_term }}</a></span>
         </header>
         {{ page.content | safe }}
         <footer>

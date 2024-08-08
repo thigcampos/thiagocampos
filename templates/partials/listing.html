@@ -1,11 +1,11 @@
 <main> 
     <section class="flex-column">
         <a href="/" class="button">&larr; Retornar</a>
-        <ol aria-label="{{ section.title }}">
-            {% for page in section.pages %}
+        <ol aria-label="{{ page.title }}">
+            {% for post in page.pages %}
             <li>
-                <span>{{ page.date }}</span>
-                <a href="{{ page.permalink | safe }}">{{ page.title }}</a>
+                <span>{{ post.date }}</span>
+                <a href="{{ post.url | safe }}">{{ post.title }}</a>
             </li>
             {% endfor %}
         </ol>

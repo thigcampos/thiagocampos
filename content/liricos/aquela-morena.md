@@ -2,11 +2,8 @@
 date = 2022-07-10
 authors = ["Thiago Campos"]
 title = "Aquela Morena"
-description = "Aqueles verson haviam te pertencido, mas você decidiu mudar, talvez seja melhor que..."
-[taxonomies]
-assunto = ["Poemas"]
-[extra]
-longDate = "10 de Julho, 2022"
+tescription = "Aqueles verson haviam te pertencido, mas você decidiu mudar, talvez seja melhor que..."
+template = "pages/escrito.html"
 +++
 Aqueles versos haviam te pertencido, <br>
 mas você decidiu mudar, <br>

@@ -3,7 +3,7 @@ date = 2024-01-10
 authors = ["Thiago Campos"]
 title = "Carta p'ro Cotidiano"
 description = "Quanta graça há no amor, se esconde em simples atos, se estabelece em leves fatos.."
-template = "pages/escrito.html"
+template = "pages/lirico.html"
 +++
 Quanta graça há no amor, <br>
 Se esconde em simples atos, <br>

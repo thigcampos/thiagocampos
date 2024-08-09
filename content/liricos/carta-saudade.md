@@ -3,7 +3,7 @@ date = 2023-11-04
 authors = ["Thiago Campos"]
 title = "Carta p'ra Saudade"
 description = "Saudade companheira, te entrego essa missão, Siga para tão longe e diga à Solidão..."
-template = "pages/escrito.html"
+template = "pages/lirico.html"
 +++
 Saudade companheira, te entrego essa missão, <br>
 Siga para tão longe e diga à Solidão, <br>

@@ -3,8 +3,9 @@ date = 2023-11-06
 authors = ["Thiago Campos"]
 title = "Breve Manifesto Lusófono"
 description = "Somente as palavras lusófonas nos unem. Socialmente. Economicamente. Filosoficamente."
-template = "pages/escrito.html"
+template = "pages/lirico.html"
 +++
+
 Somente as palavras lusófonas nos unem. Socialmente. Economicamente. Filosoficamente.
 
 Em um mundo dominado pela anglofania, há um exuberante conforto e potencial nas palavras lusófonas. Que expressam de forma saudosa memórias de nossa história.

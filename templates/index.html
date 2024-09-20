@@ -1,7 +1,7 @@
 {% extends "base.html" %}
 {% block head %}
-<title> Thiago Campos </title>
-<meta name="description" content="Engenheiro de Software e entusiasta de design, atualmente residindo nas belas paragens da Mantiqueira de Bragança" /> 
+<title>{{ page.title }}</title>
+<meta name="description" content="{{ page.description }}" /> 
 <link rel="stylesheet" href="/styles/homepage.css" /> 
 {% endblock head %}
 {% block content %}
@@ -32,8 +32,8 @@
         </div>
         <footer>
             <nav>
-                <a href="https://github.com/brasilisclub/resma" target="_blank">Built with <b>Resma</b></a>
-                <p class="color-accent">From <b>Brazil</b> with Love</p>
+                <a href="https://github.com/brasilisclub/resma" target="_blank">Feito com <b>Resma</b></a>
+                <p class="color-accent">Projetado no <b>Brasil</b></p>
             </nav>
         </footer>
     </section>

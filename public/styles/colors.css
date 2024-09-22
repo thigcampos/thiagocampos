@@ -1,0 +1,32 @@
+    @media (prefers-color-scheme: light) {
+    :root {
+        color-scheme:light;
+        --fill-primary-default: #EEE;
+        --fill-primary-hover: #E0E0E0;
+        --fill-primary-disabled: #F2FAF3;
+        --fill-accent-default: #0066FF;
+        --fill-accent-hover: #1456b8;
+        --fill-accent-disabled: #80AF81;
+        --label-primary: #0C260B;
+        --label-secondary: #FFF;
+        --label-accent: #1456b8;
+        --background-primary: #FFF;
+    }
+}
+
+@media (prefers-color-scheme: dark){
+    :root {
+        color-scheme: dark;
+        --fill-primary-default: #1D1D1F;
+        --fill-primary-hover: #252527;
+        --fill-primary-disabled: #F2FAF3;
+        --fill-accent-default: #0066FF;
+        --fill-accent-hover: #1456b8;
+        --fill-accent-disabled: #80AF81;
+        --label-primary: #F5F5F7;
+        --label-secondary: #F5F5F7;
+        --label-tertiary: #91918C;
+        --label-accent: #2997FF;
+        --background-primary: #141414;
+     }
+}

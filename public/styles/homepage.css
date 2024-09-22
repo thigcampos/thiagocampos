@@ -1,5 +1,5 @@
 .svg {
-    fill: var(--label-accent);
+    fill: var(--label-primary);
 }
 
 .space-between {
@@ -10,19 +10,23 @@
 
 .heading--title {
     font-weight: 400;
-    color: var(--label-accent);
-    font-size: var(--font-size-64);
+    color: var(--label-primary);
+    font-size: 3.5rem;
 }
 
 .color-accent {
     margin: 0;
-    color: var(--label-accent);
+    color: var(--label-primary);
 }
 
 header, footer {
     display: flex;
     width: 100%;
     justify-content: space-between;
+}
+
+nav a {
+    color: var(--label-primary);
 }
 
 footer > nav {
@@ -39,12 +43,12 @@ footer > nav {
         gap: 2rem;
         flex-direction: column;
         padding: 1rem 0;
-        border-top: .125rem var(--label-accent) solid;
-        border-bottom: .125rem var(--label-accent) solid;
+        border-top: .125rem var(--label-primary) solid;
+        border-bottom: .125rem var(--label-primary) solid;
     }
 
     header nav {
-        gap: .75rem;
+        align-content: space-between;
     }
 
     header > nav:first-child {

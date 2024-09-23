@@ -19,6 +19,11 @@
     color: var(--label-accent);
 }
 
+footer nav div {
+    display: flex;
+    gap: 1rem;
+}
+
 header, footer {
     display: flex;
     width: 100%;

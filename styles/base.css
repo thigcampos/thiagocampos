@@ -1,0 +1,6 @@
+.button-accent,
+.button-accent:focus,
+.button-accent:hover,
+input.button-accent[type=submit]:focus {
+    color: var(--label-secondary);
+}

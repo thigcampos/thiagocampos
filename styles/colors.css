@@ -1,32 +1,32 @@
-    @media (prefers-color-scheme: light) {
+@media (prefers-color-scheme: light) {
     :root {
         color-scheme:light;
-        --fill-primary-default: #EEE;
-        --fill-primary-hover: #E0E0E0;
+        --fill-primary-default: #ACDEB0;
+        --fill-primary-hover: #8FD395;
         --fill-primary-disabled: #F2FAF3;
-        --fill-accent-default: #0066FF;
-        --fill-accent-hover: #1456b8;
+        --fill-accent-default: #508D4E;
+        --fill-accent-hover: #427440;
         --fill-accent-disabled: #80AF81;
         --label-primary: #0C260B;
         --label-secondary: #FFF;
-        --label-accent: #1456b8;
-        --background-primary: #FFF;
+        --label-accent: #1A5319;
+        --background-primary: #D6EFD850;
     }
 }
 
 @media (prefers-color-scheme: dark){
     :root {
-        color-scheme: dark;
-        --fill-primary-default: #1D1D1F;
-        --fill-primary-hover: #252527;
-        --fill-primary-disabled: #F2FAF3;
-        --fill-accent-default: #0066FF;
-        --fill-accent-hover: #1456b8;
-        --fill-accent-disabled: #80AF81;
-        --label-primary: #F5F5F7;
-        --label-secondary: #F5F5F7;
-        --label-tertiary: #91918C;
-        --label-accent: #2997FF;
-        --background-primary: #141414;
-     }
+        color-scheme:dark;
+        --fill-accent-default: #EFEFEF;
+        --fill-accent-hover: #E6E6E6;
+        --fill-accent-disabled: #E4E4E4;
+        --fill-primary-default: #0F2F25;
+        --fill-primary-hover: #0F3429;
+        --fill-primary-disabled: #143E31;
+        --label-primary: #F7FAFC;
+        --label-secondary: #0A2019;
+        --label-accent: #FEFBDB;
+        --background-primary: #0A2019
+    }
 }
+

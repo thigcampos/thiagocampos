@@ -1,5 +1,5 @@
 .svg {
-    fill: var(--label-primary);
+    fill: var(--label-accent);
 }
 
 .space-between {
@@ -10,13 +10,13 @@
 
 .heading--title {
     font-weight: 400;
-    color: var(--label-primary);
+    color: var(--label-accent);
     font-size: 3.5rem;
 }
 
 .color-accent {
     margin: 0;
-    color: var(--label-primary);
+    color: var(--label-accent);
 }
 
 header, footer {
@@ -26,7 +26,7 @@ header, footer {
 }
 
 nav a {
-    color: var(--label-primary);
+    color: var(--label-accent);
 }
 
 footer > nav {
@@ -43,8 +43,8 @@ footer > nav {
         gap: 2rem;
         flex-direction: column;
         padding: 1rem 0;
-        border-top: .125rem var(--label-primary) solid;
-        border-bottom: .125rem var(--label-primary) solid;
+        border-top: .125rem var(--label-accent) solid;
+        border-bottom: .125rem var(--label-accent) solid;
     }
 
     header nav {

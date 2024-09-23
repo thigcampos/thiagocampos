@@ -53,7 +53,8 @@ footer > nav {
     }
 
     header nav {
-        align-content: space-between;
+        gap: unset;
+        justify-content: space-between;
     }
 
     header > nav:first-child {

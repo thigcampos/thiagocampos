@@ -1,0 +1,31 @@
+
+main {
+    width: 75%;
+    margin: auto;
+}
+
+ol::before {
+    margin-bottom: 2rem;
+}
+
+.post-container{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+
+    span {
+        font-size: var(--font-size-14);
+        color: var(--color-tertiary);
+    }
+
+    h3 {
+        margin: 0;
+        font-family: var(--font-family-body);
+    }
+
+    a {
+        font-decoration: none;
+    }
+}
+
+

@@ -10,6 +10,7 @@
         --label-primary: #0C260B;
         --label-secondary: #FFF;
         --label-accent: #1A5319;
+        --label-disabled: #1A531940;
         --background-primary: #D6EFD850;
     }
 }
@@ -26,6 +27,7 @@
         --label-primary: #F7FAFC;
         --label-secondary: #0A2019;
         --label-accent: #FEFBDB;
+        --label-disabled: #FEFBDB40;
         --background-primary: #0A2019
     }
 }

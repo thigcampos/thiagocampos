@@ -4,3 +4,7 @@
 input.button-accent[type=submit]:focus {
     color: var(--label-secondary);
 }
+
+.disabled {
+    color: var(--label-disabled);
+}

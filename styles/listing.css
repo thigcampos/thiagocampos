@@ -7,6 +7,11 @@ ol::before {
     margin-bottom: 2rem;
 }
 
+hr {
+    width: 100%;
+    color: var(--label-disabled);
+}
+
 .post-container{
     display: flex;
     flex-direction: column;
@@ -23,7 +28,7 @@ ol::before {
     }
 
     a {
-        font-decoration: none;
+        text-decoration: none;
     }
 }
 

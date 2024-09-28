@@ -4,7 +4,7 @@
         <ol aria-label="{{ page.title }}">
             {% for post in page.pages %}
             <li>
-                <span>{{ post.date }}</span>
+                <span class="disabled">{{ post.date }}</span>
                 <a href="{{ post.url | safe }}">{{ post.title }}</a>
             </li>
             {% endfor %}

@@ -22,7 +22,7 @@
         <ol aria-label="{{ page.title }}">
             {% for post in page.pages %}
             <li class="post-container">
-                <span>{{ post.date }}</span>
+                <span class="disabled">{{ post.date }}</span>
                 <h3>{{ post.title }}</h3>
                 <div class="excerpt">{{ extract_first_paragraph(post.content) }}</div>
                 <a href="{{ post.url | safe }}">Leia mais &rarr;</a>

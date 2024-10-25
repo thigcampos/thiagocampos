@@ -5,12 +5,13 @@
         <meta name="author" content="Thiago Campos" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <link rel="stylesheet" href="{{ get_url(path='foundations.css', trailing_slash=false) | safe }}" />
-        <link rel="icon" href="/static/favicon-light.ico" crossorigin="anonymous" />
+        <link rel="icon" href="favicon-light.ico" crossorigin="anonymous" />
         {% block head %}{% endblock head %}
     </head>
     <body>
         {% block header %}{% endblock header %}
         {% block content %}{% endblock content %}
         {% block footer %}{% endblock footer %}
+        <script src="script.js"></script>
     </body>
 </html>

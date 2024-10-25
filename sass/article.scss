@@ -1,0 +1,35 @@
+main {
+  width: 80%;
+  margin: auto;
+}
+
+.title {
+  font-size: var(--font-size-64);
+}
+
+h1 {
+  font-size: var(--font-size-48);
+}
+
+h2 {
+  font-size: var(--font-size-40);
+}
+
+h3 {
+  font-size: var(--font-size-32);
+}
+
+h4 {
+  font-size: var(--font-size-28);
+}
+
+.footer {
+  display: flex;
+  gap: 1rem;
+}
+
+@media screen and (max-width: 748px) {
+  .footer {
+    flex-direction: column;
+  }
+}

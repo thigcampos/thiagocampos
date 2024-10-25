@@ -1,0 +1,17 @@
+html, body {
+  margin: 0;
+}
+
+body {
+  padding: 3rem;
+  min-height: 100vh;
+  box-sizing: border-box;
+  color: var(--label-primary);
+  background: var(--background-primary);
+}
+
+@media only screen and (max-width: 768px) {
+  body {
+    padding: .75rem;
+  }
+}

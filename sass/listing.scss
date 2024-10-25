@@ -1,0 +1,19 @@
+.title {
+  margin: 0;
+  font-size: var(--font-size-64);
+}
+
+.list {
+  padding-left: 0;
+  list-style-type: none;
+}
+
+.list-item + .list-item {
+  margin-top: 1rem;
+}
+
+@media screen and (max-width: 768px) {
+  .list-item-link {
+    display: block;
+  }
+}

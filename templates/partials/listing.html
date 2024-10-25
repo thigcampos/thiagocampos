@@ -1,13 +1,12 @@
-<main> 
-    <section class="flex-column">
-        <a href="/" class="button">&larr; Retornar</a>
-        <ol aria-label="{{ section.title }}">
-            {% for page in section.pages %}
-            <li>
-                <span>{{ page.date }}</span>
-                <a href="{{ page.permalink | safe }}">{{ page.title }}</a>
-            </li>
-            {% endfor %}
-        </ol>
-    </section>
+<main aria-label="Listagem de postagens de {{ section.title }}"> 
+    <a href="/" class="button" aria-label="Retornar para a página inicial">&larr; Retornar</a>
+    <h1 class="title">{{ section.title }}</h1>
+    <ol class="list" aria-label="Lista de posts">
+        {% for page in section.pages %}
+        <li class="list-item" aria-label="{{ page.title }}">
+            <span class="list-item-date" aria-label="Data do post: {{ page.title }}">{{ page.date }}</span>
+             <a class="list-item-link" href="{{ page.permalink | safe }}">{{ page.title }}</a>
+        </li>
+        {% endfor %}
+    </ol>
 </main>

@@ -3,17 +3,9 @@
     <head>
         <meta charset="utf-8">
         <meta name="author" content="Thiago Campos" />
-        <meta name="viewport" content="width=device-width" />
-        <link rel="stylesheet" href="https://copan.brasilis.club/form.css" crossorigin="anonymous" />
-        <link rel="stylesheet" href="https://copan.brasilis.club/media.css" crossorigin="anonymous" />
-        <link rel="stylesheet" href="https://copan.brasilis.club/layout.css" crossorigin="anonymous" />
-        <link rel="stylesheet" href="https://copan.brasilis.club/text.css" crossorigin="anonymous" />
-        <link rel="stylesheet" href="https://brasilis.club/colors.css" crossorigin="anonymous" />
-        <link rel="stylesheet" href="https://brasilis.club/base.css" crossorigin="anonymous" />
-        <link rel="icon" href="{{ get_url(path='favicon.ico', trailing_slash=false) | safe }}" crossorigin="anonymous" />
-        <link rel="alternate" type="application/rss+xml" title="Escritos" href="{{ get_url(path='blog/rss.xml', trailing_slash=false) }}">
-        <link rel="alternate" type="application/rss+xml" title="Líricos" href="{{ get_url(path='liricos/rss.xml', trailing_slash=false) }}">
-        <script defer src="https://cloud.umami.is/script.js" data-website-id="63fecaa2-0c5b-495d-a687-8d27f9c562fe"></script>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="{{ get_url(path='foundations.css', trailing_slash=false) | safe }}" />
+        <link rel="icon" href="/static/favicon-light.ico" crossorigin="anonymous" />
         {% block head %}{% endblock head %}
     </head>
     <body>

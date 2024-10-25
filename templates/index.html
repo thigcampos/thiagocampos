@@ -2,30 +2,33 @@
 {% block head %}
 <title> Thiago Campos </title>
 <meta name="description" content="Engenheiro de Software e entusiasta de design, atualmente residindo nas belas paragens da Mantiqueira de Bragança" /> 
-<link rel="stylesheet" href="{{ get_url(path='homepage.css', trailing_slash=false) | safe }}"  /> 
+<link rel="stylesheet" href="{{ get_url(path='index.css', trailing_slash=false) | safe }}"  /> 
 {% endblock head %}
 {% block content %}
-<main>
-    <section class="space-between" arial-label="Secção de introdução">
-        <nav>
-            <a href="/">Thiago Campos</a>
-            <a href="mailto:ola@thigcampos.com">ola@thigcampos.com</a>
+<main aria-label="Página inicial">
+    <header class="header">
+        <p class="header-logo">Thiago Campos</p>
+        <nav class="header-nav" aria-label="Menu de navegação principal">
+            <a href="/escritos">Escritos</a>
+            <a href="/liricos">Liricos</a>
+            <a href="/curadoria">Curadoria</a>
         </nav>
-        <div class="flex-center">
-            <h1 class="heading--title">Engenheiro de <i><b>software</b></i> aficionado por <i><b>design</b></i></h1>
-            <p>
-                Olá! Sou Thiago Campos, um engenheiro de software que reside nas belas paragens da Mantiqueira. 
-                Minhas afinidades fazem-me crer que estar na interseção entre a tecnologia e as humanidades 
-                confere aos meus projetos um propósito que transcende a tecnologia como um mero fim em si mesma.
-            </p>
-        </div>
-        <nav>
-            <a href="{{ get_url(path='@/escritos/_index.md') }}">Escritos</a>
-            <a href="{{ get_url(path='@/liricos/_index.md') }}">Líricos</a>
-        </nav>
+    </header>
+    <section class="headline">
+        <h1 class="headline-title">
+            <svg class="headline-svg" height="50" width="50" xmlns="http://www.w3.org/2000/svg">
+                <circle r="20" cx="20" cy="30" fill="currentcolor"/>
+            </svg>  
+            Olá! Sou <b>Thiago Campos</b>, um engenheiro de software aficionado por 
+            design que reside nas belas paragens da Mantiqueira. <span>Minhas afinidades 
+            fazem-me crer que estar na interseção entre a tecnologia e as humanidades 
+            confere aos meus projetos um propósito que transcende a tecnologia como um 
+            mero fim em si mesma.</span>
+        </h1>
     </section>
-    <section id="frase" class="column-center" arial-label="Secção de rodapé">
-        <h1 class="heading--title">From <b><i>Brazil</i></b> with Love</h1>
-    </section>
+    <footer class="footer">
+        <p class="footer-text">Proudly made in <b>Brazil</b></p>
+        {% include "partials/social.html" %}
+    </footer>
 </main>
 {% endblock content %}

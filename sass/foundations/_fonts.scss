@@ -1,6 +1,6 @@
 :root {
-  --font-serif: 'Junicode', ui-serif;
-  --font-sans-serif: 'Inter', ui-sans-serif;
+  --font-serif: "Junicode", ui-serif;
+  --font-sans-serif: Helvetica, ui-sans-serif;
 
   --font-size-120: 7.5rem;
   --font-size-80: 5rem;
@@ -42,11 +42,18 @@
   }
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   font-family: var(--font-serif);
 }
 
-p, span, a {
+p,
+span,
+a {
   font-size: var(--font-size-20);
   font-family: var(--font-sans-serif);
 }
@@ -56,40 +63,9 @@ a {
   color: var(--label-accent);
 }
 
-a:hover, a:focus {
+a:hover,
+a:focus {
   color: var(--label-accent-hover);
-}
-
-@font-face {
-  font-family: 'Inter';
-  src: url('../fonts/Inter/Inter-Regular.woff2');
-  font-weight: 400;
-  font-style: normal;
-  font-display: auto;
-}
-
-@font-face {
-  font-family: 'Inter';
-  src: url('../fonts/Inter/Inter-Italic.woff2');
-  font-weight: 400;
-  font-style: italic;
-  font-display: auto;
-}
-
-@font-face {
-  font-family: 'Inter';
-  src: url('../fonts/Inter/Inter-Medium.woff2');
-  font-weight: 500;
-  font-style: normal;
-  font-display: auto;
-}
-
-@font-face {
-  font-family: 'Inter';
-  src: url('../fonts/Inter/Inter-MediumItalic.woff2');
-  font-weight: 500;
-  font-style: italic;
-  font-display: auto;
 }
 
 @font-face {
@@ -107,4 +83,3 @@ a:hover, a:focus {
   font-style: normal;
   font-display: auto;
 }
-
